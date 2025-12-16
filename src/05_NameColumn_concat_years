@@ -107,7 +107,7 @@ def load_transform_2014() -> pd.DataFrame:
         "date": pd.to_datetime(df["Datetime"], errors="coerce").dt.strftime("%Y-%m-%d"),
         "round": df["Stage"].apply(normalize_text),
         "city": df["City"].apply(clean_city),
-        "edition": "2014",
+        "edition": "2014-BRAZIL",
         "_match_no": pd.NA,
     })
 
@@ -138,7 +138,7 @@ def load_transform_2018() -> pd.DataFrame:
             "date": m["date"],
             "round": round_name,
             "city": clean_city(stadiums[m["stadium"]]),
-            "edition": "2018",
+            "edition": "2018-RUSSIE",
             "_match_no": pd.NA,
         })
 
@@ -177,7 +177,7 @@ def load_transform_2022() -> pd.DataFrame:
     df["city"] = df["city"].apply(clean_city)
     df["round"] = df["round"].apply(normalize_text)
     df["date"] = pd.to_datetime(df["date"], errors="coerce", utc=True).dt.strftime("%Y-%m-%d")
-    df["edition"] = "2022"
+    df["edition"] = "2022-QUATAR"
     df["_match_no"] = pd.NA
 
     return df[[
