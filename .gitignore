@@ -1,3 +1,8 @@
 data/raw/kaggle/*.json
 .vscode/*
 .venv/
+
+## Files ignored for Ali workspace 
+.github/*
+scripts/*
+.env

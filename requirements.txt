@@ -6,5 +6,5 @@ matplotlib
 seaborn
 plotly
 sqlalchemy
-psycopg2-binary
 lxml
+psycopg2-binary==2.9.3
