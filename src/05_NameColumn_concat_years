@@ -39,10 +39,12 @@ def clean_city(city: str) -> str:
 # -------------------------
 def load_transform_1930_2010() -> pd.DataFrame:
     df = pd.read_csv(RAW / "matches_19302010.csv")
+
+    # EXTRACTION DU SCORE FINAL
     scores = df["score"].astype(str).str.extract(r"^\s*(\d+)\s*-\s*(\d+)")
     df["home_result"] = pd.to_numeric(scores[0], errors="coerce")
     df["away_result"] = pd.to_numeric(scores[1], errors="coerce")
-    df["result"] = df["home_result"] - df["away_result"]
+    df["result"] = df["home_result"].astype(str) + " - " + df["away_result"].astype(str)
 
     df_out = pd.DataFrame({
         "home_team": df["team1"].apply(normalize_text),
@@ -65,14 +67,23 @@ def load_transform_1930_2010() -> pd.DataFrame:
 def load_transform_2014() -> pd.DataFrame:
     path = list(RAW.glob("WorldCupMatches2014*.csv"))[0]
     df = pd.read_csv(path)
+
     if "MatchID" in df.columns:
         df = df.drop_duplicates(subset=["MatchID"]).copy()
+
+    # Conversion en numérique
+    df["home_result"] = pd.to_numeric(df["Home Team Goals"], errors="coerce")
+    df["away_result"] = pd.to_numeric(df["Away Team Goals"], errors="coerce")
+
+    # Création de 'result'
+    df["result"] = df["home_result"].astype(str) + " - " + df["away_result"].astype(str)
 
     df_out = pd.DataFrame({
         "home_team": df["Home Team Name"].apply(normalize_text),
         "away_team": df["Away Team Name"].apply(normalize_text),
-        "home_result": pd.to_numeric(df["Home Team Goals"], errors="coerce"),
-        "away_result": pd.to_numeric(df["Away Team Goals"], errors="coerce"),
+        "home_result": df["home_result"],
+        "away_result": df["away_result"],
+        "result": df["result"],
         "date": pd.to_datetime(df["Datetime"], errors="coerce").dt.strftime("%Y-%m-%d"),
         "round": df["Stage"].apply(normalize_text),
         "city": df["City"].apply(clean_city),
@@ -80,7 +91,6 @@ def load_transform_2014() -> pd.DataFrame:
         "_match_no": pd.NA,
     })
 
-    df_out["result"] = df_out["home_result"] - df_out["away_result"]
     return df_out
 
 # -------------------------
@@ -95,13 +105,17 @@ def load_transform_2018() -> pd.DataFrame:
 
     matches = []
 
+    # Groupes
     for group in data["groups"].values():
         for m in group["matches"]:
+            home_result = m["home_result"]
+            away_result = m["away_result"]
             matches.append({
                 "home_team": teams[m["home_team"]],
                 "away_team": teams[m["away_team"]],
-                "home_result": m["home_result"],
-                "away_result": m["away_result"],
+                "home_result": home_result,
+                "away_result": away_result,
+                "result": f"{home_result} - {away_result}",
                 "date": m["date"],
                 "round": "Group",
                 "city": stadiums[m["stadium"]],
@@ -109,13 +123,17 @@ def load_transform_2018() -> pd.DataFrame:
                 "_match_no": pd.NA,
             })
 
+    # Phases finales
     for round_data in data["knockout"].values():
         for m in round_data["matches"]:
+            home_result = m["home_result"]
+            away_result = m["away_result"]
             matches.append({
                 "home_team": teams[m["home_team"]],
                 "away_team": teams[m["away_team"]],
-                "home_result": m["home_result"],
-                "away_result": m["away_result"],
+                "home_result": home_result,
+                "away_result": away_result,
+                "result": f"{home_result} - {away_result}",
                 "date": m["date"],
                 "round": round_data["name"],
                 "city": stadiums[m["stadium"]],
@@ -135,7 +153,7 @@ def load_transform_2018() -> pd.DataFrame:
 # LOAD / TRANSFORM 2022
 # -------------------------
 def load_transform_2022() -> pd.DataFrame:
-    path = PROCESSED / "matches_2022.csv"  # <-- fichier d'entrée en processed
+    path = PROCESSED / "matches_2022.csv"
     if not path.exists():
         raise FileNotFoundError("matches_2022.csv introuvable dans data/processed")
 
@@ -144,10 +162,13 @@ def load_transform_2022() -> pd.DataFrame:
     df["away_team"] = df["away_team"].apply(normalize_text)
     df["city"] = df["city"].apply(clean_city)
     df["round"] = df["round"].apply(normalize_text)
+    df["home_result"] = pd.to_numeric(df["home_result"], errors="coerce")
+    df["away_result"] = pd.to_numeric(df["away_result"], errors="coerce")
+    df["result"] = df["home_result"].astype(str) + " - " + df["away_result"].astype(str)
     df["date"] = pd.to_datetime(df["date"], errors="coerce", utc=True).dt.strftime("%Y-%m-%d")
     df["edition"] = "2022"
     df["_match_no"] = pd.NA
-    return df[["home_team","away_team","home_result","away_result","date","round","city","edition","_match_no"]]
+    return df[["home_team","away_team","home_result","away_result","result","date","round","city","edition","_match_no"]]
 
 # -------------------------
 # ADD id_match
@@ -183,7 +204,7 @@ def main():
     ]
 
     df_final = df_all[final_cols]
-    out = TEST / "matches_unified_v2.csv"  # <-- fichier final dans data/test
+    out = TEST / "matches_unified_v2.csv"
     df_final.to_csv(out, index=False, encoding="utf-8")
 
     print("Saved:", out)
@@ -192,8 +213,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-TEST = Path("data/test")
-file_final = TEST / "matches_unified_v2.csv"
-df_final = pd.read_csv(file_final)
-print("Valeurs distinctes dans 'edition' :")
-print(df_final['edition'].unique())
