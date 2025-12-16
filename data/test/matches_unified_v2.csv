@@ -1,196 +1,196 @@
 id_match,home_team,away_team,home_result,away_result,result,date,round,city,edition
-1,Brazil,Croatia,3.0,1.0,vainqueur Brazil,2014-06-12,Group A,Sao Paulo,2014
-2,Chile,Australia,3.0,1.0,vainqueur Chile,2014-06-13,Group B,Cuiaba,2014
-3,Mexico,Cameroon,1.0,0.0,vainqueur Mexico,2014-06-13,Group A,Natal,2014
-4,Spain,Netherlands,1.0,5.0,vainqueur Netherlands,2014-06-13,Group B,Salvador,2014
-5,Colombia,Greece,3.0,0.0,vainqueur Colombia,2014-06-14,Group C,Belo Horizonte,2014
-6,C�te d'Ivoire,Japan,2.0,1.0,vainqueur C�te d'Ivoire,2014-06-14,Group C,Recife,2014
-7,England,Italy,1.0,2.0,vainqueur Italy,2014-06-14,Group D,Manaus,2014
-8,Uruguay,Costa Rica,1.0,3.0,vainqueur Costa Rica,2014-06-14,Group D,Fortaleza,2014
-9,Argentina,"rn"">Bosnia and Herzegovina",2.0,1.0,vainqueur Argentina,2014-06-15,Group F,Rio De Janeiro,2014
-10,France,Honduras,3.0,0.0,vainqueur France,2014-06-15,Group E,Porto Alegre,2014
-11,Switzerland,Ecuador,2.0,1.0,vainqueur Switzerland,2014-06-15,Group E,Brasilia,2014
-12,Germany,Portugal,4.0,0.0,vainqueur Germany,2014-06-16,Group G,Salvador,2014
-13,Ghana,USA,1.0,2.0,vainqueur USA,2014-06-16,Group G,Natal,2014
-14,IR Iran,Nigeria,0.0,0.0,draw,2014-06-16,Group F,Curitiba,2014
-15,Belgium,Algeria,2.0,1.0,vainqueur Belgium,2014-06-17,Group H,Belo Horizonte,2014
-16,Brazil,Mexico,0.0,0.0,draw,2014-06-17,Group A,Fortaleza,2014
-17,Russia,Korea Republic,1.0,1.0,draw,2014-06-17,Group H,Cuiaba,2014
-18,Australia,Netherlands,2.0,3.0,vainqueur Netherlands,2014-06-18,Group B,Porto Alegre,2014
-19,Cameroon,Croatia,0.0,4.0,vainqueur Croatia,2014-06-18,Group A,Manaus,2014
-20,Spain,Chile,0.0,2.0,vainqueur Chile,2014-06-18,Group B,Rio De Janeiro,2014
-21,Colombia,C�te d'Ivoire,2.0,1.0,vainqueur Colombia,2014-06-19,Group C,Brasilia,2014
-22,Japan,Greece,0.0,0.0,draw,2014-06-19,Group C,Natal,2014
-23,Uruguay,England,2.0,1.0,vainqueur Uruguay,2014-06-19,Group D,Sao Paulo,2014
-24,Honduras,Ecuador,1.0,2.0,vainqueur Ecuador,2014-06-20,Group E,Curitiba,2014
-25,Italy,Costa Rica,0.0,1.0,vainqueur Costa Rica,2014-06-20,Group D,Recife,2014
-26,Switzerland,France,2.0,5.0,vainqueur France,2014-06-20,Group E,Salvador,2014
-27,Argentina,IR Iran,1.0,0.0,vainqueur Argentina,2014-06-21,Group F,Belo Horizonte,2014
-28,Germany,Ghana,2.0,2.0,draw,2014-06-21,Group G,Fortaleza,2014
-29,Nigeria,"rn"">Bosnia and Herzegovina",1.0,0.0,vainqueur Nigeria,2014-06-21,Group F,Cuiaba,2014
-30,Belgium,Russia,1.0,0.0,vainqueur Belgium,2014-06-22,Group H,Rio De Janeiro,2014
-31,Korea Republic,Algeria,2.0,4.0,vainqueur Algeria,2014-06-22,Group H,Porto Alegre,2014
-32,USA,Portugal,2.0,2.0,draw,2014-06-22,Group G,Manaus,2014
-33,Australia,Spain,0.0,3.0,vainqueur Spain,2014-06-23,Group B,Curitiba,2014
-34,Cameroon,Brazil,1.0,4.0,vainqueur Brazil,2014-06-23,Group A,Brasilia,2014
-35,Croatia,Mexico,1.0,3.0,vainqueur Mexico,2014-06-23,Group A,Recife,2014
-36,Netherlands,Chile,2.0,0.0,vainqueur Netherlands,2014-06-23,Group B,Sao Paulo,2014
-37,Costa Rica,England,0.0,0.0,draw,2014-06-24,Group D,Belo Horizonte,2014
-38,Greece,C�te d'Ivoire,2.0,1.0,vainqueur Greece,2014-06-24,Group C,Fortaleza,2014
-39,Italy,Uruguay,0.0,1.0,vainqueur Uruguay,2014-06-24,Group D,Natal,2014
-40,Japan,Colombia,1.0,4.0,vainqueur Colombia,2014-06-24,Group C,Cuiaba,2014
-41,Ecuador,France,0.0,0.0,draw,2014-06-25,Group E,Rio De Janeiro,2014
-42,Honduras,Switzerland,0.0,3.0,vainqueur Switzerland,2014-06-25,Group E,Manaus,2014
-43,Nigeria,Argentina,2.0,3.0,vainqueur Argentina,2014-06-25,Group F,Porto Alegre,2014
-44,"rn"">Bosnia and Herzegovina",IR Iran,3.0,1.0,"vainqueur rn"">Bosnia and Herzegovina",2014-06-25,Group F,Salvador,2014
-45,Algeria,Russia,1.0,1.0,draw,2014-06-26,Group H,Curitiba,2014
-46,Korea Republic,Belgium,0.0,1.0,vainqueur Belgium,2014-06-26,Group H,Sao Paulo,2014
-47,Portugal,Ghana,2.0,1.0,vainqueur Portugal,2014-06-26,Group G,Brasilia,2014
-48,USA,Germany,0.0,1.0,vainqueur Germany,2014-06-26,Group G,Recife,2014
-49,Brazil,Chile,1.0,1.0,draw,2014-06-28,Round of 16,Belo Horizonte,2014
-50,Colombia,Uruguay,2.0,0.0,vainqueur Colombia,2014-06-28,Round of 16,Rio De Janeiro,2014
-51,Costa Rica,Greece,1.0,1.0,draw,2014-06-29,Round of 16,Recife,2014
-52,Netherlands,Mexico,2.0,1.0,vainqueur Netherlands,2014-06-29,Round of 16,Fortaleza,2014
-53,France,Nigeria,2.0,0.0,vainqueur France,2014-06-30,Round of 16,Brasilia,2014
-54,Germany,Algeria,2.0,1.0,vainqueur Germany,2014-06-30,Round of 16,Porto Alegre,2014
-55,Argentina,Switzerland,1.0,0.0,vainqueur Argentina,2014-07-01,Round of 16,Sao Paulo,2014
-56,Belgium,USA,2.0,1.0,vainqueur Belgium,2014-07-01,Round of 16,Salvador,2014
-57,Brazil,Colombia,2.0,1.0,vainqueur Brazil,2014-07-04,Quarter-finals,Fortaleza,2014
-58,France,Germany,0.0,1.0,vainqueur Germany,2014-07-04,Quarter-finals,Rio De Janeiro,2014
-59,Argentina,Belgium,1.0,0.0,vainqueur Argentina,2014-07-05,Quarter-finals,Brasilia,2014
-60,Netherlands,Costa Rica,0.0,0.0,draw,2014-07-05,Quarter-finals,Salvador,2014
-61,Brazil,Germany,1.0,7.0,vainqueur Germany,2014-07-08,Semi-finals,Belo Horizonte,2014
-62,Netherlands,Argentina,0.0,0.0,draw,2014-07-09,Semi-finals,Sao Paulo,2014
-63,Brazil,Netherlands,0.0,3.0,vainqueur Netherlands,2014-07-12,Play-off for third place,Brasilia,2014
-64,Germany,Argentina,1.0,0.0,vainqueur Germany,2014-07-13,Final,Rio De Janeiro,2014
-65,Russia,Saudi Arabia,5.0,0.0,vainqueur Russia,2018-06-14,Group,Moscow,2018
-66,Egypt,Uruguay,0.0,1.0,vainqueur Uruguay,2018-06-15,Group,Yekaterinburg,2018
-67,Morocco,Iran,0.0,1.0,vainqueur Iran,2018-06-15,Group,Saint Petersburg,2018
-68,Portugal,Spain,3.0,3.0,draw,2018-06-15,Group,Sochi,2018
-69,Argentina,Iceland,1.0,1.0,draw,2018-06-16,Group,Moscow,2018
-70,Croatia,Nigeria,2.0,0.0,vainqueur Croatia,2018-06-16,Group,Kaliningrad,2018
-71,France,Australia,2.0,1.0,vainqueur France,2018-06-16,Group,Kazan,2018
-72,Peru,Denmark,0.0,1.0,vainqueur Denmark,2018-06-16,Group,Saransk,2018
-73,Brazil,Switzerland,1.0,1.0,draw,2018-06-17,Group,Rostov-on-Don,2018
-74,Costa Rica,Serbia,0.0,1.0,vainqueur Serbia,2018-06-17,Group,Samara,2018
-75,Germany,Mexico,0.0,1.0,vainqueur Mexico,2018-06-17,Group,Moscow,2018
-76,Belgium,Panama,3.0,0.0,vainqueur Belgium,2018-06-18,Group,Sochi,2018
-77,Sweden,South Korea,1.0,0.0,vainqueur Sweden,2018-06-18,Group,Nizhny Novgorod,2018
-78,Tunisia,England,1.0,2.0,vainqueur England,2018-06-18,Group,Volgograd,2018
-79,Colombia,Japan,1.0,2.0,vainqueur Japan,2018-06-19,Group,Saransk,2018
-80,Poland,Senegal,1.0,2.0,vainqueur Senegal,2018-06-19,Group,Moscow,2018
-81,Russia,Egypt,3.0,1.0,vainqueur Russia,2018-06-19,Group,Saint Petersburg,2018
-82,Iran,Spain,0.0,1.0,vainqueur Spain,2018-06-20,Group,Kazan,2018
-83,Portugal,Morocco,1.0,0.0,vainqueur Portugal,2018-06-20,Group,Moscow,2018
-84,Uruguay,Saudi Arabia,1.0,0.0,vainqueur Uruguay,2018-06-20,Group,Rostov-on-Don,2018
-85,Argentina,Croatia,0.0,3.0,vainqueur Croatia,2018-06-21,Group,Nizhny Novgorod,2018
-86,Denmark,Australia,1.0,1.0,draw,2018-06-21,Group,Samara,2018
-87,France,Peru,1.0,0.0,vainqueur France,2018-06-21,Group,Yekaterinburg,2018
-88,Brazil,Costa Rica,2.0,0.0,vainqueur Brazil,2018-06-22,Group,Saint Petersburg,2018
-89,Nigeria,Iceland,2.0,0.0,vainqueur Nigeria,2018-06-22,Group,Volgograd,2018
-90,Serbia,Switzerland,1.0,2.0,vainqueur Switzerland,2018-06-22,Group,Kaliningrad,2018
-91,Belgium,Tunisia,5.0,2.0,vainqueur Belgium,2018-06-23,Group,Moscow,2018
-92,Germany,Sweden,2.0,1.0,vainqueur Germany,2018-06-23,Group,Sochi,2018
-93,South Korea,Mexico,1.0,2.0,vainqueur Mexico,2018-06-23,Group,Rostov-on-Don,2018
-94,England,Panama,6.0,1.0,vainqueur England,2018-06-24,Group,Nizhny Novgorod,2018
-95,Japan,Senegal,2.0,2.0,draw,2018-06-24,Group,Yekaterinburg,2018
-96,Poland,Colombia,0.0,3.0,vainqueur Colombia,2018-06-24,Group,Kazan,2018
-97,Iran,Portugal,1.0,1.0,draw,2018-06-25,Group,Saransk,2018
-98,Saudi Arabia,Egypt,2.0,1.0,vainqueur Saudi Arabia,2018-06-25,Group,Volgograd,2018
-99,Spain,Morocco,2.0,2.0,draw,2018-06-25,Group,Kaliningrad,2018
-100,Uruguay,Russia,3.0,0.0,vainqueur Uruguay,2018-06-25,Group,Samara,2018
-101,Australia,Peru,0.0,2.0,vainqueur Peru,2018-06-26,Group,Sochi,2018
-102,Denmark,France,0.0,0.0,draw,2018-06-26,Group,Moscow,2018
-103,Iceland,Croatia,1.0,2.0,vainqueur Croatia,2018-06-26,Group,Rostov-on-Don,2018
-104,Nigeria,Argentina,1.0,2.0,vainqueur Argentina,2018-06-26,Group,Saint Petersburg,2018
-105,Mexico,Sweden,0.0,3.0,vainqueur Sweden,2018-06-27,Group,Yekaterinburg,2018
-106,Serbia,Brazil,0.0,2.0,vainqueur Brazil,2018-06-27,Group,Moscow,2018
-107,South Korea,Germany,2.0,0.0,vainqueur South Korea,2018-06-27,Group,Kazan,2018
-108,Switzerland,Costa Rica,2.0,2.0,draw,2018-06-27,Group,Nizhny Novgorod,2018
-109,England,Belgium,0.0,1.0,vainqueur Belgium,2018-06-28,Group,Kaliningrad,2018
-110,Japan,Poland,0.0,1.0,vainqueur Poland,2018-06-28,Group,Volgograd,2018
-111,Panama,Tunisia,1.0,2.0,vainqueur Tunisia,2018-06-28,Group,Saransk,2018
-112,Senegal,Colombia,0.0,1.0,vainqueur Colombia,2018-06-28,Group,Samara,2018
-113,France,Argentina,4.0,3.0,vainqueur France,2018-06-30,Round of 16,Kazan,2018
-114,Uruguay,Portugal,2.0,1.0,vainqueur Uruguay,2018-06-30,Round of 16,Sochi,2018
-115,Croatia,Denmark,1.0,1.0,draw,2018-07-01,Round of 16,Nizhny Novgorod,2018
-116,Spain,Russia,1.0,1.0,draw,2018-07-01,Round of 16,Moscow,2018
-117,Belgium,Japan,3.0,2.0,vainqueur Belgium,2018-07-02,Round of 16,Rostov-on-Don,2018
-118,Brazil,Mexico,2.0,0.0,vainqueur Brazil,2018-07-02,Round of 16,Samara,2018
-119,Colombia,England,1.0,1.0,draw,2018-07-03,Round of 16,Moscow,2018
-120,Sweden,Switzerland,1.0,0.0,vainqueur Sweden,2018-07-03,Round of 16,Saint Petersburg,2018
-121,Brazil,Belgium,1.0,2.0,vainqueur Belgium,2018-07-06,Quarter-finals,Kazan,2018
-122,Uruguay,France,0.0,2.0,vainqueur France,2018-07-06,Quarter-finals,Nizhny Novgorod,2018
-123,Russia,Croatia,2.0,2.0,draw,2018-07-07,Quarter-finals,Sochi,2018
-124,Sweden,England,0.0,2.0,vainqueur England,2018-07-07,Quarter-finals,Samara,2018
-125,France,Belgium,1.0,0.0,vainqueur France,2018-07-10,Semi-finals,Saint Petersburg,2018
-126,Croatia,England,2.0,1.0,vainqueur Croatia,2018-07-11,Semi-finals,Moscow,2018
-127,Belgium,England,2.0,0.0,vainqueur Belgium,2018-07-14,Third place play-off,Saint Petersburg,2018
-128,France,Croatia,4.0,2.0,vainqueur France,2018-07-15,Final,Moscow,2018
-129,Qatar,Ecuador,0.0,2.0,vainqueur Ecuador,2022-11-20,Group,Al Khor,2022
-130,England,Iran,6.0,2.0,vainqueur England,2022-11-21,Group,Al Rayyan,2022
-131,Senegal,Netherlands,0.0,2.0,vainqueur Netherlands,2022-11-21,Group,Doha,2022
-132,United States,Wales,1.0,1.0,draw,2022-11-21,Group,Al Rayyan,2022
-133,Argentina,Saudi Arabia,1.0,2.0,vainqueur Saudi Arabia,2022-11-22,Group,Lusail,2022
-134,Denmark,Tunisia,0.0,0.0,draw,2022-11-22,Group,Al Rayyan,2022
-135,France,Australia,4.0,1.0,vainqueur France,2022-11-22,Group,Al Wakrah,2022
-136,Mexico,Poland,0.0,0.0,draw,2022-11-22,Group,Doha,2022
-137,Belgium,Canada,1.0,0.0,vainqueur Belgium,2022-11-23,Group,Al Rayyan,2022
-138,Germany,Japan,1.0,2.0,vainqueur Japan,2022-11-23,Group,Al Rayyan,2022
-139,Morocco,Croatia,0.0,0.0,draw,2022-11-23,Group,Al Khor,2022
-140,Spain,Costa Rica,7.0,0.0,vainqueur Spain,2022-11-23,Group,Doha,2022
-141,Brazil,Serbia,2.0,0.0,vainqueur Brazil,2022-11-24,Group,Lusail,2022
-142,Portugal,Ghana,3.0,2.0,vainqueur Portugal,2022-11-24,Group,Doha,2022
-143,Switzerland,Cameroon,1.0,0.0,vainqueur Switzerland,2022-11-24,Group,Al Wakrah,2022
-144,Uruguay,South Korea,0.0,0.0,draw,2022-11-24,Group,Al Rayyan,2022
-145,England,United States,0.0,0.0,draw,2022-11-25,Group,Al Khor,2022
-146,Netherlands,Ecuador,1.0,1.0,draw,2022-11-25,Group,Al Rayyan,2022
-147,Qatar,Senegal,1.0,3.0,vainqueur Senegal,2022-11-25,Group,Doha,2022
-148,Wales,Iran,0.0,2.0,vainqueur Iran,2022-11-25,Group,Al Rayyan,2022
-149,Argentina,Mexico,2.0,0.0,vainqueur Argentina,2022-11-26,Group,Lusail,2022
-150,France,Denmark,2.0,1.0,vainqueur France,2022-11-26,Group,Doha,2022
-151,Poland,Saudi Arabia,2.0,0.0,vainqueur Poland,2022-11-26,Group,Al Rayyan,2022
-152,Tunisia,Australia,0.0,1.0,vainqueur Australia,2022-11-26,Group,Al Wakrah,2022
-153,Belgium,Morocco,0.0,2.0,vainqueur Morocco,2022-11-27,Group,Doha,2022
-154,Croatia,Canada,4.0,1.0,vainqueur Croatia,2022-11-27,Group,Al Rayyan,2022
-155,Japan,Costa Rica,0.0,1.0,vainqueur Costa Rica,2022-11-27,Group,Al Rayyan,2022
-156,Spain,Germany,1.0,1.0,draw,2022-11-27,Group,Al Khor,2022
-157,Brazil,Switzerland,1.0,0.0,vainqueur Brazil,2022-11-28,Group,Doha,2022
-158,Cameroon,Serbia,3.0,3.0,draw,2022-11-28,Group,Al Wakrah,2022
-159,Portugal,Uruguay,2.0,0.0,vainqueur Portugal,2022-11-28,Group,Lusail,2022
-160,South Korea,Ghana,2.0,3.0,vainqueur Ghana,2022-11-28,Group,Al Rayyan,2022
-161,Ecuador,Senegal,1.0,2.0,vainqueur Senegal,2022-11-29,Group,Al Rayyan,2022
-162,Iran,United States,0.0,1.0,vainqueur United States,2022-11-29,Group,Doha,2022
-163,Netherlands,Qatar,2.0,0.0,vainqueur Netherlands,2022-11-29,Group,Al Khor,2022
-164,Wales,England,0.0,3.0,vainqueur England,2022-11-29,Group,Al Rayyan,2022
-165,Australia,Denmark,1.0,0.0,vainqueur Australia,2022-11-30,Group,Al Wakrah,2022
-166,Poland,Argentina,0.0,2.0,vainqueur Argentina,2022-11-30,Group,Doha,2022
-167,Saudi Arabia,Mexico,1.0,2.0,vainqueur Mexico,2022-11-30,Group,Lusail,2022
-168,Tunisia,France,1.0,0.0,vainqueur Tunisia,2022-11-30,Group,Al Rayyan,2022
-169,Canada,Morocco,1.0,2.0,vainqueur Morocco,2022-12-01,Group,Doha,2022
-170,Costa Rica,Germany,2.0,4.0,vainqueur Germany,2022-12-01,Group,Al Khor,2022
-171,Croatia,Belgium,0.0,0.0,draw,2022-12-01,Group,Al Rayyan,2022
-172,Japan,Spain,2.0,1.0,vainqueur Japan,2022-12-01,Group,Al Rayyan,2022
-173,Cameroon,Brazil,1.0,0.0,vainqueur Cameroon,2022-12-02,Group,Lusail,2022
-174,Ghana,Uruguay,0.0,2.0,vainqueur Uruguay,2022-12-02,Group,Al Wakrah,2022
-175,Serbia,Switzerland,2.0,3.0,vainqueur Switzerland,2022-12-02,Group,Doha,2022
-176,South Korea,Portugal,2.0,1.0,vainqueur South Korea,2022-12-02,Group,Lusail,2022
-177,Argentina,Australia,2.0,1.0,vainqueur Argentina,2022-12-03,Round of 16,Al Rayyan,2022
-178,Netherlands,United States,3.0,1.0,vainqueur Netherlands,2022-12-03,Round of 16,Al Rayyan,2022
-179,England,Senegal,3.0,0.0,vainqueur England,2022-12-04,Round of 16,Al Khor,2022
-180,France,Poland,3.0,1.0,vainqueur France,2022-12-04,Round of 16,Doha,2022
-181,Brazil,South Korea,4.0,1.0,vainqueur Brazil,2022-12-05,Round of 16,Doha,2022
-182,Japan,"(1-1, 1-0) Croatia",1.0,1.0,draw,2022-12-05,Round of 16,Al Wakrah,2022
-183,Morocco,"(0-0, 0-0) Spain",0.0,0.0,draw,2022-12-06,Round of 16,Al Rayyan,2022
-184,Portugal,Switzerland,6.0,1.0,vainqueur Portugal,2022-12-06,Round of 16,Lusail,2022
-185,Croatia,"(0-0, 0-0) Brazil",1.0,1.0,draw,2022-12-09,Quarter-finals,Al Rayyan,2022
-186,Netherlands,"(2-2, 1-0) Argentina",2.0,2.0,draw,2022-12-09,Quarter-finals,Lusail,2022
-187,England,France,1.0,2.0,vainqueur France,2022-12-10,Quarter-finals,Al Khor,2022
-188,Morocco,Portugal,1.0,0.0,vainqueur Morocco,2022-12-10,Quarter-finals,Doha,2022
-189,Argentina,Croatia,3.0,0.0,vainqueur Argentina,2022-12-13,Semi-finals,Lusail,2022
-190,France,Morocco,2.0,0.0,vainqueur France,2022-12-14,Semi-finals,Al Khor,2022
-191,Croatia,Morocco,2.0,1.0,vainqueur Croatia,2022-12-17,Match for third place,Al Rayyan,2022
-192,Argentina,"(2-2, 2-0) France",3.0,3.0,draw,2022-12-18,Final,Lusail,2022
+1,Brazil,Croatia,3.0,1.0,vainqueur Brazil,2014-06-12,Group A,Sao Paulo,2014-BRAZIL
+2,Chile,Australia,3.0,1.0,vainqueur Chile,2014-06-13,Group B,Cuiaba,2014-BRAZIL
+3,Mexico,Cameroon,1.0,0.0,vainqueur Mexico,2014-06-13,Group A,Natal,2014-BRAZIL
+4,Spain,Netherlands,1.0,5.0,vainqueur Netherlands,2014-06-13,Group B,Salvador,2014-BRAZIL
+5,Colombia,Greece,3.0,0.0,vainqueur Colombia,2014-06-14,Group C,Belo Horizonte,2014-BRAZIL
+6,C�te d'Ivoire,Japan,2.0,1.0,vainqueur C�te d'Ivoire,2014-06-14,Group C,Recife,2014-BRAZIL
+7,England,Italy,1.0,2.0,vainqueur Italy,2014-06-14,Group D,Manaus,2014-BRAZIL
+8,Uruguay,Costa Rica,1.0,3.0,vainqueur Costa Rica,2014-06-14,Group D,Fortaleza,2014-BRAZIL
+9,Argentina,"rn"">Bosnia and Herzegovina",2.0,1.0,vainqueur Argentina,2014-06-15,Group F,Rio De Janeiro,2014-BRAZIL
+10,France,Honduras,3.0,0.0,vainqueur France,2014-06-15,Group E,Porto Alegre,2014-BRAZIL
+11,Switzerland,Ecuador,2.0,1.0,vainqueur Switzerland,2014-06-15,Group E,Brasilia,2014-BRAZIL
+12,Germany,Portugal,4.0,0.0,vainqueur Germany,2014-06-16,Group G,Salvador,2014-BRAZIL
+13,Ghana,USA,1.0,2.0,vainqueur USA,2014-06-16,Group G,Natal,2014-BRAZIL
+14,IR Iran,Nigeria,0.0,0.0,draw,2014-06-16,Group F,Curitiba,2014-BRAZIL
+15,Belgium,Algeria,2.0,1.0,vainqueur Belgium,2014-06-17,Group H,Belo Horizonte,2014-BRAZIL
+16,Brazil,Mexico,0.0,0.0,draw,2014-06-17,Group A,Fortaleza,2014-BRAZIL
+17,Russia,Korea Republic,1.0,1.0,draw,2014-06-17,Group H,Cuiaba,2014-BRAZIL
+18,Australia,Netherlands,2.0,3.0,vainqueur Netherlands,2014-06-18,Group B,Porto Alegre,2014-BRAZIL
+19,Cameroon,Croatia,0.0,4.0,vainqueur Croatia,2014-06-18,Group A,Manaus,2014-BRAZIL
+20,Spain,Chile,0.0,2.0,vainqueur Chile,2014-06-18,Group B,Rio De Janeiro,2014-BRAZIL
+21,Colombia,C�te d'Ivoire,2.0,1.0,vainqueur Colombia,2014-06-19,Group C,Brasilia,2014-BRAZIL
+22,Japan,Greece,0.0,0.0,draw,2014-06-19,Group C,Natal,2014-BRAZIL
+23,Uruguay,England,2.0,1.0,vainqueur Uruguay,2014-06-19,Group D,Sao Paulo,2014-BRAZIL
+24,Honduras,Ecuador,1.0,2.0,vainqueur Ecuador,2014-06-20,Group E,Curitiba,2014-BRAZIL
+25,Italy,Costa Rica,0.0,1.0,vainqueur Costa Rica,2014-06-20,Group D,Recife,2014-BRAZIL
+26,Switzerland,France,2.0,5.0,vainqueur France,2014-06-20,Group E,Salvador,2014-BRAZIL
+27,Argentina,IR Iran,1.0,0.0,vainqueur Argentina,2014-06-21,Group F,Belo Horizonte,2014-BRAZIL
+28,Germany,Ghana,2.0,2.0,draw,2014-06-21,Group G,Fortaleza,2014-BRAZIL
+29,Nigeria,"rn"">Bosnia and Herzegovina",1.0,0.0,vainqueur Nigeria,2014-06-21,Group F,Cuiaba,2014-BRAZIL
+30,Belgium,Russia,1.0,0.0,vainqueur Belgium,2014-06-22,Group H,Rio De Janeiro,2014-BRAZIL
+31,Korea Republic,Algeria,2.0,4.0,vainqueur Algeria,2014-06-22,Group H,Porto Alegre,2014-BRAZIL
+32,USA,Portugal,2.0,2.0,draw,2014-06-22,Group G,Manaus,2014-BRAZIL
+33,Australia,Spain,0.0,3.0,vainqueur Spain,2014-06-23,Group B,Curitiba,2014-BRAZIL
+34,Cameroon,Brazil,1.0,4.0,vainqueur Brazil,2014-06-23,Group A,Brasilia,2014-BRAZIL
+35,Croatia,Mexico,1.0,3.0,vainqueur Mexico,2014-06-23,Group A,Recife,2014-BRAZIL
+36,Netherlands,Chile,2.0,0.0,vainqueur Netherlands,2014-06-23,Group B,Sao Paulo,2014-BRAZIL
+37,Costa Rica,England,0.0,0.0,draw,2014-06-24,Group D,Belo Horizonte,2014-BRAZIL
+38,Greece,C�te d'Ivoire,2.0,1.0,vainqueur Greece,2014-06-24,Group C,Fortaleza,2014-BRAZIL
+39,Italy,Uruguay,0.0,1.0,vainqueur Uruguay,2014-06-24,Group D,Natal,2014-BRAZIL
+40,Japan,Colombia,1.0,4.0,vainqueur Colombia,2014-06-24,Group C,Cuiaba,2014-BRAZIL
+41,Ecuador,France,0.0,0.0,draw,2014-06-25,Group E,Rio De Janeiro,2014-BRAZIL
+42,Honduras,Switzerland,0.0,3.0,vainqueur Switzerland,2014-06-25,Group E,Manaus,2014-BRAZIL
+43,Nigeria,Argentina,2.0,3.0,vainqueur Argentina,2014-06-25,Group F,Porto Alegre,2014-BRAZIL
+44,"rn"">Bosnia and Herzegovina",IR Iran,3.0,1.0,"vainqueur rn"">Bosnia and Herzegovina",2014-06-25,Group F,Salvador,2014-BRAZIL
+45,Algeria,Russia,1.0,1.0,draw,2014-06-26,Group H,Curitiba,2014-BRAZIL
+46,Korea Republic,Belgium,0.0,1.0,vainqueur Belgium,2014-06-26,Group H,Sao Paulo,2014-BRAZIL
+47,Portugal,Ghana,2.0,1.0,vainqueur Portugal,2014-06-26,Group G,Brasilia,2014-BRAZIL
+48,USA,Germany,0.0,1.0,vainqueur Germany,2014-06-26,Group G,Recife,2014-BRAZIL
+49,Brazil,Chile,1.0,1.0,draw,2014-06-28,Round of 16,Belo Horizonte,2014-BRAZIL
+50,Colombia,Uruguay,2.0,0.0,vainqueur Colombia,2014-06-28,Round of 16,Rio De Janeiro,2014-BRAZIL
+51,Costa Rica,Greece,1.0,1.0,draw,2014-06-29,Round of 16,Recife,2014-BRAZIL
+52,Netherlands,Mexico,2.0,1.0,vainqueur Netherlands,2014-06-29,Round of 16,Fortaleza,2014-BRAZIL
+53,France,Nigeria,2.0,0.0,vainqueur France,2014-06-30,Round of 16,Brasilia,2014-BRAZIL
+54,Germany,Algeria,2.0,1.0,vainqueur Germany,2014-06-30,Round of 16,Porto Alegre,2014-BRAZIL
+55,Argentina,Switzerland,1.0,0.0,vainqueur Argentina,2014-07-01,Round of 16,Sao Paulo,2014-BRAZIL
+56,Belgium,USA,2.0,1.0,vainqueur Belgium,2014-07-01,Round of 16,Salvador,2014-BRAZIL
+57,Brazil,Colombia,2.0,1.0,vainqueur Brazil,2014-07-04,Quarter-finals,Fortaleza,2014-BRAZIL
+58,France,Germany,0.0,1.0,vainqueur Germany,2014-07-04,Quarter-finals,Rio De Janeiro,2014-BRAZIL
+59,Argentina,Belgium,1.0,0.0,vainqueur Argentina,2014-07-05,Quarter-finals,Brasilia,2014-BRAZIL
+60,Netherlands,Costa Rica,0.0,0.0,draw,2014-07-05,Quarter-finals,Salvador,2014-BRAZIL
+61,Brazil,Germany,1.0,7.0,vainqueur Germany,2014-07-08,Semi-finals,Belo Horizonte,2014-BRAZIL
+62,Netherlands,Argentina,0.0,0.0,draw,2014-07-09,Semi-finals,Sao Paulo,2014-BRAZIL
+63,Brazil,Netherlands,0.0,3.0,vainqueur Netherlands,2014-07-12,Play-off for third place,Brasilia,2014-BRAZIL
+64,Germany,Argentina,1.0,0.0,vainqueur Germany,2014-07-13,Final,Rio De Janeiro,2014-BRAZIL
+65,Russia,Saudi Arabia,5.0,0.0,vainqueur Russia,2018-06-14,Group,Moscow,2018-RUSSIE
+66,Egypt,Uruguay,0.0,1.0,vainqueur Uruguay,2018-06-15,Group,Yekaterinburg,2018-RUSSIE
+67,Morocco,Iran,0.0,1.0,vainqueur Iran,2018-06-15,Group,Saint Petersburg,2018-RUSSIE
+68,Portugal,Spain,3.0,3.0,draw,2018-06-15,Group,Sochi,2018-RUSSIE
+69,Argentina,Iceland,1.0,1.0,draw,2018-06-16,Group,Moscow,2018-RUSSIE
+70,Croatia,Nigeria,2.0,0.0,vainqueur Croatia,2018-06-16,Group,Kaliningrad,2018-RUSSIE
+71,France,Australia,2.0,1.0,vainqueur France,2018-06-16,Group,Kazan,2018-RUSSIE
+72,Peru,Denmark,0.0,1.0,vainqueur Denmark,2018-06-16,Group,Saransk,2018-RUSSIE
+73,Brazil,Switzerland,1.0,1.0,draw,2018-06-17,Group,Rostov-on-Don,2018-RUSSIE
+74,Costa Rica,Serbia,0.0,1.0,vainqueur Serbia,2018-06-17,Group,Samara,2018-RUSSIE
+75,Germany,Mexico,0.0,1.0,vainqueur Mexico,2018-06-17,Group,Moscow,2018-RUSSIE
+76,Belgium,Panama,3.0,0.0,vainqueur Belgium,2018-06-18,Group,Sochi,2018-RUSSIE
+77,Sweden,South Korea,1.0,0.0,vainqueur Sweden,2018-06-18,Group,Nizhny Novgorod,2018-RUSSIE
+78,Tunisia,England,1.0,2.0,vainqueur England,2018-06-18,Group,Volgograd,2018-RUSSIE
+79,Colombia,Japan,1.0,2.0,vainqueur Japan,2018-06-19,Group,Saransk,2018-RUSSIE
+80,Poland,Senegal,1.0,2.0,vainqueur Senegal,2018-06-19,Group,Moscow,2018-RUSSIE
+81,Russia,Egypt,3.0,1.0,vainqueur Russia,2018-06-19,Group,Saint Petersburg,2018-RUSSIE
+82,Iran,Spain,0.0,1.0,vainqueur Spain,2018-06-20,Group,Kazan,2018-RUSSIE
+83,Portugal,Morocco,1.0,0.0,vainqueur Portugal,2018-06-20,Group,Moscow,2018-RUSSIE
+84,Uruguay,Saudi Arabia,1.0,0.0,vainqueur Uruguay,2018-06-20,Group,Rostov-on-Don,2018-RUSSIE
+85,Argentina,Croatia,0.0,3.0,vainqueur Croatia,2018-06-21,Group,Nizhny Novgorod,2018-RUSSIE
+86,Denmark,Australia,1.0,1.0,draw,2018-06-21,Group,Samara,2018-RUSSIE
+87,France,Peru,1.0,0.0,vainqueur France,2018-06-21,Group,Yekaterinburg,2018-RUSSIE
+88,Brazil,Costa Rica,2.0,0.0,vainqueur Brazil,2018-06-22,Group,Saint Petersburg,2018-RUSSIE
+89,Nigeria,Iceland,2.0,0.0,vainqueur Nigeria,2018-06-22,Group,Volgograd,2018-RUSSIE
+90,Serbia,Switzerland,1.0,2.0,vainqueur Switzerland,2018-06-22,Group,Kaliningrad,2018-RUSSIE
+91,Belgium,Tunisia,5.0,2.0,vainqueur Belgium,2018-06-23,Group,Moscow,2018-RUSSIE
+92,Germany,Sweden,2.0,1.0,vainqueur Germany,2018-06-23,Group,Sochi,2018-RUSSIE
+93,South Korea,Mexico,1.0,2.0,vainqueur Mexico,2018-06-23,Group,Rostov-on-Don,2018-RUSSIE
+94,England,Panama,6.0,1.0,vainqueur England,2018-06-24,Group,Nizhny Novgorod,2018-RUSSIE
+95,Japan,Senegal,2.0,2.0,draw,2018-06-24,Group,Yekaterinburg,2018-RUSSIE
+96,Poland,Colombia,0.0,3.0,vainqueur Colombia,2018-06-24,Group,Kazan,2018-RUSSIE
+97,Iran,Portugal,1.0,1.0,draw,2018-06-25,Group,Saransk,2018-RUSSIE
+98,Saudi Arabia,Egypt,2.0,1.0,vainqueur Saudi Arabia,2018-06-25,Group,Volgograd,2018-RUSSIE
+99,Spain,Morocco,2.0,2.0,draw,2018-06-25,Group,Kaliningrad,2018-RUSSIE
+100,Uruguay,Russia,3.0,0.0,vainqueur Uruguay,2018-06-25,Group,Samara,2018-RUSSIE
+101,Australia,Peru,0.0,2.0,vainqueur Peru,2018-06-26,Group,Sochi,2018-RUSSIE
+102,Denmark,France,0.0,0.0,draw,2018-06-26,Group,Moscow,2018-RUSSIE
+103,Iceland,Croatia,1.0,2.0,vainqueur Croatia,2018-06-26,Group,Rostov-on-Don,2018-RUSSIE
+104,Nigeria,Argentina,1.0,2.0,vainqueur Argentina,2018-06-26,Group,Saint Petersburg,2018-RUSSIE
+105,Mexico,Sweden,0.0,3.0,vainqueur Sweden,2018-06-27,Group,Yekaterinburg,2018-RUSSIE
+106,Serbia,Brazil,0.0,2.0,vainqueur Brazil,2018-06-27,Group,Moscow,2018-RUSSIE
+107,South Korea,Germany,2.0,0.0,vainqueur South Korea,2018-06-27,Group,Kazan,2018-RUSSIE
+108,Switzerland,Costa Rica,2.0,2.0,draw,2018-06-27,Group,Nizhny Novgorod,2018-RUSSIE
+109,England,Belgium,0.0,1.0,vainqueur Belgium,2018-06-28,Group,Kaliningrad,2018-RUSSIE
+110,Japan,Poland,0.0,1.0,vainqueur Poland,2018-06-28,Group,Volgograd,2018-RUSSIE
+111,Panama,Tunisia,1.0,2.0,vainqueur Tunisia,2018-06-28,Group,Saransk,2018-RUSSIE
+112,Senegal,Colombia,0.0,1.0,vainqueur Colombia,2018-06-28,Group,Samara,2018-RUSSIE
+113,France,Argentina,4.0,3.0,vainqueur France,2018-06-30,Round of 16,Kazan,2018-RUSSIE
+114,Uruguay,Portugal,2.0,1.0,vainqueur Uruguay,2018-06-30,Round of 16,Sochi,2018-RUSSIE
+115,Croatia,Denmark,1.0,1.0,draw,2018-07-01,Round of 16,Nizhny Novgorod,2018-RUSSIE
+116,Spain,Russia,1.0,1.0,draw,2018-07-01,Round of 16,Moscow,2018-RUSSIE
+117,Belgium,Japan,3.0,2.0,vainqueur Belgium,2018-07-02,Round of 16,Rostov-on-Don,2018-RUSSIE
+118,Brazil,Mexico,2.0,0.0,vainqueur Brazil,2018-07-02,Round of 16,Samara,2018-RUSSIE
+119,Colombia,England,1.0,1.0,draw,2018-07-03,Round of 16,Moscow,2018-RUSSIE
+120,Sweden,Switzerland,1.0,0.0,vainqueur Sweden,2018-07-03,Round of 16,Saint Petersburg,2018-RUSSIE
+121,Brazil,Belgium,1.0,2.0,vainqueur Belgium,2018-07-06,Quarter-finals,Kazan,2018-RUSSIE
+122,Uruguay,France,0.0,2.0,vainqueur France,2018-07-06,Quarter-finals,Nizhny Novgorod,2018-RUSSIE
+123,Russia,Croatia,2.0,2.0,draw,2018-07-07,Quarter-finals,Sochi,2018-RUSSIE
+124,Sweden,England,0.0,2.0,vainqueur England,2018-07-07,Quarter-finals,Samara,2018-RUSSIE
+125,France,Belgium,1.0,0.0,vainqueur France,2018-07-10,Semi-finals,Saint Petersburg,2018-RUSSIE
+126,Croatia,England,2.0,1.0,vainqueur Croatia,2018-07-11,Semi-finals,Moscow,2018-RUSSIE
+127,Belgium,England,2.0,0.0,vainqueur Belgium,2018-07-14,Third place play-off,Saint Petersburg,2018-RUSSIE
+128,France,Croatia,4.0,2.0,vainqueur France,2018-07-15,Final,Moscow,2018-RUSSIE
+129,Qatar,Ecuador,0.0,2.0,vainqueur Ecuador,2022-11-20,Group,Al Khor,2022-QUATAR
+130,England,Iran,6.0,2.0,vainqueur England,2022-11-21,Group,Al Rayyan,2022-QUATAR
+131,Senegal,Netherlands,0.0,2.0,vainqueur Netherlands,2022-11-21,Group,Doha,2022-QUATAR
+132,United States,Wales,1.0,1.0,draw,2022-11-21,Group,Al Rayyan,2022-QUATAR
+133,Argentina,Saudi Arabia,1.0,2.0,vainqueur Saudi Arabia,2022-11-22,Group,Lusail,2022-QUATAR
+134,Denmark,Tunisia,0.0,0.0,draw,2022-11-22,Group,Al Rayyan,2022-QUATAR
+135,France,Australia,4.0,1.0,vainqueur France,2022-11-22,Group,Al Wakrah,2022-QUATAR
+136,Mexico,Poland,0.0,0.0,draw,2022-11-22,Group,Doha,2022-QUATAR
+137,Belgium,Canada,1.0,0.0,vainqueur Belgium,2022-11-23,Group,Al Rayyan,2022-QUATAR
+138,Germany,Japan,1.0,2.0,vainqueur Japan,2022-11-23,Group,Al Rayyan,2022-QUATAR
+139,Morocco,Croatia,0.0,0.0,draw,2022-11-23,Group,Al Khor,2022-QUATAR
+140,Spain,Costa Rica,7.0,0.0,vainqueur Spain,2022-11-23,Group,Doha,2022-QUATAR
+141,Brazil,Serbia,2.0,0.0,vainqueur Brazil,2022-11-24,Group,Lusail,2022-QUATAR
+142,Portugal,Ghana,3.0,2.0,vainqueur Portugal,2022-11-24,Group,Doha,2022-QUATAR
+143,Switzerland,Cameroon,1.0,0.0,vainqueur Switzerland,2022-11-24,Group,Al Wakrah,2022-QUATAR
+144,Uruguay,South Korea,0.0,0.0,draw,2022-11-24,Group,Al Rayyan,2022-QUATAR
+145,England,United States,0.0,0.0,draw,2022-11-25,Group,Al Khor,2022-QUATAR
+146,Netherlands,Ecuador,1.0,1.0,draw,2022-11-25,Group,Al Rayyan,2022-QUATAR
+147,Qatar,Senegal,1.0,3.0,vainqueur Senegal,2022-11-25,Group,Doha,2022-QUATAR
+148,Wales,Iran,0.0,2.0,vainqueur Iran,2022-11-25,Group,Al Rayyan,2022-QUATAR
+149,Argentina,Mexico,2.0,0.0,vainqueur Argentina,2022-11-26,Group,Lusail,2022-QUATAR
+150,France,Denmark,2.0,1.0,vainqueur France,2022-11-26,Group,Doha,2022-QUATAR
+151,Poland,Saudi Arabia,2.0,0.0,vainqueur Poland,2022-11-26,Group,Al Rayyan,2022-QUATAR
+152,Tunisia,Australia,0.0,1.0,vainqueur Australia,2022-11-26,Group,Al Wakrah,2022-QUATAR
+153,Belgium,Morocco,0.0,2.0,vainqueur Morocco,2022-11-27,Group,Doha,2022-QUATAR
+154,Croatia,Canada,4.0,1.0,vainqueur Croatia,2022-11-27,Group,Al Rayyan,2022-QUATAR
+155,Japan,Costa Rica,0.0,1.0,vainqueur Costa Rica,2022-11-27,Group,Al Rayyan,2022-QUATAR
+156,Spain,Germany,1.0,1.0,draw,2022-11-27,Group,Al Khor,2022-QUATAR
+157,Brazil,Switzerland,1.0,0.0,vainqueur Brazil,2022-11-28,Group,Doha,2022-QUATAR
+158,Cameroon,Serbia,3.0,3.0,draw,2022-11-28,Group,Al Wakrah,2022-QUATAR
+159,Portugal,Uruguay,2.0,0.0,vainqueur Portugal,2022-11-28,Group,Lusail,2022-QUATAR
+160,South Korea,Ghana,2.0,3.0,vainqueur Ghana,2022-11-28,Group,Al Rayyan,2022-QUATAR
+161,Ecuador,Senegal,1.0,2.0,vainqueur Senegal,2022-11-29,Group,Al Rayyan,2022-QUATAR
+162,Iran,United States,0.0,1.0,vainqueur United States,2022-11-29,Group,Doha,2022-QUATAR
+163,Netherlands,Qatar,2.0,0.0,vainqueur Netherlands,2022-11-29,Group,Al Khor,2022-QUATAR
+164,Wales,England,0.0,3.0,vainqueur England,2022-11-29,Group,Al Rayyan,2022-QUATAR
+165,Australia,Denmark,1.0,0.0,vainqueur Australia,2022-11-30,Group,Al Wakrah,2022-QUATAR
+166,Poland,Argentina,0.0,2.0,vainqueur Argentina,2022-11-30,Group,Doha,2022-QUATAR
+167,Saudi Arabia,Mexico,1.0,2.0,vainqueur Mexico,2022-11-30,Group,Lusail,2022-QUATAR
+168,Tunisia,France,1.0,0.0,vainqueur Tunisia,2022-11-30,Group,Al Rayyan,2022-QUATAR
+169,Canada,Morocco,1.0,2.0,vainqueur Morocco,2022-12-01,Group,Doha,2022-QUATAR
+170,Costa Rica,Germany,2.0,4.0,vainqueur Germany,2022-12-01,Group,Al Khor,2022-QUATAR
+171,Croatia,Belgium,0.0,0.0,draw,2022-12-01,Group,Al Rayyan,2022-QUATAR
+172,Japan,Spain,2.0,1.0,vainqueur Japan,2022-12-01,Group,Al Rayyan,2022-QUATAR
+173,Cameroon,Brazil,1.0,0.0,vainqueur Cameroon,2022-12-02,Group,Lusail,2022-QUATAR
+174,Ghana,Uruguay,0.0,2.0,vainqueur Uruguay,2022-12-02,Group,Al Wakrah,2022-QUATAR
+175,Serbia,Switzerland,2.0,3.0,vainqueur Switzerland,2022-12-02,Group,Doha,2022-QUATAR
+176,South Korea,Portugal,2.0,1.0,vainqueur South Korea,2022-12-02,Group,Lusail,2022-QUATAR
+177,Argentina,Australia,2.0,1.0,vainqueur Argentina,2022-12-03,Round of 16,Al Rayyan,2022-QUATAR
+178,Netherlands,United States,3.0,1.0,vainqueur Netherlands,2022-12-03,Round of 16,Al Rayyan,2022-QUATAR
+179,England,Senegal,3.0,0.0,vainqueur England,2022-12-04,Round of 16,Al Khor,2022-QUATAR
+180,France,Poland,3.0,1.0,vainqueur France,2022-12-04,Round of 16,Doha,2022-QUATAR
+181,Brazil,South Korea,4.0,1.0,vainqueur Brazil,2022-12-05,Round of 16,Doha,2022-QUATAR
+182,Japan,"(1-1, 1-0) Croatia",1.0,1.0,draw,2022-12-05,Round of 16,Al Wakrah,2022-QUATAR
+183,Morocco,"(0-0, 0-0) Spain",0.0,0.0,draw,2022-12-06,Round of 16,Al Rayyan,2022-QUATAR
+184,Portugal,Switzerland,6.0,1.0,vainqueur Portugal,2022-12-06,Round of 16,Lusail,2022-QUATAR
+185,Croatia,"(0-0, 0-0) Brazil",1.0,1.0,draw,2022-12-09,Quarter-finals,Al Rayyan,2022-QUATAR
+186,Netherlands,"(2-2, 1-0) Argentina",2.0,2.0,draw,2022-12-09,Quarter-finals,Lusail,2022-QUATAR
+187,England,France,1.0,2.0,vainqueur France,2022-12-10,Quarter-finals,Al Khor,2022-QUATAR
+188,Morocco,Portugal,1.0,0.0,vainqueur Morocco,2022-12-10,Quarter-finals,Doha,2022-QUATAR
+189,Argentina,Croatia,3.0,0.0,vainqueur Argentina,2022-12-13,Semi-finals,Lusail,2022-QUATAR
+190,France,Morocco,2.0,0.0,vainqueur France,2022-12-14,Semi-finals,Al Khor,2022-QUATAR
+191,Croatia,Morocco,2.0,1.0,vainqueur Croatia,2022-12-17,Match for third place,Al Rayyan,2022-QUATAR
+192,Argentina,"(2-2, 2-0) France",3.0,3.0,draw,2022-12-18,Final,Lusail,2022-QUATAR
 193,Algeria (الجزائر),Austria (Österreich),0.0,2.0,vainqueur Austria (Österreich),,GROUP_STAGE,Oviedo,1982-SPAIN
 194,Algeria (الجزائر),Chile,3.0,2.0,vainqueur Algeria (الجزائر),,GROUP_STAGE,Oviedo,1982-SPAIN
 195,Algeria (الجزائر),Northern Ireland (Ulster),1.0,1.0,draw,,GROUP_STAGE,Guadalajara,1986-MEXICO
