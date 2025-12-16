@@ -1,0 +1,65 @@
+home_team,away_team,home_result,away_result,date,round,city,edition
+Russia,Saudi Arabia,5,0,2018-06-14T18:00:00+03:00,Group,Moscow,2018
+Egypt,Uruguay,0,1,2018-06-15T17:00:00+05:00,Group,Yekaterinburg,2018
+Russia,Egypt,3,1,2018-06-19T21:00:00+03:00,Group,Saint Petersburg,2018
+Uruguay,Saudi Arabia,1,0,2018-06-20T18:00:00+03:00,Group,Rostov-on-Don,2018
+Uruguay,Russia,3,0,2018-06-25T18:00:00+04:00,Group,Samara,2018
+Saudi Arabia,Egypt,2,1,2018-06-25T17:00:00+03:00,Group,Volgograd,2018
+Portugal,Spain,3,3,2018-06-15T21:00:00+03:00,Group,Sochi,2018
+Morocco,Iran,0,1,2018-06-15T18:00:00+03:00,Group,Saint Petersburg,2018
+Portugal,Morocco,1,0,2018-06-20T15:00:00+03:00,Group,Moscow,2018
+Iran,Spain,0,1,2018-06-20T21:00:00+03:00,Group,Kazan,2018
+Iran,Portugal,1,1,2018-06-25T21:00:00+03:00,Group,Saransk,2018
+Spain,Morocco,2,2,2018-06-25T20:00:00+02:00,Group,Kaliningrad,2018
+France,Australia,2,1,2018-06-16T13:00:00+03:00,Group,Kazan,2018
+Peru,Denmark,0,1,2018-06-16T19:00:00+03:00,Group,Saransk,2018
+France,Peru,1,0,2018-06-21T20:00:00+05:00,Group,Yekaterinburg,2018
+Denmark,Australia,1,1,2018-06-21T16:00:00+04:00,Group,Samara,2018
+Denmark,France,0,0,2018-06-26T17:00:00+03:00,Group,Moscow,2018
+Australia,Peru,0,2,2018-06-26T17:00:00+03:00,Group,Sochi,2018
+Argentina,Iceland,1,1,2018-06-16T16:00:00+03:00,Group,Moscow,2018
+Croatia,Nigeria,2,0,2018-06-16T21:00:00+02:00,Group,Kaliningrad,2018
+Argentina,Croatia,0,3,2018-06-21T21:00:00+03:00,Group,Nizhny Novgorod,2018
+Nigeria,Iceland,2,0,2018-06-22T18:00:00+03:00,Group,Volgograd,2018
+Nigeria,Argentina,1,2,2018-06-26T21:00:00+03:00,Group,Saint Petersburg,2018
+Iceland,Croatia,1,2,2018-06-26T21:00:00+03:00,Group,Rostov-on-Don,2018
+Brazil,Switzerland,1,1,2018-06-17T21:00:00+03:00,Group,Rostov-on-Don,2018
+Costa Rica,Serbia,0,1,2018-06-17T16:00:00+04:00,Group,Samara,2018
+Brazil,Costa Rica,2,0,2018-06-22T15:00:00+03:00,Group,Saint Petersburg,2018
+Serbia,Switzerland,1,2,2018-06-22T20:00:00+02:00,Group,Kaliningrad,2018
+Serbia,Brazil,0,2,2018-06-27T21:00:00+03:00,Group,Moscow,2018
+Switzerland,Costa Rica,2,2,2018-06-27T21:00:00+03:00,Group,Nizhny Novgorod,2018
+Germany,Mexico,0,1,2018-06-17T18:00:00+03:00,Group,Moscow,2018
+Sweden,South Korea,1,0,2018-06-18T15:00:00+03:00,Group,Nizhny Novgorod,2018
+Germany,Sweden,2,1,2018-06-23T21:00:00+03:00,Group,Sochi,2018
+South Korea,Mexico,1,2,2018-06-23T18:00:00+03:00,Group,Rostov-on-Don,2018
+South Korea,Germany,2,0,2018-06-27T17:00:00+03:00,Group,Kazan,2018
+Mexico,Sweden,0,3,2018-06-27T19:00:00+05:00,Group,Yekaterinburg,2018
+Belgium,Panama,3,0,2018-06-18T18:00:00+03:00,Group,Sochi,2018
+Tunisia,England,1,2,2018-06-18T21:00:00+03:00,Group,Volgograd,2018
+Belgium,Tunisia,5,2,2018-06-23T15:00:00+03:00,Group,Moscow,2018
+England,Panama,6,1,2018-06-24T15:00:00+03:00,Group,Nizhny Novgorod,2018
+England,Belgium,0,1,2018-06-28T20:00:00+02:00,Group,Kaliningrad,2018
+Panama,Tunisia,1,2,2018-06-28T21:00:00+03:00,Group,Saransk,2018
+Poland,Senegal,1,2,2018-06-19T18:00:00+03:00,Group,Moscow,2018
+Colombia,Japan,1,2,2018-06-19T15:00:00+03:00,Group,Saransk,2018
+Poland,Colombia,0,3,2018-06-24T20:00:00+02:00,Group,Kazan,2018
+Japan,Senegal,2,2,2018-06-24T18:00:00+03:00,Group,Yekaterinburg,2018
+Japan,Poland,0,1,2018-06-28T17:00:00+03:00,Group,Volgograd,2018
+Senegal,Colombia,0,1,2018-06-28T18:00:00+04:00,Group,Samara,2018
+Uruguay,Portugal,2,1,2018-06-30T21:00:00+03:00,Round of 16,Sochi,2018
+France,Argentina,4,3,2018-06-30T17:00:00+03:00,Round of 16,Kazan,2018
+Spain,Russia,1,1,2018-07-01T17:00:00+03:00,Round of 16,Moscow,2018
+Croatia,Denmark,1,1,2018-07-01T21:00:00+03:00,Round of 16,Nizhny Novgorod,2018
+Brazil,Mexico,2,0,2018-07-02T18:00:00+04:00,Round of 16,Samara,2018
+Belgium,Japan,3,2,2018-07-02T21:00:00+03:00,Round of 16,Rostov-on-Don,2018
+Sweden,Switzerland,1,0,2018-07-03T17:00:00+03:00,Round of 16,Saint Petersburg,2018
+Colombia,England,1,1,2018-07-03T21:00:00+03:00,Round of 16,Moscow,2018
+Uruguay,France,0,2,2018-07-06T17:00:00+03:00,Quarter-finals,Nizhny Novgorod,2018
+Brazil,Belgium,1,2,2018-07-06T21:00:00+03:00,Quarter-finals,Kazan,2018
+Russia,Croatia,2,2,2018-07-07T21:00:00+03:00,Quarter-finals,Sochi,2018
+Sweden,England,0,2,2018-07-07T18:00:00+04:00,Quarter-finals,Samara,2018
+France,Belgium,1,0,2018-07-10T21:00:00+03:00,Semi-finals,Saint Petersburg,2018
+Croatia,England,2,1,2018-07-11T21:00:00+03:00,Semi-finals,Moscow,2018
+Belgium,England,2,0,2018-07-14T17:00:00+03:00,Third place play-off,Saint Petersburg,2018
+France,Croatia,4,2,2018-07-15T18:00:00+03:00,Final,Moscow,2018
