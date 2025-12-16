@@ -7,3 +7,4 @@ seaborn
 plotly
 sqlalchemy
 psycopg2-binary
+lxml
