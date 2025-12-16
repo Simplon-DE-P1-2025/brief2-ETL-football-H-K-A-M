@@ -1,2 +1,9 @@
 pandas
 python-dotenv
+numpy
+requests
+matplotlib
+seaborn
+plotly
+sqlalchemy
+psycopg2-binary
