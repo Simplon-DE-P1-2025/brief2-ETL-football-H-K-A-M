@@ -26,7 +26,7 @@ en cours
 | Création Projects + tâches | K | 15/12 |  En cours |
 | Définition outils + hypothèses | Équipe | 15/12 |  En cours |
 | Observation des données et recherches nouvelles données | M | Now |  En cours |
-| Extraction 1930–2010/2014/2018 | … | … | À faire |
+| Extraction 1930–2010/2014/2018 | … | … | En cours |
 | Recherche/Intégration 2022 | … | … | À faire |
 | Nettoyage et harmonisation | … | … | À faire |
 | Schéma BDD et chargement | … | … | À faire |
