@@ -1,0 +1,837 @@
+id_match,home_team,away_team,home_result,away_result,result,date,round,city,edition,home_team_id,away_team_id
+1,France,Mexico (México),4.0,1.0,France,1930-07-13,Group,Montevideo,1930,46,74
+2,Romania (România),Peru (Perú),3.0,1.0,Romania (România),1930-07-14,Group,Montevideo,1930,92,87
+3,Yugoslavia (Југославија),Brazil (Brasil),2.0,1.0,Yugoslavia (Југославија),1930-07-14,Group,Montevideo,1930,127,21
+4,Argentina,France,1.0,0.0,Argentina,1930-07-15,Group,Montevideo,1930,13,46
+5,Chile,Mexico (México),3.0,0.0,Chile,1930-07-16,Group,Montevideo,1930,26,74
+6,Yugoslavia (Југославија),Bolivia,4.0,0.0,Yugoslavia (Југославија),1930-07-17,Group,Montevideo,1930,127,18
+7,Uruguay,Peru (Perú),1.0,0.0,Uruguay,1930-07-18,Group,Montevideo,1930,124,87
+8,Argentina,Mexico (México),6.0,3.0,Argentina,1930-07-19,Group,Montevideo,1930,13,74
+9,Chile,France,1.0,0.0,Chile,1930-07-19,Group,Montevideo,1930,26,46
+10,Brazil (Brasil),Bolivia,4.0,0.0,Brazil (Brasil),1930-07-20,Group,Montevideo,1930,21,18
+11,Paraguay,Belgium (België),1.0,0.0,Paraguay,1930-07-20,Group,Montevideo,1930,85,17
+12,Uruguay,Romania (România),4.0,0.0,Uruguay,1930-07-21,Group,Montevideo,1930,124,92
+13,Argentina,Chile,3.0,1.0,Argentina,1930-07-22,Group,Montevideo,1930,13,26
+14,Uruguay,Yugoslavia (Југославија),6.0,1.0,Uruguay,1930-07-27,1/2_FINAL,Montevideo,1930,124,127
+15,Uruguay,Argentina,4.0,2.0,Uruguay,1930-07-30,_FINAL,Montevideo,1930,124,13
+16,Austria (Österreich),France,3.0,2.0,Austria (Österreich),1934-05-27,FIRST,Torino,1934,15,46
+17,Czechoslovakia (Československo),Romania (România),2.0,1.0,Czechoslovakia (Československo),1934-05-27,FIRST,Trieste,1934,33,92
+18,Germany (Deutschland),Belgium (België),5.0,2.0,Germany (Deutschland),1934-05-27,FIRST,Firenze,1934,48,17
+19,Hungary (Magyarország),Egypt (مصر),4.0,2.0,Hungary (Magyarország),1934-05-27,FIRST,Napoli,1934,54,41
+20,Spain (España),Brazil (Brasil),3.0,1.0,Spain (España),1934-05-27,FIRST,Genova,1934,110,21
+21,Sweden (Sverige),Argentina,3.0,2.0,Sweden (Sverige),1934-05-27,FIRST,Bologna,1934,112,13
+22,Switzerland (Schweiz / Suisse),Netherlands (Nederland),3.0,2.0,Switzerland (Schweiz / Suisse),1934-05-27,FIRST,Milano,1934,114,78
+23,Austria (Österreich),Hungary (Magyarország),2.0,1.0,Austria (Österreich),1934-05-31,1/4_FINAL,Bologna,1934,15,54
+24,Czechoslovakia (Československo),Switzerland (Schweiz / Suisse),3.0,2.0,Czechoslovakia (Československo),1934-05-31,1/4_FINAL,Torino,1934,33,114
+25,Germany (Deutschland),Sweden (Sverige),2.0,1.0,Germany (Deutschland),1934-05-31,1/4_FINAL,Milano,1934,48,112
+26,Italy (Italia),Spain (España),1.0,1.0,draw,1934-05-31,1/4_FINAL,Firenze,1934,63,110
+27,Italy (Italia),Spain (España),1.0,0.0,Italy (Italia),1934-06-01,1/4_FINAL,Firenze,1934,63,110
+28,Czechoslovakia (Československo),Germany (Deutschland),3.0,1.0,Czechoslovakia (Československo),1934-06-03,1/2_FINAL,Roma,1934,33,48
+29,Italy (Italia),Austria (Österreich),1.0,0.0,Italy (Italia),1934-06-03,1/2_FINAL,Milano,1934,63,15
+30,Germany (Deutschland),Austria (Österreich),3.0,2.0,Germany (Deutschland),1934-06-07,PLACES_3&4,Napoli,1934,48,15
+31,Italy (Italia),Czechoslovakia (Československo),2.0,1.0,Italy (Italia),1934-06-10,_FINAL,Roma,1934,63,33
+32,Switzerland (Schweiz / Suisse),Germany (Deutschland),1.0,1.0,draw,1938-06-04,FIRST,Paris,1938,114,48
+33,Brazil (Brasil),Poland (Polska),6.0,5.0,Brazil (Brasil),1938-06-05,FIRST,Strasbourg,1938,21,89
+34,Cuba,Romania (România),3.0,3.0,draw,1938-06-05,FIRST,Toulouse,1938,31,92
+35,Czechoslovakia (Československo),Netherlands (Nederland),3.0,0.0,Czechoslovakia (Československo),1938-06-05,FIRST,Le_Havre,1938,33,78
+36,France,Belgium (België),3.0,1.0,France,1938-06-05,FIRST,Paris,1938,46,17
+37,Hungary (Magyarország),Dutch East Indies (Nederlands-Indië),6.0,0.0,Hungary (Magyarország),1938-06-05,FIRST,Reims,1938,54,37
+38,Italy (Italia),Norway (Norge),2.0,1.0,Italy (Italia),1938-06-05,FIRST,Marseille,1938,63,83
+39,Cuba,Romania (România),2.0,1.0,Cuba,1938-06-09,FIRST,Toulouse,1938,31,92
+40,Switzerland (Schweiz / Suisse),Germany (Deutschland),4.0,2.0,Switzerland (Schweiz / Suisse),1938-06-09,FIRST,Paris,1938,114,48
+41,Brazil (Brasil),Czechoslovakia (Československo),1.0,1.0,draw,1938-06-12,1/4_FINAL,Bordeaux,1938,21,33
+42,Hungary (Magyarország),Switzerland (Schweiz / Suisse),2.0,0.0,Hungary (Magyarország),1938-06-12,1/4_FINAL,Lille,1938,54,114
+43,Italy (Italia),France,3.0,1.0,Italy (Italia),1938-06-12,1/4_FINAL,Paris,1938,63,46
+44,Sweden (Sverige),Cuba,8.0,0.0,Sweden (Sverige),1938-06-12,1/4_FINAL,Antibes,1938,112,31
+45,Brazil (Brasil),Czechoslovakia (Československo),2.0,1.0,Brazil (Brasil),1938-06-14,1/4_FINAL,Bordeaux,1938,21,33
+46,Hungary (Magyarország),Sweden (Sverige),5.0,1.0,Hungary (Magyarország),1938-06-16,1/2_FINAL,Paris,1938,54,112
+47,Italy (Italia),Brazil (Brasil),2.0,1.0,Italy (Italia),1938-06-16,1/2_FINAL,Marseille,1938,63,21
+48,Brazil (Brasil),Sweden (Sverige),4.0,2.0,Brazil (Brasil),1938-06-19,PLACES_3&4,Bordeaux,1938,21,112
+49,Italy (Italia),Hungary (Magyarország),4.0,2.0,Italy (Italia),1938-06-19,_FINAL,Paris,1938,63,54
+50,Brazil (Brasil),Mexico (México),4.0,0.0,Brazil (Brasil),1950-06-24,Group,Rio de Janeiro,1950,21,74
+51,England,Chile,2.0,0.0,England,1950-06-25,Group,Rio de Janeiro,1950,43,26
+52,Sweden (Sverige),Italy (Italia),3.0,2.0,Sweden (Sverige),1950-06-25,Group,São_Paulo,1950,112,63
+53,Yugoslavia (Југославија),Switzerland (Schweiz / Suisse),3.0,0.0,Yugoslavia (Југославија),1950-06-25,Group,Belo Horizonte,1950,127,114
+54,Brazil (Brasil),Switzerland (Schweiz / Suisse),2.0,2.0,draw,1950-06-28,Group,São_Paulo,1950,21,114
+55,Yugoslavia (Југославија),Mexico (México),4.0,1.0,Yugoslavia (Југославија),1950-06-28,Group,Porto_Alegre,1950,127,74
+56,Spain (España),Chile,2.0,0.0,Spain (España),1950-06-29,Group,Rio de Janeiro,1950,110,26
+57,Sweden (Sverige),Paraguay,2.0,2.0,draw,1950-06-29,Group,Curitiba,1950,112,85
+58,Brazil (Brasil),Yugoslavia (Југославија),2.0,0.0,Brazil (Brasil),1950-07-01,Group,Rio de Janeiro,1950,21,127
+59,Italy (Italia),Paraguay,2.0,0.0,Italy (Italia),1950-07-02,Group,São_Paulo,1950,63,85
+60,Spain (España),England,1.0,0.0,Spain (España),1950-07-02,Group,Rio de Janeiro,1950,110,43
+61,Switzerland (Schweiz / Suisse),Mexico (México),2.0,1.0,Switzerland (Schweiz / Suisse),1950-07-02,Group,Porto_Alegre,1950,114,74
+62,Uruguay,Bolivia,8.0,0.0,Uruguay,1950-07-02,Group,Belo Horizonte,1950,124,18
+63,Brazil (Brasil),Sweden (Sverige),7.0,1.0,Brazil (Brasil),1950-07-09,FINAL_ROUND,Rio de Janeiro,1950,21,112
+64,Uruguay,Spain (España),2.0,2.0,draw,1950-07-09,FINAL_ROUND,São_Paulo,1950,124,110
+65,Brazil (Brasil),Spain (España),6.0,1.0,Brazil (Brasil),1950-07-13,FINAL_ROUND,Rio de Janeiro,1950,21,110
+66,Uruguay,Sweden (Sverige),3.0,2.0,Uruguay,1950-07-13,FINAL_ROUND,São_Paulo,1950,124,112
+67,Sweden (Sverige),Spain (España),3.0,1.0,Sweden (Sverige),1950-07-16,FINAL_ROUND,São_Paulo,1950,112,110
+68,Uruguay,Brazil (Brasil),2.0,1.0,Uruguay,1950-07-16,FINAL_ROUND,Rio de Janeiro,1950,124,21
+69,FRG (BRD / Westdeutschland),Austria (Österreich),3.0,0.0,FRG (BRD / Westdeutschland),1930-01-01,Group,Montevideo,1954,45,15
+70,FRG (BRD / Westdeutschland),Yugoslavia (Југославија),3.0,0.0,FRG (BRD / Westdeutschland),1930-01-01,Group,Montevideo,1954,45,127
+71,Austria (Österreich),Scotland,1.0,0.0,Austria (Österreich),1954-06-16,Group,Zürich,1954,15,97
+72,Brazil (Brasil),Mexico (México),5.0,0.0,Brazil (Brasil),1954-06-16,Group,Genève,1954,21,74
+73,Uruguay,Czechoslovakia (Československo),2.0,0.0,Uruguay,1954-06-16,Group,Bern,1954,124,33
+74,Yugoslavia (Југославија),France,1.0,0.0,Yugoslavia (Југославија),1954-06-16,Group,Lausanne,1954,127,46
+75,England,Belgium (België),4.0,4.0,draw,1954-06-17,Group,Basel,1954,43,17
+76,Switzerland (Schweiz / Suisse),Italy (Italia),2.0,1.0,Switzerland (Schweiz / Suisse),1954-06-17,Group,Lausanne,1954,114,63
+77,Austria (Österreich),Czechoslovakia (Československo),5.0,0.0,Austria (Österreich),1954-06-19,Group,Zürich,1954,15,33
+78,Brazil (Brasil),Yugoslavia (Југославија),1.0,1.0,draw,1954-06-19,Group,Lausanne,1954,21,127
+79,France,Mexico (México),3.0,2.0,France,1954-06-19,Group,Genève,1954,46,74
+80,Uruguay,Scotland,7.0,0.0,Uruguay,1954-06-19,Group,Basel,1954,124,97
+81,England,Switzerland (Schweiz / Suisse),2.0,0.0,England,1954-06-20,Group,Bern,1954,43,114
+82,Italy (Italia),Belgium (België),4.0,1.0,Italy (Italia),1954-06-20,Group,Lugano,1954,63,17
+83,Switzerland (Schweiz / Suisse),Italy (Italia),4.0,1.0,Switzerland (Schweiz / Suisse),1954-06-23,Group,Basel,1954,114,63
+84,Austria (Österreich),Switzerland (Schweiz / Suisse),7.0,5.0,Austria (Österreich),1954-06-26,1/4_FINAL,Lausanne,1954,15,114
+85,Uruguay,England,4.0,2.0,Uruguay,1954-06-26,1/4_FINAL,Basel,1954,124,43
+86,Hungary (Magyarország),Brazil (Brasil),4.0,2.0,Hungary (Magyarország),1954-06-27,1/4_FINAL,Bern,1954,54,21
+87,Hungary (Magyarország),Uruguay,4.0,2.0,Hungary (Magyarország),1954-06-30,1/2_FINAL,Lausanne,1954,54,124
+88,Austria (Österreich),Uruguay,3.0,1.0,Austria (Österreich),1954-07-03,PLACES_3&4,Zürich,1954,15,124
+89,FRG (BRD / Westdeutschland),Argentina,6.0,1.0,FRG (BRD / Westdeutschland),1930-01-01,1/2_FINAL,Montevideo,1958,45,13
+90,Wales (Cymru),Mexico (México),7.0,1.0,draw,1934-01-01,FIRST,Roma,1958,126,74
+91,Brazil (Brasil),Austria (Österreich),3.0,0.0,Brazil (Brasil),1958-06-08,Group,Uddevalla,1958,21,15
+92,France,Paraguay,7.0,3.0,France,1958-06-08,Group,Norrköping,1958,46,85
+93,Hungary (Magyarország),Wales (Cymru),1.0,1.0,draw,1958-06-08,Group,Sandviken,1958,54,126
+94,Northern Ireland (Ulster),Czechoslovakia (Československo),1.0,0.0,Northern Ireland (Ulster),1958-06-08,Group,Halmstad,1958,82,33
+95,Sweden (Sverige),Mexico (México),3.0,0.0,Sweden (Sverige),1958-06-08,Group,Stockholm,1958,112,74
+96,Yugoslavia (Југославија),Scotland,1.0,1.0,draw,1958-06-08,Group,Västerås,1958,127,97
+97,Argentina,Northern Ireland (Ulster),3.0,1.0,Argentina,1958-06-11,Group,Halmstad,1958,13,82
+98,Brazil (Brasil),England,0.0,0.0,draw,1958-06-11,Group,Göteborg,1958,21,43
+99,Paraguay,Scotland,3.0,2.0,Paraguay,1958-06-11,Group,Norrköping,1958,85,97
+100,Soviet Union (СССР),Austria (Österreich),2.0,0.0,Soviet Union (СССР),1958-06-11,Group,Borås,1958,108,15
+101,Yugoslavia (Југославија),France,3.0,2.0,Yugoslavia (Југославија),1958-06-11,Group,Västerås,1958,127,46
+102,Sweden (Sverige),Hungary (Magyarország),2.0,1.0,Sweden (Sverige),1958-06-12,Group,Stockholm,1958,112,54
+103,Brazil (Brasil),Soviet Union (СССР),2.0,0.0,Brazil (Brasil),1958-06-15,Group,Göteborg,1958,21,108
+104,Czechoslovakia (Československo),Argentina,6.0,1.0,Czechoslovakia (Československo),1958-06-15,Group,Helsingborg,1958,33,13
+105,England,Austria (Österreich),2.0,2.0,draw,1958-06-15,Group,Borås,1958,43,15
+106,France,Scotland,2.0,1.0,France,1958-06-15,Group,Örebro,1958,46,97
+107,Hungary (Magyarország),Mexico (México),4.0,0.0,Hungary (Magyarország),1958-06-15,Group,Sandviken,1958,54,74
+108,Sweden (Sverige),Wales (Cymru),0.0,0.0,draw,1958-06-15,Group,Stockholm,1958,112,126
+109,Northern Ireland (Ulster),Czechoslovakia (Československo),2.0,1.0,Northern Ireland (Ulster),1958-06-17,Group,Malmö,1958,82,33
+110,Soviet Union (СССР),England,1.0,0.0,Soviet Union (СССР),1958-06-17,Group,Göteborg,1958,108,43
+111,Wales (Cymru),Hungary (Magyarország),2.0,1.0,Wales (Cymru),1958-06-17,Group,Stockholm,1958,126,54
+112,Brazil (Brasil),Wales (Cymru),1.0,0.0,Brazil (Brasil),1958-06-19,1/4_FINAL,Göteborg,1958,21,126
+113,France,Northern Ireland (Ulster),4.0,0.0,France,1958-06-19,1/4_FINAL,Norrköping,1958,46,82
+114,Sweden (Sverige),Soviet Union (СССР),2.0,0.0,Sweden (Sverige),1958-06-19,1/4_FINAL,Stockholm,1958,112,108
+115,Brazil (Brasil),France,5.0,2.0,Brazil (Brasil),1958-06-24,1/2_FINAL,Stockholm,1958,21,46
+116,Brazil (Brasil),Sweden (Sverige),5.0,2.0,Brazil (Brasil),1958-06-29,_FINAL,Stockholm,1958,21,112
+117,Argentina,Bulgaria (България),1.0,0.0,Argentina,1962-05-30,Group,Rancagua,1962,13,22
+118,Brazil (Brasil),Mexico (México),2.0,0.0,Brazil (Brasil),1962-05-30,Group,Viña del Mar,1962,21,74
+119,Chile,Switzerland (Schweiz / Suisse),3.0,1.0,Chile,1962-05-30,Group,Santiago,1962,26,114
+120,Uruguay,Colombia,2.0,1.0,Uruguay,1962-05-30,Group,Arica,1962,124,27
+121,Czechoslovakia (Československo),Spain (España),1.0,0.0,Czechoslovakia (Československo),1962-05-31,Group,Viña del Mar,1962,33,110
+122,Hungary (Magyarország),England,2.0,1.0,Hungary (Magyarország),1962-05-31,Group,Rancagua,1962,54,43
+123,Soviet Union (СССР),Yugoslavia (Југославија),2.0,0.0,Soviet Union (СССР),1962-05-31,Group,Arica,1962,108,127
+124,Brazil (Brasil),Czechoslovakia (Československo),0.0,0.0,draw,1962-06-02,Group,Rancagua,1962,21,33
+125,Chile,Italy (Italia),2.0,0.0,Chile,1962-06-02,Group,Viña del Mar,1962,26,63
+126,England,Argentina,3.0,1.0,England,1962-06-02,Group,Arica,1962,43,13
+127,Yugoslavia (Југославија),Uruguay,3.0,1.0,Yugoslavia (Југославија),1962-06-02,Group,Santiago,1962,127,124
+128,Hungary (Magyarország),Bulgaria (България),6.0,1.0,Hungary (Magyarország),1962-06-03,Group,Rancagua,1962,54,22
+129,Soviet Union (СССР),Colombia,4.0,4.0,draw,1962-06-03,Group,Arica,1962,108,27
+130,Spain (España),Mexico (México),1.0,0.0,Spain (España),1962-06-03,Group,Viña del Mar,1962,110,74
+131,Brazil (Brasil),Spain (España),2.0,1.0,Brazil (Brasil),1962-06-06,Group,Viña del Mar,1962,21,110
+132,Hungary (Magyarország),Argentina,0.0,0.0,draw,1962-06-06,Group,Rancagua,1962,54,13
+133,Soviet Union (СССР),Uruguay,2.0,1.0,Soviet Union (СССР),1962-06-06,Group,Arica,1962,108,124
+134,England,Bulgaria (България),0.0,0.0,draw,1962-06-07,Group,Rancagua,1962,43,22
+135,Italy (Italia),Switzerland (Schweiz / Suisse),3.0,0.0,Italy (Italia),1962-06-07,Group,Santiago,1962,63,114
+136,Mexico (México),Czechoslovakia (Československo),3.0,1.0,Mexico (México),1962-06-07,Group,Viña del Mar,1962,74,33
+137,Yugoslavia (Југославија),Colombia,5.0,0.0,Yugoslavia (Југославија),1962-06-07,Group,Arica,1962,127,27
+138,Brazil (Brasil),England,3.0,1.0,Brazil (Brasil),1962-06-10,1/4_FINAL,Viña del Mar,1962,21,43
+139,Chile,Soviet Union (СССР),2.0,1.0,Chile,1962-06-10,1/4_FINAL,Arica,1962,26,108
+140,Czechoslovakia (Československo),Hungary (Magyarország),1.0,0.0,Czechoslovakia (Československo),1962-06-10,1/4_FINAL,Rancagua,1962,33,54
+141,Brazil (Brasil),Chile,4.0,2.0,Brazil (Brasil),1962-06-13,1/2_FINAL,Santiago,1962,21,26
+142,Czechoslovakia (Československo),Yugoslavia (Југославија),3.0,1.0,Czechoslovakia (Československo),1962-06-13,1/2_FINAL,Viña del Mar,1962,33,127
+143,Chile,Yugoslavia (Југославија),1.0,0.0,Chile,1962-06-16,PLACES_3&4,Santiago,1962,26,127
+144,Brazil (Brasil),Czechoslovakia (Československo),3.0,1.0,Brazil (Brasil),1962-06-17,_FINAL,Santiago,1962,21,33
+145,England,Uruguay,0.0,0.0,draw,1966-07-11,Group,London,1966,43,124
+146,Brazil (Brasil),Bulgaria (България),2.0,0.0,Brazil (Brasil),1966-07-12,Group,Liverpool,1966,21,22
+147,Argentina,Spain (España),2.0,1.0,Argentina,1966-07-13,Group,Birmingham,1966,13,110
+148,France,Mexico (México),1.0,1.0,draw,1966-07-13,Group,London,1966,46,74
+149,Italy (Italia),Chile,2.0,0.0,Italy (Italia),1966-07-13,Group,Sunderland,1966,63,26
+150,Portugal,Hungary (Magyarország),3.0,1.0,Portugal,1966-07-13,Group,Manchester,1966,90,54
+151,Hungary (Magyarország),Brazil (Brasil),3.0,1.0,Hungary (Magyarország),1966-07-15,Group,Liverpool,1966,54,21
+152,Spain (España),Switzerland (Schweiz / Suisse),2.0,1.0,Spain (España),1966-07-15,Group,Sheffield,1966,110,114
+153,Uruguay,France,2.0,1.0,Uruguay,1966-07-15,Group,London,1966,124,46
+154,England,Mexico (México),2.0,0.0,England,1966-07-16,Group,London,1966,43,74
+155,Portugal,Bulgaria (България),3.0,0.0,Portugal,1966-07-16,Group,Manchester,1966,90,22
+156,Soviet Union (СССР),Italy (Italia),1.0,0.0,Soviet Union (СССР),1966-07-16,Group,Sunderland,1966,108,63
+157,Argentina,Switzerland (Schweiz / Suisse),2.0,0.0,Argentina,1966-07-19,Group,Sheffield,1966,13,114
+158,Portugal,Brazil (Brasil),3.0,1.0,Portugal,1966-07-19,Group,Liverpool,1966,90,21
+159,England,France,2.0,0.0,England,1966-07-20,Group,London,1966,43,46
+160,Hungary (Magyarország),Bulgaria (България),3.0,1.0,Hungary (Magyarország),1966-07-20,Group,Manchester,1966,54,22
+161,Soviet Union (СССР),Chile,2.0,1.0,Soviet Union (СССР),1966-07-20,Group,Sunderland,1966,108,26
+162,England,Argentina,1.0,0.0,England,1966-07-23,1/4_FINAL,London,1966,43,13
+163,Soviet Union (СССР),Hungary (Magyarország),2.0,1.0,Soviet Union (СССР),1966-07-23,1/4_FINAL,Sunderland,1966,108,54
+164,England,Portugal,2.0,1.0,England,1966-07-26,1/2_FINAL,London,1966,43,90
+165,Portugal,Soviet Union (СССР),2.0,1.0,Portugal,1966-07-28,PLACES_3&4,London,1966,90,108
+166,England,Romania (România),1.0,0.0,England,1970-06-02,Group,Guadalajara,1970,43,92
+167,Peru (Perú),Bulgaria (България),3.0,2.0,Peru (Perú),1970-06-02,Group,León,1970,87,22
+168,Uruguay,Israel (ישראל),2.0,0.0,Uruguay,1970-06-02,Group,Puebla,1970,124,61
+169,Belgium (België),El Salvador,3.0,0.0,Belgium (België),1970-06-03,Group,México D.F,1970,17,42
+170,Brazil (Brasil),Czechoslovakia (Československo),4.0,1.0,Brazil (Brasil),1970-06-03,Group,Guadalajara,1970,21,33
+171,Italy (Italia),Sweden (Sverige),1.0,0.0,Italy (Italia),1970-06-03,Group,Toluca,1970,63,112
+172,Peru (Perú),Morocco (المغرب),3.0,0.0,Peru (Perú),1970-06-06,Group,León,1970,87,76
+173,Romania (România),Czechoslovakia (Československo),2.0,1.0,Romania (România),1970-06-06,Group,Guadalajara,1970,92,33
+174,Soviet Union (СССР),Belgium (België),4.0,1.0,Soviet Union (СССР),1970-06-06,Group,México D.F,1970,108,17
+175,Brazil (Brasil),England,1.0,0.0,Brazil (Brasil),1970-06-07,Group,Guadalajara,1970,21,43
+176,Mexico (México),El Salvador,4.0,0.0,Mexico (México),1970-06-07,Group,México D.F,1970,74,42
+177,Sweden (Sverige),Israel (ישראל),1.0,1.0,draw,1970-06-07,Group,Toluca,1970,112,61
+178,Brazil (Brasil),Romania (România),3.0,2.0,Brazil (Brasil),1970-06-10,Group,Guadalajara,1970,21,92
+179,Soviet Union (СССР),El Salvador,2.0,0.0,Soviet Union (СССР),1970-06-10,Group,México D.F,1970,108,42
+180,Sweden (Sverige),Uruguay,1.0,0.0,Sweden (Sverige),1970-06-10,Group,Puebla,1970,112,124
+181,Bulgaria (България),Morocco (المغرب),1.0,1.0,draw,1970-06-11,Group,León,1970,22,76
+182,England,Czechoslovakia (Československo),1.0,0.0,England,1970-06-11,Group,Guadalajara,1970,43,33
+183,Italy (Italia),Israel (ישראל),0.0,0.0,draw,1970-06-11,Group,Toluca,1970,63,61
+184,Mexico (México),Belgium (België),1.0,0.0,Mexico (México),1970-06-11,Group,México D.F,1970,74,17
+185,Brazil (Brasil),Peru (Perú),4.0,2.0,Brazil (Brasil),1970-06-14,1/4_FINAL,Guadalajara,1970,21,87
+186,Italy (Italia),Mexico (México),4.0,1.0,Italy (Italia),1970-06-14,1/4_FINAL,Toluca,1970,63,74
+187,Uruguay,Soviet Union (СССР),1.0,0.0,Uruguay,1970-06-14,1/4_FINAL,México D.F,1970,124,108
+188,Brazil (Brasil),Uruguay,3.0,1.0,Brazil (Brasil),1970-06-17,1/2_FINAL,Guadalajara,1970,21,124
+189,Brazil (Brasil),Italy (Italia),4.0,1.0,Brazil (Brasil),1970-06-21,_FINAL,México D.F,1970,21,63
+190,Brazil (Brasil),Yugoslavia (Југославија),0.0,0.0,draw,1974-06-13,Group,Frankfurt am Main,1974,21,127
+191,Zaire (Zaïre),Scotland,0.0,2.0,Scotland,1974-06-14,Group,Dortmund,1974,128,97
+192,Italy (Italia),Haiti (Haïti),3.0,1.0,Italy (Italia),1974-06-15,Group,München,1974,63,52
+193,Poland (Polska),Argentina,3.0,2.0,Poland (Polska),1974-06-15,Group,Stuttgart,1974,89,13
+194,Sweden (Sverige),Bulgaria (България),0.0,0.0,draw,1974-06-15,Group,Düsseldorf,1974,112,22
+195,Uruguay,Netherlands (Nederland),0.0,2.0,Netherlands (Nederland),1974-06-15,Group,Hannover,1974,124,78
+196,Scotland,Brazil (Brasil),0.0,0.0,draw,1974-06-18,Group,Frankfurt am Main,1974,97,21
+197,Yugoslavia (Југославија),Zaire (Zaïre),9.0,0.0,Yugoslavia (Југославија),1974-06-18,Group,Gelsenkirchen,1974,127,128
+198,Argentina,Italy (Italia),1.0,1.0,draw,1974-06-19,Group,Stuttgart,1974,13,63
+199,Bulgaria (България),Uruguay,1.0,1.0,draw,1974-06-19,Group,Hannover,1974,22,124
+200,Haiti (Haïti),Poland (Polska),0.0,7.0,Poland (Polska),1974-06-19,Group,München,1974,52,89
+201,Netherlands (Nederland),Sweden (Sverige),0.0,0.0,draw,1974-06-19,Group,Dortmund,1974,78,112
+202,Australia,Chile,0.0,0.0,draw,1974-06-22,Group,West-Berlin,1974,14,26
+203,Scotland,Yugoslavia (Југославија),1.0,1.0,draw,1974-06-22,Group,Frankfurt am Main,1974,97,127
+204,Zaire (Zaïre),Brazil (Brasil),0.0,3.0,Brazil (Brasil),1974-06-22,Group,Gelsenkirchen,1974,128,21
+205,Argentina,Haiti (Haïti),4.0,1.0,Argentina,1974-06-23,Group,München,1974,13,52
+206,Bulgaria (България),Netherlands (Nederland),1.0,4.0,Netherlands (Nederland),1974-06-23,Group,Dortmund,1974,22,78
+207,Poland (Polska),Italy (Italia),2.0,1.0,Poland (Polska),1974-06-23,Group,Stuttgart,1974,89,63
+208,Sweden (Sverige),Uruguay,3.0,0.0,Sweden (Sverige),1974-06-23,Group,Düsseldorf,1974,112,124
+209,Netherlands (Nederland),Argentina,4.0,0.0,Netherlands (Nederland),1974-06-26,SEMIFINAL_STAGE,Gelsenkirchen,1974,78,13
+210,Sweden (Sverige),Poland (Polska),0.0,1.0,Poland (Polska),1974-06-26,SEMIFINAL_STAGE,Stuttgart,1974,112,89
+211,Argentina,Brazil (Brasil),1.0,2.0,Brazil (Brasil),1974-06-30,SEMIFINAL_STAGE,Hannover,1974,13,21
+212,Poland (Polska),Yugoslavia (Југославија),2.0,1.0,Poland (Polska),1974-06-30,SEMIFINAL_STAGE,Frankfurt am Main,1974,89,127
+213,Netherlands (Nederland),Brazil (Brasil),2.0,0.0,Netherlands (Nederland),1974-07-03,SEMIFINAL_STAGE,Dortmund,1974,78,21
+214,Sweden (Sverige),Yugoslavia (Југославија),2.0,1.0,Sweden (Sverige),1974-07-03,SEMIFINAL_STAGE,Düsseldorf,1974,112,127
+215,FRG (BRD / Westdeutschland),Netherlands (Nederland),5.0,2.0,draw,1950-01-01,Group,Recife,1978,45,78
+216,FRG (BRD / Westdeutschland),Poland (Polska),3.0,1.0,draw,1950-01-01,Group,Curitiba,1978,45,89
+217,FRG (BRD / Westdeutschland),Tunisia (تونس),1.0,0.0,draw,1950-01-01,Group,Belo Horizonte,1978,45,118
+218,Argentina,Hungary (Magyarország),2.0,1.0,Argentina,1978-06-02,Group,Buenos Aires,1978,13,54
+219,Italy (Italia),France,2.0,1.0,Italy (Italia),1978-06-02,Group,Mar_del_Plata,1978,63,46
+220,Tunisia (تونس),Mexico (México),3.0,1.0,Tunisia (تونس),1978-06-02,Group,Rosario,1978,118,74
+221,Austria (Österreich),Spain (España),2.0,1.0,Austria (Österreich),1978-06-03,Group,Buenos Aires,1978,15,110
+222,Netherlands (Nederland),Iran (ایران),3.0,0.0,Netherlands (Nederland),1978-06-03,Group,Mendoza,1978,78,58
+223,Peru (Perú),Scotland,3.0,1.0,Peru (Perú),1978-06-03,Group,Córdoba,1978,87,97
+224,Sweden (Sverige),Brazil (Brasil),1.0,1.0,draw,1978-06-03,Group,Mar_del_Plata,1978,112,21
+225,Argentina,France,2.0,1.0,Argentina,1978-06-06,Group,Buenos Aires,1978,13,46
+226,Italy (Italia),Hungary (Magyarország),3.0,1.0,Italy (Italia),1978-06-06,Group,Mar_del_Plata,1978,63,54
+227,Poland (Polska),Tunisia (تونس),1.0,0.0,Poland (Polska),1978-06-06,Group,Rosario,1978,89,118
+228,Austria (Österreich),Sweden (Sverige),1.0,0.0,Austria (Österreich),1978-06-07,Group,Buenos Aires,1978,15,112
+229,Brazil (Brasil),Spain (España),0.0,0.0,draw,1978-06-07,Group,Mar_del_Plata,1978,21,110
+230,Netherlands (Nederland),Peru (Perú),0.0,0.0,draw,1978-06-07,Group,Mendoza,1978,78,87
+231,Scotland,Iran (ایران),1.0,1.0,draw,1978-06-07,Group,Córdoba,1978,97,58
+232,France,Hungary (Magyarország),3.0,1.0,France,1978-06-10,Group,Mar_del_Plata,1978,46,54
+233,Italy (Italia),Argentina,1.0,0.0,Italy (Italia),1978-06-10,Group,Buenos Aires,1978,63,13
+234,Poland (Polska),Mexico (México),3.0,1.0,Poland (Polska),1978-06-10,Group,Rosario,1978,89,74
+235,Brazil (Brasil),Austria (Österreich),1.0,0.0,Brazil (Brasil),1978-06-11,Group,Mar_del_Plata,1978,21,15
+236,Peru (Perú),Iran (ایران),4.0,1.0,Peru (Perú),1978-06-11,Group,Córdoba,1978,87,58
+237,Scotland,Netherlands (Nederland),3.0,2.0,Scotland,1978-06-11,Group,Mendoza,1978,97,78
+238,Spain (España),Sweden (Sverige),1.0,0.0,Spain (España),1978-06-11,Group,Buenos Aires,1978,110,112
+239,Argentina,Poland (Polska),2.0,0.0,Argentina,1978-06-14,SEMIFINAL_STAGE,Rosario,1978,13,89
+240,Brazil (Brasil),Peru (Perú),3.0,0.0,Brazil (Brasil),1978-06-14,SEMIFINAL_STAGE,Mendoza,1978,21,87
+241,Netherlands (Nederland),Austria (Österreich),5.0,1.0,Netherlands (Nederland),1978-06-14,SEMIFINAL_STAGE,Córdoba,1978,78,15
+242,Argentina,Brazil (Brasil),0.0,0.0,draw,1978-06-18,SEMIFINAL_STAGE,Rosario,1978,13,21
+243,Italy (Italia),Austria (Österreich),1.0,0.0,Italy (Italia),1978-06-18,SEMIFINAL_STAGE,Buenos Aires,1978,63,15
+244,Poland (Polska),Peru (Perú),1.0,0.0,Poland (Polska),1978-06-18,SEMIFINAL_STAGE,Mendoza,1978,89,87
+245,Argentina,Peru (Perú),6.0,0.0,Argentina,1978-06-21,SEMIFINAL_STAGE,Rosario,1978,13,87
+246,Brazil (Brasil),Poland (Polska),3.0,1.0,Brazil (Brasil),1978-06-21,SEMIFINAL_STAGE,Mendoza,1978,21,89
+247,Netherlands (Nederland),Italy (Italia),2.0,1.0,Netherlands (Nederland),1978-06-21,SEMIFINAL_STAGE,Buenos Aires,1978,78,63
+248,Brazil (Brasil),Italy (Italia),2.0,1.0,Brazil (Brasil),1978-06-24,PLACES_3&4,Buenos Aires,1978,21,63
+249,Argentina,Netherlands (Nederland),3.0,1.0,Argentina,1978-06-25,_FINAL,Buenos Aires,1978,13,78
+250,Argentina,Belgium (België),0.0,1.0,Belgium (België),1982-06-13,Group,Barcelona,1982,13,17
+251,Brazil (Brasil),Soviet Union (СССР),2.0,1.0,Brazil (Brasil),1982-06-14,Group,Sevilla,1982,21,108
+252,Italy (Italia),Poland (Polska),0.0,0.0,draw,1982-06-14,Group,Vigo,1982,63,89
+253,Hungary (Magyarország),El Salvador,10.0,1.0,Hungary (Magyarország),1982-06-15,Group,Elche,1982,54,42
+254,Peru (Perú),Cameroon (Cameroun),0.0,0.0,draw,1982-06-15,Group,La_Coruña,1982,87,24
+255,Scotland,New Zealand (Aotearoa),5.0,2.0,Scotland,1982-06-15,Group,Málaga,1982,97,79
+256,England,France,3.0,1.0,England,1982-06-16,Group,Bilbao,1982,43,46
+257,Spain (España),Honduras,1.0,1.0,draw,1982-06-16,Group,Valencia,1982,110,53
+258,Chile,Austria (Österreich),0.0,1.0,Austria (Österreich),1982-06-17,Group,Oviedo,1982,26,15
+259,Czechoslovakia (Československo),Kuwait (الكويت),1.0,1.0,draw,1982-06-17,Group,Valladolid,1982,33,70
+260,Yugoslavia (Југославија),Northern Ireland (Ulster),0.0,0.0,draw,1982-06-17,Group,Zaragoza,1982,127,82
+261,Argentina,Hungary (Magyarország),4.0,1.0,Argentina,1982-06-18,Group,Alicante,1982,13,54
+262,Brazil (Brasil),Scotland,4.0,1.0,Brazil (Brasil),1982-06-18,Group,Sevilla,1982,21,97
+263,Italy (Italia),Peru (Perú),1.0,1.0,draw,1982-06-18,Group,Vigo,1982,63,87
+264,Belgium (België),El Salvador,1.0,0.0,Belgium (België),1982-06-19,Group,Elche,1982,17,42
+265,Poland (Polska),Cameroon (Cameroun),0.0,0.0,draw,1982-06-19,Group,La_Coruña,1982,89,24
+266,Soviet Union (СССР),New Zealand (Aotearoa),3.0,0.0,Soviet Union (СССР),1982-06-19,Group,Málaga,1982,108,79
+267,England,Czechoslovakia (Československo),2.0,0.0,England,1982-06-20,Group,Bilbao,1982,43,33
+268,Spain (España),Yugoslavia (Југославија),2.0,1.0,Spain (España),1982-06-20,Group,Valencia,1982,110,127
+269,Algeria (الجزائر),Austria (Österreich),0.0,2.0,Austria (Österreich),1982-06-21,Group,Oviedo,1982,11,15
+270,France,Kuwait (الكويت),4.0,1.0,France,1982-06-21,Group,Valladolid,1982,46,70
+271,Honduras,Northern Ireland (Ulster),1.0,1.0,draw,1982-06-21,Group,Zaragoza,1982,53,82
+272,Belgium (België),Hungary (Magyarország),1.0,1.0,draw,1982-06-22,Group,Elche,1982,17,54
+273,Poland (Polska),Peru (Perú),5.0,1.0,Poland (Polska),1982-06-22,Group,La_Coruña,1982,89,87
+274,Soviet Union (СССР),Scotland,2.0,2.0,draw,1982-06-22,Group,Málaga,1982,108,97
+275,Argentina,El Salvador,2.0,0.0,Argentina,1982-06-23,Group,Alicante,1982,13,42
+276,Brazil (Brasil),New Zealand (Aotearoa),4.0,0.0,Brazil (Brasil),1982-06-23,Group,Sevilla,1982,21,79
+277,Italy (Italia),Cameroon (Cameroun),1.0,1.0,draw,1982-06-23,Group,Vigo,1982,63,24
+278,Algeria (الجزائر),Chile,3.0,2.0,Algeria (الجزائر),1982-06-24,Group,Oviedo,1982,11,26
+279,France,Czechoslovakia (Československo),1.0,1.0,draw,1982-06-24,Group,Valladolid,1982,46,33
+280,Honduras,Yugoslavia (Југославија),0.0,1.0,Yugoslavia (Југославија),1982-06-24,Group,Zaragoza,1982,53,127
+281,England,Kuwait (الكويت),1.0,0.0,England,1982-06-25,Group,Bilbao,1982,43,70
+282,Northern Ireland (Ulster),Spain (España),1.0,0.0,Northern Ireland (Ulster),1982-06-25,Group,Valencia,1982,82,110
+283,Austria (Österreich),France,0.0,1.0,France,1982-06-28,QUARTERFINAL_STAGE,Madrid,1982,15,46
+284,Poland (Polska),Belgium (België),3.0,0.0,Poland (Polska),1982-06-28,QUARTERFINAL_STAGE,Barcelona,1982,89,17
+285,Italy (Italia),Argentina,2.0,1.0,Italy (Italia),1982-06-29,QUARTERFINAL_STAGE,Barcelona,1982,63,13
+286,Austria (Österreich),Northern Ireland (Ulster),2.0,2.0,draw,1982-07-01,QUARTERFINAL_STAGE,Madrid,1982,15,82
+287,Belgium (België),Soviet Union (СССР),0.0,1.0,Soviet Union (СССР),1982-07-01,QUARTERFINAL_STAGE,Barcelona,1982,17,108
+288,Argentina,Brazil (Brasil),1.0,3.0,Brazil (Brasil),1982-07-02,QUARTERFINAL_STAGE,Barcelona,1982,13,21
+289,France,Northern Ireland (Ulster),4.0,1.0,France,1982-07-04,QUARTERFINAL_STAGE,Madrid,1982,46,82
+290,Poland (Polska),Soviet Union (СССР),0.0,0.0,draw,1982-07-04,QUARTERFINAL_STAGE,Barcelona,1982,89,108
+291,Italy (Italia),Brazil (Brasil),3.0,2.0,Italy (Italia),1982-07-05,QUARTERFINAL_STAGE,Barcelona,1982,63,21
+292,Spain (España),England,0.0,0.0,draw,1982-07-05,QUARTERFINAL_STAGE,Madrid,1982,110,43
+293,Poland (Polska),Italy (Italia),0.0,2.0,Italy (Italia),1982-07-08,1/2_FINAL,Barcelona,1982,89,63
+294,Poland (Polska),France,3.0,2.0,Poland (Polska),1982-07-10,PLACES_3&4,Alicante,1982,89,46
+295,Argentina,FRG (BRD / Westdeutschland),7.0,0.0,Argentina,1954-01-01,Group,Genève,1986,13,45
+296,FRG (BRD / Westdeutschland),Mexico (México),4.0,1.0,draw,1954-01-01,Group,Bern,1986,45,74
+297,France,FRG (BRD / Westdeutschland),8.0,3.0,FRG (BRD / Westdeutschland),1954-01-01,Group,Basel,1986,46,45
+298,Morocco (المغرب),FRG (BRD / Westdeutschland),9.0,0.0,FRG (BRD / Westdeutschland),1954-01-01,Group,Zürich,1986,76,45
+299,Bulgaria (България),Italy (Italia),1.0,1.0,draw,1986-05-31,Group,México D.F,1986,22,63
+300,Canada,France,0.0,1.0,France,1986-06-01,Group,León,1986,25,46
+301,Spain (España),Brazil (Brasil),0.0,1.0,Brazil (Brasil),1986-06-01,Group,Guadalajara,1986,110,21
+302,Morocco (المغرب),Poland (Polska),0.0,0.0,draw,1986-06-02,Group,Monterrey,1986,76,89
+303,Soviet Union (СССР),Hungary (Magyarország),6.0,0.0,Soviet Union (СССР),1986-06-02,Group,Irapuato,1986,108,54
+304,Algeria (الجزائر),Northern Ireland (Ulster),1.0,1.0,draw,1986-06-03,Group,Guadalajara,1986,11,82
+305,Belgium (België),Mexico (México),1.0,2.0,Mexico (México),1986-06-03,Group,México D.F,1986,17,74
+306,Portugal,England,1.0,0.0,Portugal,1986-06-03,Group,Monterrey,1986,90,43
+307,Paraguay,Iraq (العراق),1.0,0.0,Paraguay,1986-06-04,Group,Toluca,1986,85,59
+308,Scotland,Denmark (Danmark),0.0,1.0,Denmark (Danmark),1986-06-04,Group,Nezahualcóyotl,1986,97,36
+309,France,Soviet Union (СССР),1.0,1.0,draw,1986-06-05,Group,León,1986,46,108
+310,Italy (Italia),Argentina,1.0,1.0,draw,1986-06-05,Group,Puebla,1986,63,13
+311,Brazil (Brasil),Algeria (الجزائر),1.0,0.0,Brazil (Brasil),1986-06-06,Group,Guadalajara,1986,21,11
+312,England,Morocco (المغرب),0.0,0.0,draw,1986-06-06,Group,Monterrey,1986,43,76
+313,Hungary (Magyarország),Canada,2.0,0.0,Hungary (Magyarország),1986-06-06,Group,Irapuato,1986,54,25
+314,Mexico (México),Paraguay,1.0,1.0,draw,1986-06-07,Group,México D.F,1986,74,85
+315,Northern Ireland (Ulster),Spain (España),1.0,2.0,Spain (España),1986-06-07,Group,Guadalajara,1986,82,110
+316,Poland (Polska),Portugal,1.0,0.0,Poland (Polska),1986-06-07,Group,Monterrey,1986,89,90
+317,Denmark (Danmark),Uruguay,6.0,1.0,Denmark (Danmark),1986-06-08,Group,Nezahualcóyotl,1986,36,124
+318,Iraq (العراق),Belgium (België),1.0,2.0,Belgium (België),1986-06-08,Group,Toluca,1986,59,17
+319,Hungary (Magyarország),France,0.0,3.0,France,1986-06-09,Group,León,1986,54,46
+320,Soviet Union (СССР),Canada,2.0,0.0,Soviet Union (СССР),1986-06-09,Group,Irapuato,1986,108,25
+321,Argentina,Bulgaria (България),2.0,0.0,Argentina,1986-06-10,Group,México D.F,1986,13,22
+322,England,Poland (Polska),3.0,0.0,England,1986-06-11,Group,Monterrey,1986,43,89
+323,Iraq (العراق),Mexico (México),0.0,1.0,Mexico (México),1986-06-11,Group,México D.F,1986,59,74
+324,Paraguay,Belgium (België),2.0,2.0,draw,1986-06-11,Group,Toluca,1986,85,17
+325,Portugal,Morocco (المغرب),1.0,3.0,Morocco (المغرب),1986-06-11,Group,Guadalajara,1986,90,76
+326,Algeria (الجزائر),Spain (España),0.0,3.0,Spain (España),1986-06-12,Group,Monterrey,1986,11,110
+327,Northern Ireland (Ulster),Brazil (Brasil),0.0,3.0,Brazil (Brasil),1986-06-12,Group,Guadalajara,1986,82,21
+328,Scotland,Uruguay,0.0,0.0,draw,1986-06-13,Group,Nezahualcóyotl,1986,97,124
+329,Mexico (México),Bulgaria (България),2.0,0.0,Mexico (México),1986-06-15,1/8_FINAL,México D.F,1986,74,22
+330,Soviet Union (СССР),Belgium (België),3.0,4.0,Belgium (België),1986-06-15,1/8_FINAL,León,1986,108,17
+331,Argentina,Uruguay,1.0,0.0,Argentina,1986-06-16,1/8_FINAL,Puebla,1986,13,124
+332,Brazil (Brasil),Poland (Polska),4.0,0.0,Brazil (Brasil),1986-06-16,1/8_FINAL,Guadalajara,1986,21,89
+333,Italy (Italia),France,0.0,2.0,France,1986-06-17,1/8_FINAL,México D.F,1986,63,46
+334,Denmark (Danmark),Spain (España),1.0,5.0,Spain (España),1986-06-18,1/8_FINAL,Querétaro,1986,36,110
+335,England,Paraguay,3.0,0.0,England,1986-06-18,1/8_FINAL,México D.F,1986,43,85
+336,Brazil (Brasil),France,1.0,1.0,draw,1986-06-21,1/4_FINAL,Guadalajara,1986,21,46
+337,Argentina,England,2.0,1.0,Argentina,1986-06-22,1/4_FINAL,México D.F,1986,13,43
+338,Spain (España),Belgium (België),1.0,1.0,draw,1986-06-22,1/4_FINAL,Puebla,1986,110,17
+339,Argentina,Belgium (België),2.0,0.0,Argentina,1986-06-25,1/2_FINAL,México D.F,1986,13,17
+340,France,Belgium (België),4.0,2.0,France,1986-06-28,PLACES_3&4,Puebla,1986,46,17
+341,FRG (BRD / Westdeutschland),Argentina,3.0,2.0,FRG (BRD / Westdeutschland),1954-01-01,_FINAL,Bern,1990,45,13
+342,FRG (BRD / Westdeutschland),Czechoslovakia (Československo),6.0,1.0,FRG (BRD / Westdeutschland),1954-01-01,1/2_FINAL,Basel,1990,45,33
+343,Ireland (Éire),Romania (România),2.0,0.0,draw,1954-01-01,1/4_FINAL,Genève,1990,60,92
+344,USA,Czechoslovakia (Československo),7.0,2.0,Czechoslovakia (Československo),1954-01-01,Group,Zürich,1990,120,33
+345,Argentina,Cameroon (Cameroun),0.0,1.0,Cameroon (Cameroun),1990-06-08,Group,Milano,1990,13,24
+346,Italy (Italia),Austria (Österreich),1.0,0.0,Italy (Italia),1990-06-09,Group,Roma,1990,63,15
+347,Soviet Union (СССР),Romania (România),0.0,2.0,Romania (România),1990-06-09,Group,Bari,1990,108,92
+348,United Arab Emirates (الإمارات العربية المتحدة),Colombia,0.0,2.0,Colombia,1990-06-09,Group,Bologna,1990,122,27
+349,Brazil (Brasil),Sweden (Sverige),2.0,1.0,Brazil (Brasil),1990-06-10,Group,Torino,1990,21,112
+350,Costa Rica,Scotland,1.0,0.0,Costa Rica,1990-06-11,Group,Genova,1990,28,97
+351,Netherlands (Nederland),Egypt (مصر),1.0,1.0,draw,1990-06-12,Group,Palermo,1990,78,41
+352,Argentina,Soviet Union (СССР),2.0,0.0,Argentina,1990-06-13,Group,Napoli,1990,13,108
+353,Uruguay,Spain (España),0.0,0.0,draw,1990-06-13,Group,Udine,1990,124,110
+354,Cameroon (Cameroun),Romania (România),2.0,1.0,Cameroon (Cameroun),1990-06-14,Group,Bari,1990,24,92
+355,Yugoslavia (Југославија),Colombia,1.0,0.0,Yugoslavia (Југославија),1990-06-14,Group,Bologna,1990,127,27
+356,Austria (Österreich),Czechoslovakia (Československo),0.0,1.0,Czechoslovakia (Československo),1990-06-15,Group,Firenze,1990,15,33
+357,Brazil (Brasil),Costa Rica,1.0,0.0,Brazil (Brasil),1990-06-16,Group,Torino,1990,21,28
+358,England,Netherlands (Nederland),0.0,0.0,draw,1990-06-16,Group,Cagliari,1990,43,78
+359,Sweden (Sverige),Scotland,1.0,2.0,Scotland,1990-06-16,Group,Genova,1990,112,97
+360,Belgium (België),Uruguay,3.0,1.0,Belgium (België),1990-06-17,Group,Verona,1990,17,124
+361,Argentina,Romania (România),1.0,1.0,draw,1990-06-18,Group,Napoli,1990,13,92
+362,Cameroon (Cameroun),Soviet Union (СССР),0.0,4.0,Soviet Union (СССР),1990-06-18,Group,Bari,1990,24,108
+363,Italy (Italia),Czechoslovakia (Československo),2.0,0.0,Italy (Italia),1990-06-19,Group,Roma,1990,63,33
+364,Yugoslavia (Југославија),United Arab Emirates (الإمارات العربية المتحدة),4.0,1.0,Yugoslavia (Југославија),1990-06-19,Group,Bologna,1990,127,122
+365,Brazil (Brasil),Scotland,1.0,0.0,Brazil (Brasil),1990-06-20,Group,Torino,1990,21,97
+366,Sweden (Sverige),Costa Rica,1.0,2.0,Costa Rica,1990-06-20,Group,Genova,1990,112,28
+367,Belgium (België),Spain (España),1.0,2.0,Spain (España),1990-06-21,Group,Verona,1990,17,110
+368,England,Egypt (مصر),1.0,0.0,England,1990-06-21,Group,Cagliari,1990,43,41
+369,Cameroon (Cameroun),Colombia,2.0,1.0,Cameroon (Cameroun),1990-06-23,1/8_FINAL,Napoli,1990,24,27
+370,Czechoslovakia (Československo),Costa Rica,4.0,1.0,Czechoslovakia (Československo),1990-06-23,1/8_FINAL,Bari,1990,33,28
+371,Brazil (Brasil),Argentina,0.0,1.0,Argentina,1990-06-24,1/8_FINAL,Torino,1990,21,13
+372,Italy (Italia),Uruguay,2.0,0.0,Italy (Italia),1990-06-25,1/8_FINAL,Roma,1990,63,124
+373,England,Belgium (België),1.0,0.0,England,1990-06-26,1/8_FINAL,Bologna,1990,43,17
+374,Spain (España),Yugoslavia (Југославија),1.0,2.0,Yugoslavia (Југославија),1990-06-26,1/8_FINAL,Verona,1990,110,127
+375,Yugoslavia (Југославија),Argentina,0.0,0.0,draw,1990-06-30,1/4_FINAL,Firenze,1990,127,13
+376,England,Cameroon (Cameroun),3.0,2.0,England,1990-07-01,1/4_FINAL,Napoli,1990,43,24
+377,Italy (Italia),Argentina,1.0,1.0,draw,1990-07-03,1/2_FINAL,Napoli,1990,63,13
+378,Italy (Italia),England,2.0,1.0,Italy (Italia),1990-07-07,PLACES_3&4,Bari,1990,63,43
+379,South Korea (한국),Bolivia,2.0,2.0,draw,1958-01-01,Group,Malmö,1994,107,18
+380,USA,Romania (România),2.0,2.0,Romania (România),1958-01-01,Group,Helsingborg,1994,120,92
+381,USA,Switzerland (Schweiz / Suisse),3.0,1.0,draw,1958-01-01,Group,Malmö,1994,120,114
+382,Germany (Deutschland),Bolivia,1.0,0.0,Germany (Deutschland),1994-06-17,Group,Chicago,1994,48,18
+383,Belgium (België),Morocco (المغرب),1.0,0.0,Belgium (België),1994-06-19,Group,Orlando,1994,17,76
+384,Colombia,Romania (România),1.0,3.0,Romania (România),1994-06-19,Group,Los Angeles,1994,27,92
+385,Norway (Norge),Mexico (México),1.0,0.0,Norway (Norge),1994-06-19,Group,Washington,1994,83,74
+386,Brazil (Brasil),Russia (Россия),2.0,0.0,Brazil (Brasil),1994-06-20,Group,San_Francisco,1994,21,94
+387,Cameroon (Cameroun),Sweden (Sverige),2.0,2.0,draw,1994-06-20,Group,Los Angeles,1994,24,112
+388,Netherlands (Nederland),Saudi Arabia (العربية السعودية),2.0,1.0,Netherlands (Nederland),1994-06-20,Group,Washington,1994,78,96
+389,Argentina,Greece (Ελλάδα),4.0,0.0,Argentina,1994-06-21,Group,Boston,1994,13,51
+390,Germany (Deutschland),Spain (España),1.0,1.0,draw,1994-06-21,Group,Chicago,1994,48,110
+391,Nigeria,Bulgaria (България),3.0,0.0,Nigeria,1994-06-22,Group,Dallas,1994,80,22
+392,Romania (România),Switzerland (Schweiz / Suisse),1.0,4.0,Switzerland (Schweiz / Suisse),1994-06-22,Group,Detroit,1994,92,114
+393,Italy (Italia),Norway (Norge),1.0,0.0,Italy (Italia),1994-06-23,Group,New_York,1994,63,83
+394,Brazil (Brasil),Cameroon (Cameroun),3.0,0.0,Brazil (Brasil),1994-06-24,Group,San_Francisco,1994,21,24
+395,Sweden (Sverige),Russia (Россия),3.0,1.0,Sweden (Sverige),1994-06-24,Group,Detroit,1994,112,94
+396,Argentina,Nigeria,2.0,1.0,Argentina,1994-06-25,Group,Boston,1994,13,80
+397,Belgium (België),Netherlands (Nederland),1.0,0.0,Belgium (België),1994-06-25,Group,Orlando,1994,17,78
+398,Saudi Arabia (العربية السعودية),Morocco (المغرب),2.0,1.0,Saudi Arabia (العربية السعودية),1994-06-25,Group,New_York,1994,96,76
+399,Bulgaria (България),Greece (Ελλάδα),4.0,0.0,Bulgaria (България),1994-06-26,Group,Chicago,1994,22,51
+400,Switzerland (Schweiz / Suisse),Colombia,0.0,2.0,Colombia,1994-06-26,Group,San_Francisco,1994,114,27
+401,Bolivia,Spain (España),1.0,3.0,Spain (España),1994-06-27,Group,Chicago,1994,18,110
+402,Brazil (Brasil),Sweden (Sverige),1.0,1.0,draw,1994-06-28,Group,Detroit,1994,21,112
+403,Italy (Italia),Mexico (México),1.0,1.0,draw,1994-06-28,Group,Washington,1994,63,74
+404,Russia (Россия),Cameroon (Cameroun),6.0,1.0,Russia (Россия),1994-06-28,Group,San_Francisco,1994,94,24
+405,Belgium (België),Saudi Arabia (العربية السعودية),0.0,1.0,Saudi Arabia (العربية السعودية),1994-06-29,Group,Washington,1994,17,96
+406,Morocco (المغرب),Netherlands (Nederland),1.0,2.0,Netherlands (Nederland),1994-06-29,Group,Orlando,1994,76,78
+407,Greece (Ελλάδα),Nigeria,0.0,2.0,Nigeria,1994-06-30,Group,Boston,1994,51,80
+408,Argentina,Bulgaria (България),0.0,2.0,Bulgaria (България),1994-07-01,Group,Dallas,1994,13,22
+409,Germany (Deutschland),Belgium (België),3.0,2.0,Germany (Deutschland),1994-07-02,1/8_FINAL,Chicago,1994,48,17
+410,Spain (España),Switzerland (Schweiz / Suisse),3.0,0.0,Spain (España),1994-07-02,1/8_FINAL,Washington,1994,110,114
+411,Romania (România),Argentina,3.0,2.0,Romania (România),1994-07-03,1/8_FINAL,Los Angeles,1994,92,13
+412,Saudi Arabia (العربية السعودية),Sweden (Sverige),1.0,3.0,Sweden (Sverige),1994-07-03,1/8_FINAL,Dallas,1994,96,112
+413,Mexico (México),Bulgaria (България),1.0,1.0,draw,1994-07-05,1/8_FINAL,New_York,1994,74,22
+414,Nigeria,Italy (Italia),1.0,2.0,Italy (Italia),1994-07-05,1/8_FINAL,Boston,1994,80,63
+415,Italy (Italia),Spain (España),2.0,1.0,Italy (Italia),1994-07-09,1/4_FINAL,Boston,1994,63,110
+416,Netherlands (Nederland),Brazil (Brasil),2.0,3.0,Brazil (Brasil),1994-07-09,1/4_FINAL,Dallas,1994,78,21
+417,Bulgaria (България),Germany (Deutschland),2.0,1.0,Bulgaria (България),1994-07-10,1/4_FINAL,New_York,1994,22,48
+418,Romania (România),Sweden (Sverige),2.0,2.0,draw,1994-07-10,1/4_FINAL,San_Francisco,1994,92,112
+419,Bulgaria (България),Italy (Italia),1.0,2.0,Italy (Italia),1994-07-13,1/2_FINAL,New_York,1994,22,63
+420,Sweden (Sverige),Brazil (Brasil),0.0,1.0,Brazil (Brasil),1994-07-13,1/2_FINAL,Los Angeles,1994,112,21
+421,Sweden (Sverige),Bulgaria (България),4.0,0.0,Sweden (Sverige),1994-07-16,PLACES_3&4,Los Angeles,1994,112,22
+422,Brazil (Brasil),Italy (Italia),0.0,0.0,draw,1994-07-17,_FINAL,Los Angeles,1994,21,63
+423,Netherlands (Nederland),South Korea (한국),3.0,3.0,Netherlands (Nederland),1958-01-01,Group,Eskilstuna,1998,78,107
+424,USA,Iran (ایران),1.0,1.0,Iran (ایران),1958-01-01,Group,Stockholm,1998,120,58
+425,Brazil (Brasil),Scotland,2.0,1.0,Brazil (Brasil),1998-06-10,Group,Paris,1998,21,97
+426,Morocco (المغرب),Norway (Norge),2.0,2.0,draw,1998-06-10,Group,Montpellier,1998,76,83
+427,Cameroon (Cameroun),Austria (Österreich),1.0,1.0,draw,1998-06-11,Group,Toulouse,1998,24,15
+428,Italy (Italia),Chile,2.0,2.0,draw,1998-06-11,Group,Bordeaux,1998,63,26
+429,France,South Africa (Suid-Afrika),3.0,0.0,France,1998-06-12,Group,Marseille,1998,46,105
+430,Paraguay,Bulgaria (България),0.0,0.0,draw,1998-06-12,Group,Montpellier,1998,85,22
+431,Saudi Arabia (العربية السعودية),Denmark (Danmark),0.0,1.0,Denmark (Danmark),1998-06-12,Group,Lens,1998,96,36
+432,Netherlands (Nederland),Belgium (België),0.0,0.0,draw,1998-06-13,Group,Paris,1998,78,17
+433,Spain (España),Nigeria,2.0,3.0,Nigeria,1998-06-13,Group,Nantes,1998,110,80
+434,Argentina,Japan (日本),1.0,0.0,Argentina,1998-06-14,Group,Toulouse,1998,13,68
+435,Jamaica,Croatia (Hrvatska),1.0,3.0,Croatia (Hrvatska),1998-06-14,Group,Lens,1998,66,30
+436,Yugoslavia (Југославија),Iran (ایران),1.0,0.0,Yugoslavia (Југославија),1998-06-14,Group,Saint-Étienne,1998,127,58
+437,England,Tunisia (تونس),2.0,0.0,England,1998-06-15,Group,Marseille,1998,43,118
+438,Romania (România),Colombia,1.0,0.0,Romania (România),1998-06-15,Group,Lyon,1998,92,27
+439,Brazil (Brasil),Morocco (المغرب),3.0,0.0,Brazil (Brasil),1998-06-16,Group,Nantes,1998,21,76
+440,Scotland,Norway (Norge),1.0,1.0,draw,1998-06-16,Group,Bordeaux,1998,97,83
+441,Chile,Austria (Österreich),1.0,1.0,draw,1998-06-17,Group,Saint-Étienne,1998,26,15
+442,Italy (Italia),Cameroon (Cameroun),3.0,0.0,Italy (Italia),1998-06-17,Group,Montpellier,1998,63,24
+443,France,Saudi Arabia (العربية السعودية),4.0,0.0,France,1998-06-18,Group,Paris,1998,46,96
+444,South Africa (Suid-Afrika),Denmark (Danmark),1.0,1.0,draw,1998-06-18,Group,Toulouse,1998,105,36
+445,Nigeria,Bulgaria (България),1.0,0.0,Nigeria,1998-06-19,Group,Paris,1998,80,22
+446,Spain (España),Paraguay,0.0,0.0,draw,1998-06-19,Group,Saint-Étienne,1998,110,85
+447,Belgium (België),Mexico (México),2.0,2.0,draw,1998-06-20,Group,Bordeaux,1998,17,74
+448,Japan (日本),Croatia (Hrvatska),0.0,1.0,Croatia (Hrvatska),1998-06-20,Group,Nantes,1998,68,30
+449,Argentina,Jamaica,5.0,0.0,Argentina,1998-06-21,Group,Paris,1998,13,66
+450,Germany (Deutschland),Yugoslavia (Југославија),2.0,2.0,draw,1998-06-21,Group,Lens,1998,48,127
+451,Colombia,Tunisia (تونس),1.0,0.0,Colombia,1998-06-22,Group,Montpellier,1998,27,118
+452,Romania (România),England,2.0,1.0,Romania (România),1998-06-22,Group,Toulouse,1998,92,43
+453,Brazil (Brasil),Norway (Norge),1.0,2.0,Norway (Norge),1998-06-23,Group,Marseille,1998,21,83
+454,Chile,Cameroon (Cameroun),1.0,1.0,draw,1998-06-23,Group,Nantes,1998,26,24
+455,Italy (Italia),Austria (Österreich),2.0,1.0,Italy (Italia),1998-06-23,Group,Paris,1998,63,15
+456,Scotland,Morocco (المغرب),0.0,3.0,Morocco (المغرب),1998-06-23,Group,Saint-Étienne,1998,97,76
+457,France,Denmark (Danmark),2.0,1.0,France,1998-06-24,Group,Lyon,1998,46,36
+458,Nigeria,Paraguay,1.0,3.0,Paraguay,1998-06-24,Group,Toulouse,1998,80,85
+459,South Africa (Suid-Afrika),Saudi Arabia (العربية السعودية),2.0,2.0,draw,1998-06-24,Group,Bordeaux,1998,105,96
+460,Spain (España),Bulgaria (България),6.0,1.0,Spain (España),1998-06-24,Group,Lens,1998,110,22
+461,Germany (Deutschland),Iran (ایران),2.0,0.0,Germany (Deutschland),1998-06-25,Group,Montpellier,1998,48,58
+462,Netherlands (Nederland),Mexico (México),2.0,2.0,draw,1998-06-25,Group,Saint-Étienne,1998,78,74
+463,Argentina,Croatia (Hrvatska),1.0,0.0,Argentina,1998-06-26,Group,Bordeaux,1998,13,30
+464,Colombia,England,0.0,2.0,England,1998-06-26,Group,Lens,1998,27,43
+465,Japan (日本),Jamaica,1.0,2.0,Jamaica,1998-06-26,Group,Lyon,1998,68,66
+466,Romania (România),Tunisia (تونس),1.0,1.0,draw,1998-06-26,Group,Paris,1998,92,118
+467,Brazil (Brasil),Chile,4.0,1.0,Brazil (Brasil),1998-06-27,1/8_FINAL,Paris,1998,21,26
+468,Italy (Italia),Norway (Norge),1.0,0.0,Italy (Italia),1998-06-27,1/8_FINAL,Marseille,1998,63,83
+469,France,Paraguay,1.0,0.0,France,1998-06-28,1/8_FINAL,Lens,1998,46,85
+470,Nigeria,Denmark (Danmark),1.0,4.0,Denmark (Danmark),1998-06-28,1/8_FINAL,Paris,1998,80,36
+471,Germany (Deutschland),Mexico (México),2.0,1.0,Germany (Deutschland),1998-06-29,1/8_FINAL,Montpellier,1998,48,74
+472,Netherlands (Nederland),Yugoslavia (Југославија),2.0,1.0,Netherlands (Nederland),1998-06-29,1/8_FINAL,Toulouse,1998,78,127
+473,Argentina,England,2.0,2.0,draw,1998-06-30,1/8_FINAL,Saint-Étienne,1998,13,43
+474,Romania (România),Croatia (Hrvatska),0.0,1.0,Croatia (Hrvatska),1998-06-30,1/8_FINAL,Bordeaux,1998,92,30
+475,Brazil (Brasil),Denmark (Danmark),3.0,2.0,Brazil (Brasil),1998-07-03,1/4_FINAL,Nantes,1998,21,36
+476,Italy (Italia),France,0.0,0.0,draw,1998-07-03,1/4_FINAL,Paris,1998,63,46
+477,Germany (Deutschland),Croatia (Hrvatska),0.0,3.0,Croatia (Hrvatska),1998-07-04,1/4_FINAL,Lyon,1998,48,30
+478,Netherlands (Nederland),Argentina,2.0,1.0,Netherlands (Nederland),1998-07-04,1/4_FINAL,Marseille,1998,78,13
+479,Brazil (Brasil),Netherlands (Nederland),1.0,1.0,draw,1998-07-07,1/2_FINAL,Marseille,1998,21,78
+480,France,Croatia (Hrvatska),2.0,1.0,France,1998-07-08,1/2_FINAL,Paris,1998,46,30
+481,Mexico (México),USA,6.0,3.0,USA,1958-01-01,PLACES_3&4,Göteborg,2002,74,120
+482,Portugal,South Korea (한국),1.0,0.0,South Korea (한국),1958-01-01,1/4_FINAL,Malmö,2002,90,107
+483,Saudi Arabia (العربية السعودية),Ireland (Éire),3.0,1.0,Ireland (Éire),1958-01-01,1/2_FINAL,Göteborg,2002,96,60
+484,South Africa (Suid-Afrika),Slovakia (Slovensko),2.0,2.0,South Africa (Suid-Afrika),1958-01-01,Group,Göteborg,2002,105,103
+485,France,Senegal (Sénégal),0.0,1.0,Senegal (Sénégal),2002-05-31,Group,Seoul,2002,46,99
+486,Germany (Deutschland),Saudi Arabia (العربية السعودية),8.0,0.0,Germany (Deutschland),2002-06-01,Group,Sapporo,2002,48,96
+487,Uruguay,Denmark (Danmark),1.0,2.0,Denmark (Danmark),2002-06-01,Group,Ulsan,2002,124,36
+488,Argentina,Nigeria,1.0,0.0,Argentina,2002-06-02,Group,Ibaraki,2002,13,80
+489,England,Sweden (Sverige),1.0,1.0,draw,2002-06-02,Group,Saitama,2002,43,112
+490,Paraguay,South Africa (Suid-Afrika),2.0,2.0,draw,2002-06-02,Group,Busan,2002,85,105
+491,Brazil (Brasil),Turkey (Türkiye),2.0,1.0,Brazil (Brasil),2002-06-03,Group,Ulsan,2002,21,119
+492,Croatia (Hrvatska),Mexico (México),0.0,1.0,Mexico (México),2002-06-03,Group,Niigata,2002,30,74
+493,Italy (Italia),Ecuador,2.0,0.0,Italy (Italia),2002-06-03,Group,Sapporo,2002,63,39
+494,Japan (日本),Belgium (België),2.0,2.0,draw,2002-06-04,Group,Saitama,2002,68,17
+495,Russia (Россия),Tunisia (تونس),2.0,0.0,Russia (Россия),2002-06-05,Group,Kobe,2002,94,118
+496,Cameroon (Cameroun),Saudi Arabia (العربية السعودية),1.0,0.0,Cameroon (Cameroun),2002-06-06,Group,Saitama,2002,24,96
+497,Denmark (Danmark),Senegal (Sénégal),1.0,1.0,draw,2002-06-06,Group,Daegu,2002,36,99
+498,France,Uruguay,0.0,0.0,draw,2002-06-06,Group,Busan,2002,46,124
+499,Argentina,England,0.0,1.0,England,2002-06-07,Group,Sapporo,2002,13,43
+500,Spain (España),Paraguay,3.0,1.0,Spain (España),2002-06-07,Group,Jeonju,2002,110,85
+501,Sweden (Sverige),Nigeria,2.0,1.0,Sweden (Sverige),2002-06-07,Group,Kobe,2002,112,80
+502,Italy (Italia),Croatia (Hrvatska),1.0,2.0,Croatia (Hrvatska),2002-06-08,Group,Ibaraki,2002,63,30
+503,Costa Rica,Turkey (Türkiye),1.0,1.0,draw,2002-06-09,Group,Incheon,2002,28,119
+504,Japan (日本),Russia (Россия),1.0,0.0,Japan (日本),2002-06-09,Group,Yokohama,2002,68,94
+505,Mexico (México),Ecuador,2.0,1.0,Mexico (México),2002-06-09,Group,Miyagi,2002,74,39
+506,Portugal,Poland (Polska),4.0,0.0,Portugal,2002-06-10,Group,Jeonju,2002,90,89
+507,Tunisia (تونس),Belgium (België),1.0,1.0,draw,2002-06-10,Group,Oita,2002,118,17
+508,Cameroon (Cameroun),Germany (Deutschland),0.0,2.0,Germany (Deutschland),2002-06-11,Group,Shizuoka,2002,24,48
+509,Denmark (Danmark),France,2.0,0.0,Denmark (Danmark),2002-06-11,Group,Incheon,2002,36,46
+510,Senegal (Sénégal),Uruguay,3.0,3.0,draw,2002-06-11,Group,Suwon,2002,99,124
+511,Nigeria,England,0.0,0.0,draw,2002-06-12,Group,Osaka,2002,80,43
+512,Slovenia (Slovenija),Paraguay,1.0,3.0,Paraguay,2002-06-12,Group,Seogwipo,2002,104,85
+513,South Africa (Suid-Afrika),Spain (España),2.0,3.0,Spain (España),2002-06-12,Group,Daejeon,2002,105,110
+514,Sweden (Sverige),Argentina,1.0,1.0,draw,2002-06-12,Group,Miyagi,2002,112,13
+515,Costa Rica,Brazil (Brasil),2.0,5.0,Brazil (Brasil),2002-06-13,Group,Suwon,2002,28,21
+516,Ecuador,Croatia (Hrvatska),1.0,0.0,Ecuador,2002-06-13,Group,Yokohama,2002,39,30
+517,Mexico (México),Italy (Italia),1.0,1.0,draw,2002-06-13,Group,Oita,2002,74,63
+518,Belgium (België),Russia (Россия),3.0,2.0,Belgium (België),2002-06-14,Group,Shizuoka,2002,17,94
+519,Tunisia (تونس),Japan (日本),0.0,2.0,Japan (日本),2002-06-14,Group,Osaka,2002,118,68
+520,Denmark (Danmark),England,0.0,3.0,England,2002-06-15,1/8_FINAL,Niigata,2002,36,43
+521,Germany (Deutschland),Paraguay,1.0,0.0,Germany (Deutschland),2002-06-15,1/8_FINAL,Seogwipo,2002,48,85
+522,Sweden (Sverige),Senegal (Sénégal),1.0,2.0,Senegal (Sénégal),2002-06-16,1/8_FINAL,Oita,2002,112,99
+523,Brazil (Brasil),Belgium (België),2.0,0.0,Brazil (Brasil),2002-06-17,1/8_FINAL,Kobe,2002,21,17
+524,Japan (日本),Turkey (Türkiye),0.0,1.0,Turkey (Türkiye),2002-06-18,1/8_FINAL,Miyagi,2002,68,119
+525,England,Brazil (Brasil),1.0,2.0,Brazil (Brasil),2002-06-21,1/4_FINAL,Shizuoka,2002,43,21
+526,Senegal (Sénégal),Turkey (Türkiye),0.0,1.0,Turkey (Türkiye),2002-06-22,1/4_FINAL,Osaka,2002,99,119
+527,Brazil (Brasil),Turkey (Türkiye),1.0,0.0,Brazil (Brasil),2002-06-26,1/2_FINAL,Saitama,2002,21,119
+528,Argentina,Serbia-Montenegro (Србија и Црна Гора),0.0,0.0,Argentina,1962-01-01,Group,Santiago,2006,13,102
+529,Ivory Coast (Côte d'Ivoire),Serbia-Montenegro (Србија и Црна Гора),2.0,1.0,Ivory Coast (Côte d'Ivoire),1962-01-01,Group,Santiago,2006,64,102
+530,USA,Czech Republic (Česká Republika),2.0,0.0,Czech Republic (Česká Republika),1962-01-01,Group,Santiago,2006,120,32
+531,Germany (Deutschland),Costa Rica,4.0,2.0,Germany (Deutschland),2006-06-09,Group,München,2006,48,28
+532,Poland (Polska),Ecuador,0.0,2.0,Ecuador,2006-06-09,Group,Gelsenkirchen,2006,89,39
+533,England,Paraguay,1.0,0.0,England,2006-06-10,Group,Frankfurt am Main,2006,43,85
+534,Trinidad and Tobago,Sweden (Sverige),0.0,0.0,draw,2006-06-10,Group,Dortmund,2006,116,112
+535,Angola,Portugal,0.0,1.0,Portugal,2006-06-11,Group,Köln,2006,12,90
+536,Mexico (México),Iran (ایران),3.0,1.0,Mexico (México),2006-06-11,Group,Nürnberg,2006,74,58
+537,Australia,Japan (日本),3.0,1.0,Australia,2006-06-12,Group,Kaiserslautern,2006,14,68
+538,Italy (Italia),Ghana,2.0,0.0,Italy (Italia),2006-06-12,Group,Hannover,2006,63,49
+539,Brazil (Brasil),Croatia (Hrvatska),1.0,0.0,Brazil (Brasil),2006-06-13,Group,Berlin,2006,21,30
+540,France,Switzerland (Schweiz / Suisse),0.0,0.0,draw,2006-06-13,Group,Stuttgart,2006,46,114
+541,Germany (Deutschland),Poland (Polska),1.0,0.0,Germany (Deutschland),2006-06-14,Group,Dortmund,2006,48,89
+542,Spain (España),Ukraine (Україна),4.0,0.0,Spain (España),2006-06-14,Group,Leipzig,2006,110,121
+543,Tunisia (تونس),Saudi Arabia (العربية السعودية),2.0,2.0,draw,2006-06-14,Group,München,2006,118,96
+544,Ecuador,Costa Rica,3.0,0.0,Ecuador,2006-06-15,Group,Hamburg,2006,39,28
+545,England,Trinidad and Tobago,2.0,0.0,England,2006-06-15,Group,Nürnberg,2006,43,116
+546,Sweden (Sverige),Paraguay,1.0,0.0,Sweden (Sverige),2006-06-15,Group,Berlin,2006,112,85
+547,Mexico (México),Angola,0.0,0.0,draw,2006-06-16,Group,Hannover,2006,74,12
+548,Czech Republic (Česká Republika),Ghana,0.0,2.0,Ghana,2006-06-17,Group,Köln,2006,32,49
+549,Portugal,Iran (ایران),2.0,0.0,Portugal,2006-06-17,Group,Frankfurt am Main,2006,90,58
+550,Brazil (Brasil),Australia,2.0,0.0,Brazil (Brasil),2006-06-18,Group,München,2006,21,14
+551,Japan (日本),Croatia (Hrvatska),0.0,0.0,draw,2006-06-18,Group,Nürnberg,2006,68,30
+552,Saudi Arabia (العربية السعودية),Ukraine (Україна),0.0,4.0,Ukraine (Україна),2006-06-19,Group,Hamburg,2006,96,121
+553,Spain (España),Tunisia (تونس),3.0,1.0,Spain (España),2006-06-19,Group,Stuttgart,2006,110,118
+554,Togo,Switzerland (Schweiz / Suisse),0.0,2.0,Switzerland (Schweiz / Suisse),2006-06-19,Group,Dortmund,2006,115,114
+555,Costa Rica,Poland (Polska),1.0,2.0,Poland (Polska),2006-06-20,Group,Hannover,2006,28,89
+556,Ecuador,Germany (Deutschland),0.0,3.0,Germany (Deutschland),2006-06-20,Group,Berlin,2006,39,48
+557,Paraguay,Trinidad and Tobago,2.0,0.0,Paraguay,2006-06-20,Group,Kaiserslautern,2006,85,116
+558,Sweden (Sverige),England,2.0,2.0,draw,2006-06-20,Group,Köln,2006,112,43
+559,Iran (ایران),Angola,1.0,1.0,draw,2006-06-21,Group,Leipzig,2006,58,12
+560,Netherlands (Nederland),Argentina,0.0,0.0,draw,2006-06-21,Group,Frankfurt am Main,2006,78,13
+561,Portugal,Mexico (México),2.0,1.0,Portugal,2006-06-21,Group,Gelsenkirchen,2006,90,74
+562,Croatia (Hrvatska),Australia,2.0,2.0,draw,2006-06-22,Group,Stuttgart,2006,30,14
+563,Czech Republic (Česká Republika),Italy (Italia),0.0,2.0,Italy (Italia),2006-06-22,Group,Hamburg,2006,32,63
+564,Japan (日本),Brazil (Brasil),1.0,4.0,Brazil (Brasil),2006-06-22,Group,Dortmund,2006,68,21
+565,Saudi Arabia (العربية السعودية),Spain (España),0.0,1.0,Spain (España),2006-06-23,Group,Kaiserslautern,2006,96,110
+566,Togo,France,0.0,2.0,France,2006-06-23,Group,Köln,2006,115,46
+567,Ukraine (Україна),Tunisia (تونس),1.0,0.0,Ukraine (Україна),2006-06-23,Group,Berlin,2006,121,118
+568,Argentina,Mexico (México),2.0,1.0,Argentina,2006-06-24,1/8_FINAL,Leipzig,2006,13,74
+569,Germany (Deutschland),Sweden (Sverige),2.0,0.0,Germany (Deutschland),2006-06-24,1/8_FINAL,München,2006,48,112
+570,England,Ecuador,1.0,0.0,England,2006-06-25,1/8_FINAL,Stuttgart,2006,43,39
+571,Portugal,Netherlands (Nederland),1.0,0.0,Portugal,2006-06-25,1/8_FINAL,Nürnberg,2006,90,78
+572,Italy (Italia),Australia,1.0,0.0,Italy (Italia),2006-06-26,1/8_FINAL,Kaiserslautern,2006,63,14
+573,Switzerland (Schweiz / Suisse),Ukraine (Україна),0.0,0.0,draw,2006-06-26,1/8_FINAL,Köln,2006,114,121
+574,Brazil (Brasil),Ghana,3.0,0.0,Brazil (Brasil),2006-06-27,1/8_FINAL,Dortmund,2006,21,49
+575,Spain (España),France,1.0,3.0,France,2006-06-27,1/8_FINAL,Hannover,2006,110,46
+576,Germany (Deutschland),Argentina,1.0,1.0,draw,2006-06-30,1/4_FINAL,Berlin,2006,48,13
+577,Italy (Italia),Ukraine (Україна),3.0,0.0,Italy (Italia),2006-06-30,1/4_FINAL,Hamburg,2006,63,121
+578,Brazil (Brasil),France,0.0,1.0,France,2006-07-01,1/4_FINAL,Frankfurt am Main,2006,21,46
+579,England,Portugal,0.0,0.0,draw,2006-07-01,1/4_FINAL,Gelsenkirchen,2006,43,90
+580,Germany (Deutschland),Italy (Italia),0.0,2.0,Italy (Italia),2006-07-04,1/2_FINAL,Dortmund,2006,48,63
+581,Portugal,France,0.0,1.0,France,2006-07-05,1/2_FINAL,München,2006,90,46
+582,Germany (Deutschland),Portugal,3.0,1.0,Germany (Deutschland),2006-07-08,PLACES_3&4,Stuttgart,2006,48,90
+583,Italy (Italia),France,1.0,1.0,draw,2006-07-09,_FINAL,Berlin,2006,63,46
+584,Portugal,North Korea (조선),1.0,0.0,Portugal,1962-01-01,1/4_FINAL,Santiago,2010,90,81
+585,South Africa (Suid-Afrika),Mexico (México),1.0,1.0,draw,2010-06-11,Group,Johannesburg,2010,105,74
+586,Uruguay,France,0.0,0.0,draw,2010-06-11,Group,Cape Town,2010,124,46
+587,Argentina,Nigeria,1.0,0.0,Argentina,2010-06-12,Group,Johannesburg,2010,13,80
+588,Algeria (الجزائر),Slovenia (Slovenija),0.0,1.0,Slovenia (Slovenija),2010-06-13,Group,Polokwane,2010,11,104
+589,Germany (Deutschland),Australia,4.0,0.0,Germany (Deutschland),2010-06-13,Group,Durban,2010,48,14
+590,Serbia (Србија),Ghana,0.0,1.0,Ghana,2010-06-13,Group,Pretoria,2010,101,49
+591,Italy (Italia),Paraguay,1.0,1.0,draw,2010-06-14,Group,Cape Town,2010,63,85
+592,Japan (日本),Cameroon (Cameroun),1.0,0.0,Japan (日本),2010-06-14,Group,Bloemfontein,2010,68,24
+593,Netherlands (Nederland),Denmark (Danmark),2.0,0.0,Netherlands (Nederland),2010-06-14,Group,Johannesburg,2010,78,36
+594,New Zealand (Aotearoa),Slovakia (Slovensko),1.0,1.0,draw,2010-06-15,Group,Rustenburg,2010,79,103
+595,Honduras,Chile,0.0,1.0,Chile,2010-06-16,Group,Nelspruit,2010,53,26
+596,South Africa (Suid-Afrika),Uruguay,0.0,3.0,Uruguay,2010-06-16,Group,Pretoria,2010,105,124
+597,Spain (España),Switzerland (Schweiz / Suisse),0.0,1.0,Switzerland (Schweiz / Suisse),2010-06-16,Group,Durban,2010,110,114
+598,France,Mexico (México),0.0,2.0,Mexico (México),2010-06-17,Group,Polokwane,2010,46,74
+599,Greece (Ελλάδα),Nigeria,2.0,1.0,Greece (Ελλάδα),2010-06-17,Group,Bloemfontein,2010,51,80
+600,England,Algeria (الجزائر),0.0,0.0,draw,2010-06-18,Group,Cape Town,2010,43,11
+601,Germany (Deutschland),Serbia (Србија),0.0,1.0,Serbia (Србија),2010-06-18,Group,Port_Elizabeth,2010,48,101
+602,Cameroon (Cameroun),Denmark (Danmark),1.0,2.0,Denmark (Danmark),2010-06-19,Group,Pretoria,2010,24,36
+603,Ghana,Australia,1.0,1.0,draw,2010-06-19,Group,Rustenburg,2010,49,14
+604,Netherlands (Nederland),Japan (日本),1.0,0.0,Netherlands (Nederland),2010-06-19,Group,Durban,2010,78,68
+605,Italy (Italia),New Zealand (Aotearoa),1.0,1.0,draw,2010-06-20,Group,Nelspruit,2010,63,79
+606,Slovakia (Slovensko),Paraguay,0.0,2.0,Paraguay,2010-06-20,Group,Bloemfontein,2010,103,85
+607,Chile,Switzerland (Schweiz / Suisse),1.0,0.0,Chile,2010-06-21,Group,Port_Elizabeth,2010,26,114
+608,Spain (España),Honduras,2.0,0.0,Spain (España),2010-06-21,Group,Johannesburg,2010,110,53
+609,France,South Africa (Suid-Afrika),1.0,2.0,South Africa (Suid-Afrika),2010-06-22,Group,Bloemfontein,2010,46,105
+610,Greece (Ελλάδα),Argentina,0.0,2.0,Argentina,2010-06-22,Group,Polokwane,2010,51,13
+611,Mexico (México),Uruguay,0.0,1.0,Uruguay,2010-06-22,Group,Rustenburg,2010,74,124
+612,Australia,Serbia (Србија),2.0,1.0,Australia,2010-06-23,Group,Nelspruit,2010,14,101
+613,Ghana,Germany (Deutschland),0.0,1.0,Germany (Deutschland),2010-06-23,Group,Johannesburg,2010,49,48
+614,Slovenia (Slovenija),England,0.0,1.0,England,2010-06-23,Group,Port_Elizabeth,2010,104,43
+615,Cameroon (Cameroun),Netherlands (Nederland),1.0,2.0,Netherlands (Nederland),2010-06-24,Group,Cape Town,2010,24,78
+616,Denmark (Danmark),Japan (日本),1.0,3.0,Japan (日本),2010-06-24,Group,Rustenburg,2010,36,68
+617,Paraguay,New Zealand (Aotearoa),0.0,0.0,draw,2010-06-24,Group,Polokwane,2010,85,79
+618,Slovakia (Slovensko),Italy (Italia),3.0,2.0,Slovakia (Slovensko),2010-06-24,Group,Johannesburg,2010,103,63
+619,Chile,Spain (España),1.0,2.0,Spain (España),2010-06-25,Group,Pretoria,2010,26,110
+620,Portugal,Brazil (Brasil),0.0,0.0,draw,2010-06-25,Group,Durban,2010,90,21
+621,Switzerland (Schweiz / Suisse),Honduras,0.0,0.0,draw,2010-06-25,Group,Bloemfontein,2010,114,53
+622,Argentina,Mexico (México),3.0,1.0,Argentina,2010-06-27,1/8_FINAL,Johannesburg,2010,13,74
+623,Germany (Deutschland),England,4.0,1.0,Germany (Deutschland),2010-06-27,1/8_FINAL,Bloemfontein,2010,48,43
+624,Brazil (Brasil),Chile,3.0,0.0,Brazil (Brasil),2010-06-28,1/8_FINAL,Johannesburg,2010,21,26
+625,Netherlands (Nederland),Slovakia (Slovensko),2.0,1.0,Netherlands (Nederland),2010-06-28,1/8_FINAL,Durban,2010,78,103
+626,Paraguay,Japan (日本),0.0,0.0,draw,2010-06-29,1/8_FINAL,Pretoria,2010,85,68
+627,Spain (España),Portugal,1.0,0.0,Spain (España),2010-06-29,1/8_FINAL,Cape Town,2010,110,90
+628,Netherlands (Nederland),Brazil (Brasil),2.0,1.0,Netherlands (Nederland),2010-07-02,1/4_FINAL,Port_Elizabeth,2010,78,21
+629,Uruguay,Ghana,1.0,1.0,draw,2010-07-02,1/4_FINAL,Johannesburg,2010,124,49
+630,Argentina,Germany (Deutschland),0.0,4.0,Germany (Deutschland),2010-07-03,1/4_FINAL,Cape Town,2010,13,48
+631,Paraguay,Spain (España),0.0,1.0,Spain (España),2010-07-03,1/4_FINAL,Johannesburg,2010,85,110
+632,Uruguay,Netherlands (Nederland),2.0,3.0,Netherlands (Nederland),2010-07-06,1/2_FINAL,Cape Town,2010,124,78
+633,Germany (Deutschland),Spain (España),0.0,1.0,Spain (España),2010-07-07,1/2_FINAL,Durban,2010,48,110
+634,Uruguay,Germany (Deutschland),2.0,3.0,Germany (Deutschland),2010-07-10,PLACES_3&4,Port_Elizabeth,2010,124,48
+635,Netherlands (Nederland),Spain (España),0.0,1.0,Spain (España),2010-07-11,_FINAL,Johannesburg,2010,78,110
+636,Belgium (België),Algeria (الجزائر),2.0,1.0,draw,1966-01-01,Group,Birmingham,2014,17,11
+637,Cameroon (Cameroun),Brazil (Brasil),4.0,2.0,draw,1966-01-01,_FINAL,London,2014,24,21
+638,France,Honduras,5.0,0.0,draw,1966-01-01,Group,Sheffield,2014,46,53
+639,Germany (Deutschland),Ghana,4.0,0.0,draw,1966-01-01,1/4_FINAL,Sheffield,2014,48,49
+640,Honduras,Ecuador,1.0,0.0,draw,1966-01-01,Group,Middlesbrough,2014,53,39
+641,Iran (ایران),Nigeria,0.0,0.0,draw,1966-01-01,Group,Birmingham,2014,58,80
+642,Italy (Italia),Costa Rica,1.0,1.0,draw,1966-01-01,Group,Middlesbrough,2014,63,28
+643,Ivory Coast (Côte d’Ivoire),Japan (日本),0.0,0.0,draw,1966-01-01,Group,London,2014,65,68
+644,Nigeria,Bosnia-Herzegovina (Bosna i Hercegovina),5.0,3.0,draw,1966-01-01,1/4_FINAL,Liverpool,2014,80,19
+645,USA,Portugal,2.0,1.0,draw,1966-01-01,1/2_FINAL,Liverpool,2014,120,90
+646,Uruguay,England,3.0,0.0,draw,1966-01-01,Group,Middlesbrough,2014,124,43
+647,1,2,3.0,1.0,draw,1970-01-01,Group,León,2014,6,7
+648,5,6,5.0,2.0,draw,1970-01-01,Group,León,2014,8,9
+649,Argentina,"rn"">Bosnia and Herzegovina",1.0,0.0,Argentina,1970-01-01,PLACES_3&4,México D.F,2014,13,129
+650,Croatia (Hrvatska),Mexico (México),0.0,0.0,draw,1970-01-01,Group,México D.F,2014,30,74
+651,C�te d'Ivoire,Japan,4.0,3.0,C�te d'Ivoire,1970-01-01,1/2_FINAL,México D.F,2014,34,67
+652,Ecuador,France,0.0,0.0,draw,1970-01-01,Group,Puebla,2014,39,46
+653,F1,E2,2.0,1.0,draw,1970-01-01,Group,León,2014,44,38
+654,LOSER X,LOSER Y,3.0,2.0,draw,1970-01-01,1/4_FINAL,León,2014,71,72
+655,Argentina,IR Iran,0.0,3.0,Argentina,1974-01-01,Group,Hamburg,2014,13,55
+656,Colombia,C�te d'Ivoire,2.0,0.0,Colombia,1974-01-01,Group,Hamburg,2014,27,34
+657,Greece,C�te d'Ivoire,1.0,0.0,Greece,1974-01-01,Group,Hamburg,2014,50,34
+658,IR Iran,Nigeria,1.0,0.0,draw,1974-01-01,Group,West-Berlin,2014,55,80
+659,Nigeria,"rn"">Bosnia and Herzegovina",1.0,1.0,Nigeria,1974-01-01,Group,West-Berlin,2014,80,129
+660,Brazil,Croatia,3.0,1.0,Brazil,2014-06-12,Group A,Sao Paulo,2014,20,29
+661,Chile,Australia,3.0,1.0,Chile,2014-06-13,Group B,Cuiaba,2014,26,14
+662,Mexico,Cameroon,1.0,0.0,Mexico,2014-06-13,Group A,Natal,2014,73,23
+663,Spain,Netherlands,1.0,5.0,Netherlands,2014-06-13,Group B,Salvador,2014,109,77
+664,Colombia,Greece,3.0,0.0,Colombia,2014-06-14,Group C,Belo Horizonte,2014,27,50
+665,England,Italy,1.0,2.0,Italy,2014-06-14,Group D,Manaus,2014,43,62
+666,Uruguay,Costa Rica,1.0,3.0,Costa Rica,2014-06-14,Group D,Fortaleza,2014,124,28
+667,France,Honduras,3.0,0.0,France,2014-06-15,Group E,Porto Alegre,2014,46,53
+668,Switzerland,Ecuador,2.0,1.0,Switzerland,2014-06-15,Group E,Brasilia,2014,113,39
+669,Germany,Portugal,4.0,0.0,Germany,2014-06-16,Group G,Salvador,2014,47,90
+670,Belgium,Algeria,2.0,1.0,Belgium,2014-06-17,Group H,Belo Horizonte,2014,16,10
+671,Brazil,Mexico,0.0,0.0,draw,2014-06-17,Group A,Fortaleza,2014,20,73
+672,Russia,Korea Republic,1.0,1.0,draw,2014-06-17,Group H,Cuiaba,2014,93,69
+673,Australia,Netherlands,2.0,3.0,Netherlands,2014-06-18,Group B,Porto Alegre,2014,14,77
+674,Cameroon,Croatia,0.0,4.0,Croatia,2014-06-18,Group A,Manaus,2014,23,29
+675,Spain,Chile,0.0,2.0,Chile,2014-06-18,Group B,Rio De Janeiro,2014,109,26
+676,Japan,Greece,0.0,0.0,draw,2014-06-19,Group C,Natal,2014,67,50
+677,Uruguay,England,2.0,1.0,Uruguay,2014-06-19,Group D,Sao Paulo,2014,124,43
+678,Honduras,Ecuador,1.0,2.0,Ecuador,2014-06-20,Group E,Curitiba,2014,53,39
+679,Italy,Costa Rica,0.0,1.0,Costa Rica,2014-06-20,Group D,Recife,2014,62,28
+680,Switzerland,France,2.0,5.0,France,2014-06-20,Group E,Salvador,2014,113,46
+681,Germany,Ghana,2.0,2.0,draw,2014-06-21,Group G,Fortaleza,2014,47,49
+682,Belgium,Russia,1.0,0.0,Belgium,2014-06-22,Group H,Rio De Janeiro,2014,16,93
+683,Korea Republic,Algeria,2.0,4.0,Algeria,2014-06-22,Group H,Porto Alegre,2014,69,10
+684,Australia,Spain,0.0,3.0,Spain,2014-06-23,Group B,Curitiba,2014,14,109
+685,Cameroon,Brazil,1.0,4.0,Brazil,2014-06-23,Group A,Brasilia,2014,23,20
+686,Croatia,Mexico,1.0,3.0,Mexico,2014-06-23,Group A,Recife,2014,29,73
+687,Netherlands,Chile,2.0,0.0,Netherlands,2014-06-23,Group B,Sao Paulo,2014,77,26
+688,Costa Rica,England,0.0,0.0,draw,2014-06-24,Group D,Belo Horizonte,2014,28,43
+689,Italy,Uruguay,0.0,1.0,Uruguay,2014-06-24,Group D,Natal,2014,62,124
+690,Japan,Colombia,1.0,4.0,Colombia,2014-06-24,Group C,Cuiaba,2014,67,27
+691,Ecuador,France,0.0,0.0,draw,2014-06-25,Group E,Rio De Janeiro,2014,39,46
+692,Honduras,Switzerland,0.0,3.0,Switzerland,2014-06-25,Group E,Manaus,2014,53,113
+693,Nigeria,Argentina,2.0,3.0,Argentina,2014-06-25,Group F,Porto Alegre,2014,80,13
+694,Algeria,Russia,1.0,1.0,draw,2014-06-26,Group H,Curitiba,2014,10,93
+695,Korea Republic,Belgium,0.0,1.0,Belgium,2014-06-26,Group H,Sao Paulo,2014,69,16
+696,Portugal,Ghana,2.0,1.0,Portugal,2014-06-26,Group G,Brasilia,2014,90,49
+697,Brazil,Chile,1.0,1.0,draw,2014-06-28,Round of 16,Belo Horizonte,2014,20,26
+698,Colombia,Uruguay,2.0,0.0,Colombia,2014-06-28,Round of 16,Rio De Janeiro,2014,27,124
+699,Costa Rica,Greece,1.0,1.0,draw,2014-06-29,Round of 16,Recife,2014,28,50
+700,Netherlands,Mexico,2.0,1.0,Netherlands,2014-06-29,Round of 16,Fortaleza,2014,77,73
+701,France,Nigeria,2.0,0.0,France,2014-06-30,Round of 16,Brasilia,2014,46,80
+702,Germany,Algeria,2.0,1.0,Germany,2014-06-30,Round of 16,Porto Alegre,2014,47,10
+703,Argentina,Switzerland,1.0,0.0,Argentina,2014-07-01,Round of 16,Sao Paulo,2014,13,113
+704,Brazil,Colombia,2.0,1.0,Brazil,2014-07-04,Quarter-finals,Fortaleza,2014,20,27
+705,France,Germany,0.0,1.0,Germany,2014-07-04,Quarter-finals,Rio De Janeiro,2014,46,47
+706,Argentina,Belgium,1.0,0.0,Argentina,2014-07-05,Quarter-finals,Brasilia,2014,13,16
+707,Netherlands,Costa Rica,0.0,0.0,draw,2014-07-05,Quarter-finals,Salvador,2014,77,28
+708,Brazil,Germany,1.0,7.0,Germany,2014-07-08,Semi-finals,Belo Horizonte,2014,20,47
+709,Netherlands,Argentina,0.0,0.0,draw,2014-07-09,Semi-finals,Sao Paulo,2014,77,13
+710,Brazil,Netherlands,0.0,3.0,Netherlands,2014-07-12,Play-off for third place,Brasilia,2014,20,77
+711,Germany,Argentina,1.0,0.0,Germany,2014-07-13,Final,Rio De Janeiro,2014,47,13
+712,Russia,Saudi Arabia,5.0,0.0,Russia,2018-06-14,Group,Moscow,2018,93,95
+713,Egypt,Uruguay,0.0,1.0,Uruguay,2018-06-15,Group,Yekaterinburg,2018,40,124
+714,Morocco,Iran,0.0,1.0,Iran,2018-06-15,Group,Saint Petersburg,2018,75,57
+715,Portugal,Spain,3.0,3.0,draw,2018-06-15,Group,Sochi,2018,90,109
+716,Argentina,Iceland,1.0,1.0,draw,2018-06-16,Group,Moscow,2018,13,56
+717,Croatia,Nigeria,2.0,0.0,Croatia,2018-06-16,Group,Kaliningrad,2018,29,80
+718,France,Australia,2.0,1.0,France,2018-06-16,Group,Kazan,2018,46,14
+719,Peru,Denmark,0.0,1.0,Denmark,2018-06-16,Group,Saransk,2018,86,35
+720,Brazil,Switzerland,1.0,1.0,draw,2018-06-17,Group,Rostov-on-Don,2018,20,113
+721,Costa Rica,Serbia,0.0,1.0,Serbia,2018-06-17,Group,Samara,2018,28,100
+722,Germany,Mexico,0.0,1.0,Mexico,2018-06-17,Group,Moscow,2018,47,73
+723,Belgium,Panama,3.0,0.0,Belgium,2018-06-18,Group,Sochi,2018,16,84
+724,Tunisia,England,1.0,2.0,England,2018-06-18,Group,Volgograd,2018,117,43
+725,Colombia,Japan,1.0,2.0,Japan,2018-06-19,Group,Saransk,2018,27,67
+726,Poland,Senegal,1.0,2.0,Senegal,2018-06-19,Group,Moscow,2018,88,98
+727,Russia,Egypt,3.0,1.0,Russia,2018-06-19,Group,Saint Petersburg,2018,93,40
+728,Iran,Spain,0.0,1.0,Spain,2018-06-20,Group,Kazan,2018,57,109
+729,Portugal,Morocco,1.0,0.0,Portugal,2018-06-20,Group,Moscow,2018,90,75
+730,Uruguay,Saudi Arabia,1.0,0.0,Uruguay,2018-06-20,Group,Rostov-on-Don,2018,124,95
+731,Argentina,Croatia,0.0,3.0,Croatia,2018-06-21,Group,Nizhny Novgorod,2018,13,29
+732,Denmark,Australia,1.0,1.0,draw,2018-06-21,Group,Samara,2018,35,14
+733,France,Peru,1.0,0.0,France,2018-06-21,Group,Yekaterinburg,2018,46,86
+734,Brazil,Costa Rica,2.0,0.0,Brazil,2018-06-22,Group,Saint Petersburg,2018,20,28
+735,Nigeria,Iceland,2.0,0.0,Nigeria,2018-06-22,Group,Volgograd,2018,80,56
+736,Serbia,Switzerland,1.0,2.0,Switzerland,2018-06-22,Group,Kaliningrad,2018,100,113
+737,Belgium,Tunisia,5.0,2.0,Belgium,2018-06-23,Group,Moscow,2018,16,117
+738,Germany,Sweden,2.0,1.0,Germany,2018-06-23,Group,Sochi,2018,47,111
+739,England,Panama,6.0,1.0,England,2018-06-24,Group,Nizhny Novgorod,2018,43,84
+740,Japan,Senegal,2.0,2.0,draw,2018-06-24,Group,Yekaterinburg,2018,67,98
+741,Poland,Colombia,0.0,3.0,Colombia,2018-06-24,Group,Kazan,2018,88,27
+742,Iran,Portugal,1.0,1.0,draw,2018-06-25,Group,Saransk,2018,57,90
+743,Saudi Arabia,Egypt,2.0,1.0,Saudi Arabia,2018-06-25,Group,Volgograd,2018,95,40
+744,Spain,Morocco,2.0,2.0,draw,2018-06-25,Group,Kaliningrad,2018,109,75
+745,Uruguay,Russia,3.0,0.0,Uruguay,2018-06-25,Group,Samara,2018,124,93
+746,Australia,Peru,0.0,2.0,Peru,2018-06-26,Group,Sochi,2018,14,86
+747,Denmark,France,0.0,0.0,draw,2018-06-26,Group,Moscow,2018,35,46
+748,Iceland,Croatia,1.0,2.0,Croatia,2018-06-26,Group,Rostov-on-Don,2018,56,29
+749,Nigeria,Argentina,1.0,2.0,Argentina,2018-06-26,Group,Saint Petersburg,2018,80,13
+750,Mexico,Sweden,0.0,3.0,Sweden,2018-06-27,Group,Yekaterinburg,2018,73,111
+751,Serbia,Brazil,0.0,2.0,Brazil,2018-06-27,Group,Moscow,2018,100,20
+752,Switzerland,Costa Rica,2.0,2.0,draw,2018-06-27,Group,Nizhny Novgorod,2018,113,28
+753,England,Belgium,0.0,1.0,Belgium,2018-06-28,Group,Kaliningrad,2018,43,16
+754,Japan,Poland,0.0,1.0,Poland,2018-06-28,Group,Volgograd,2018,67,88
+755,Panama,Tunisia,1.0,2.0,Tunisia,2018-06-28,Group,Saransk,2018,84,117
+756,Senegal,Colombia,0.0,1.0,Colombia,2018-06-28,Group,Samara,2018,98,27
+757,France,Argentina,4.0,3.0,France,2018-06-30,Round of 16,Kazan,2018,46,13
+758,Uruguay,Portugal,2.0,1.0,Uruguay,2018-06-30,Round of 16,Sochi,2018,124,90
+759,Croatia,Denmark,1.0,1.0,draw,2018-07-01,Round of 16,Nizhny Novgorod,2018,29,35
+760,Spain,Russia,1.0,1.0,draw,2018-07-01,Round of 16,Moscow,2018,109,93
+761,Belgium,Japan,3.0,2.0,Belgium,2018-07-02,Round of 16,Rostov-on-Don,2018,16,67
+762,Brazil,Mexico,2.0,0.0,Brazil,2018-07-02,Round of 16,Samara,2018,20,73
+763,Colombia,England,1.0,1.0,draw,2018-07-03,Round of 16,Moscow,2018,27,43
+764,Sweden,Switzerland,1.0,0.0,Sweden,2018-07-03,Round of 16,Saint Petersburg,2018,111,113
+765,Brazil,Belgium,1.0,2.0,Belgium,2018-07-06,Quarter-finals,Kazan,2018,20,16
+766,Uruguay,France,0.0,2.0,France,2018-07-06,Quarter-finals,Nizhny Novgorod,2018,124,46
+767,Russia,Croatia,2.0,2.0,draw,2018-07-07,Quarter-finals,Sochi,2018,93,29
+768,Sweden,England,0.0,2.0,England,2018-07-07,Quarter-finals,Samara,2018,111,43
+769,France,Belgium,1.0,0.0,France,2018-07-10,Semi-finals,Saint Petersburg,2018,46,16
+770,Croatia,England,2.0,1.0,Croatia,2018-07-11,Semi-finals,Moscow,2018,29,43
+771,Belgium,England,2.0,0.0,Belgium,2018-07-14,Third place play-off,Saint Petersburg,2018,16,43
+772,France,Croatia,4.0,2.0,France,2018-07-15,Final,Moscow,2018,46,29
+773,Qatar,Ecuador,0.0,2.0,Ecuador,2022-11-20,Group,Al Khor,2022,91,39
+774,England,Iran,6.0,2.0,England,2022-11-21,Group,Al Rayyan,2022,43,57
+775,Senegal,Netherlands,0.0,2.0,Netherlands,2022-11-21,Group,Doha,2022,98,77
+776,United States,Wales,1.0,1.0,draw,2022-11-21,Group,Al Rayyan,2022,123,125
+777,Argentina,Saudi Arabia,1.0,2.0,Saudi Arabia,2022-11-22,Group,Lusail,2022,13,95
+778,Denmark,Tunisia,0.0,0.0,draw,2022-11-22,Group,Al Rayyan,2022,35,117
+779,France,Australia,4.0,1.0,France,2022-11-22,Group,Al Wakrah,2022,46,14
+780,Mexico,Poland,0.0,0.0,draw,2022-11-22,Group,Doha,2022,73,88
+781,Belgium,Canada,1.0,0.0,Belgium,2022-11-23,Group,Al Rayyan,2022,16,25
+782,Germany,Japan,1.0,2.0,Japan,2022-11-23,Group,Al Rayyan,2022,47,67
+783,Morocco,Croatia,0.0,0.0,draw,2022-11-23,Group,Al Khor,2022,75,29
+784,Spain,Costa Rica,7.0,0.0,Spain,2022-11-23,Group,Doha,2022,109,28
+785,Brazil,Serbia,2.0,0.0,Brazil,2022-11-24,Group,Lusail,2022,20,100
+786,Portugal,Ghana,3.0,2.0,Portugal,2022-11-24,Group,Doha,2022,90,49
+787,Switzerland,Cameroon,1.0,0.0,Switzerland,2022-11-24,Group,Al Wakrah,2022,113,23
+788,Uruguay,South Korea,0.0,0.0,draw,2022-11-24,Group,Al Rayyan,2022,124,106
+789,England,United States,0.0,0.0,draw,2022-11-25,Group,Al Khor,2022,43,123
+790,Netherlands,Ecuador,1.0,1.0,draw,2022-11-25,Group,Al Rayyan,2022,77,39
+791,Qatar,Senegal,1.0,3.0,Senegal,2022-11-25,Group,Doha,2022,91,98
+792,Wales,Iran,0.0,2.0,Iran,2022-11-25,Group,Al Rayyan,2022,125,57
+793,Argentina,Mexico,2.0,0.0,Argentina,2022-11-26,Group,Lusail,2022,13,73
+794,France,Denmark,2.0,1.0,France,2022-11-26,Group,Doha,2022,46,35
+795,Poland,Saudi Arabia,2.0,0.0,Poland,2022-11-26,Group,Al Rayyan,2022,88,95
+796,Tunisia,Australia,0.0,1.0,Australia,2022-11-26,Group,Al Wakrah,2022,117,14
+797,Belgium,Morocco,0.0,2.0,Morocco,2022-11-27,Group,Doha,2022,16,75
+798,Croatia,Canada,4.0,1.0,Croatia,2022-11-27,Group,Al Rayyan,2022,29,25
+799,Japan,Costa Rica,0.0,1.0,Costa Rica,2022-11-27,Group,Al Rayyan,2022,67,28
+800,Spain,Germany,1.0,1.0,draw,2022-11-27,Group,Al Khor,2022,109,47
+801,Brazil,Switzerland,1.0,0.0,Brazil,2022-11-28,Group,Doha,2022,20,113
+802,Cameroon,Serbia,3.0,3.0,draw,2022-11-28,Group,Al Wakrah,2022,23,100
+803,Portugal,Uruguay,2.0,0.0,Portugal,2022-11-28,Group,Lusail,2022,90,124
+804,South Korea,Ghana,2.0,3.0,Ghana,2022-11-28,Group,Al Rayyan,2022,106,49
+805,Ecuador,Senegal,1.0,2.0,Senegal,2022-11-29,Group,Al Rayyan,2022,39,98
+806,Iran,United States,0.0,1.0,United States,2022-11-29,Group,Doha,2022,57,123
+807,Netherlands,Qatar,2.0,0.0,Netherlands,2022-11-29,Group,Al Khor,2022,77,91
+808,Wales,England,0.0,3.0,England,2022-11-29,Group,Al Rayyan,2022,125,43
+809,Australia,Denmark,1.0,0.0,Australia,2022-11-30,Group,Al Wakrah,2022,14,35
+810,Poland,Argentina,0.0,2.0,Argentina,2022-11-30,Group,Doha,2022,88,13
+811,Saudi Arabia,Mexico,1.0,2.0,Mexico,2022-11-30,Group,Lusail,2022,95,73
+812,Tunisia,France,1.0,0.0,Tunisia,2022-11-30,Group,Al Rayyan,2022,117,46
+813,Canada,Morocco,1.0,2.0,Morocco,2022-12-01,Group,Doha,2022,25,75
+814,Costa Rica,Germany,2.0,4.0,Germany,2022-12-01,Group,Al Khor,2022,28,47
+815,Croatia,Belgium,0.0,0.0,draw,2022-12-01,Group,Al Rayyan,2022,29,16
+816,Japan,Spain,2.0,1.0,Japan,2022-12-01,Group,Al Rayyan,2022,67,109
+817,Cameroon,Brazil,1.0,0.0,Cameroon,2022-12-02,Group,Lusail,2022,23,20
+818,Ghana,Uruguay,0.0,2.0,Uruguay,2022-12-02,Group,Al Wakrah,2022,49,124
+819,Serbia,Switzerland,2.0,3.0,Switzerland,2022-12-02,Group,Doha,2022,100,113
+820,South Korea,Portugal,2.0,1.0,South Korea,2022-12-02,Group,Lusail,2022,106,90
+821,Argentina,Australia,2.0,1.0,Argentina,2022-12-03,Round of 16,Al Rayyan,2022,13,14
+822,Netherlands,United States,3.0,1.0,Netherlands,2022-12-03,Round of 16,Al Rayyan,2022,77,123
+823,England,Senegal,3.0,0.0,England,2022-12-04,Round of 16,Al Khor,2022,43,98
+824,France,Poland,3.0,1.0,France,2022-12-04,Round of 16,Doha,2022,46,88
+825,Brazil,South Korea,4.0,1.0,Brazil,2022-12-05,Round of 16,Doha,2022,20,106
+826,Japan,"(1-1, 1-0) Croatia",1.0,1.0,draw,2022-12-05,Round of 16,Al Wakrah,2022,67,3
+827,Morocco,"(0-0, 0-0) Spain",0.0,0.0,draw,2022-12-06,Round of 16,Al Rayyan,2022,75,2
+828,Portugal,Switzerland,6.0,1.0,Portugal,2022-12-06,Round of 16,Lusail,2022,90,113
+829,Croatia,"(0-0, 0-0) Brazil",1.0,1.0,draw,2022-12-09,Quarter-finals,Al Rayyan,2022,29,1
+830,Netherlands,"(2-2, 1-0) Argentina",2.0,2.0,draw,2022-12-09,Quarter-finals,Lusail,2022,77,4
+831,England,France,1.0,2.0,France,2022-12-10,Quarter-finals,Al Khor,2022,43,46
+832,Morocco,Portugal,1.0,0.0,Morocco,2022-12-10,Quarter-finals,Doha,2022,75,90
+833,Argentina,Croatia,3.0,0.0,Argentina,2022-12-13,Semi-finals,Lusail,2022,13,29
+834,France,Morocco,2.0,0.0,France,2022-12-14,Semi-finals,Al Khor,2022,46,75
+835,Croatia,Morocco,2.0,1.0,Croatia,2022-12-17,Match for third place,Al Rayyan,2022,29,75
+836,Argentina,"(2-2, 2-0) France",3.0,3.0,draw,2022-12-18,Final,Lusail,2022,13,5
