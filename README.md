@@ -63,3 +63,50 @@ Justification BDD :
         data_2018.json (édition 2018)
 
     Édition 2022: dataset Kaggle “FIFA World Cup 2022 Match Data” (matchs complets).
+
+# Les branches
+
+## Branche Observation des données
+
+    But : explorer et comprendre la structure des datasets.
+
+    Actions typiques :
+
+        -- Lire les données
+
+        --Afficher les colonnes (print(df.columns)).
+        --Lister les colonnes et leurs types
+        --Classer les colonnes
+        --Faire un tableau de correspondance des colonnes
+
+        --Vérifier les types (df.dtypes)
+        --les valeurs uniques
+        --Observer les valeurs manquantes
+        --Repérer les doublons
+        --les éventuelles incohérences
+             --Années manquantes
+             --Confusion entre NaN et 0.
+
+    Livrables :
+
+        Scripts comme 03_observation_des_données.py.
+
+        Un tableau de mapping des colonnes (utile pour l’unification et le merge).
+
+## Branche Enrichissement des données
+
+    But : transformer et enrichir les datasets.
+
+    Actions typiques :
+
+        Créer une copie du Kaggle (matches_2022_copy.csv) pour ne pas toucher à l’original.
+
+        Fusionner avec le mapping Stadium → City (depuis Wikipedia).
+
+        Sauvegarder un dataset enrichi (matches_2022_enriched.csv).
+
+    Livrables :
+
+        Script comme merge_city&Stadium_W_Kaggle.py.
+
+        Fichier enrichi prêt pour l’unification (matches_unified_v1.csv).
