@@ -293,11 +293,3 @@ class DatabaseManager:
         print(f"📊 {counts.get('matches', 0)} matchs + {counts.get('teams', 0)} équipes chargées")
         print("🔗 Base prête pour requêtes KPI")
         return True
-
-def main():
-    """Point d'entrée compatible avec l'ancien script"""
-    db_manager = DatabaseManager()
-    db_manager.setup_complete()
-
-if __name__ == "__main__":
-    main()
