@@ -12,25 +12,24 @@ DATA = ROOT / "data"
 IN_V3 = DATA / "processed" / "matches_unified_v3.csv"
 
 # sorties V4
-OUT_MATCHES_V4 = DATA / "processed" / "matches_unified_v4.csv"     # 10 colonnes, prêt BDD
-OUT_TEAMS_V4 = DATA / "processed" / "teams_v4.csv"                 # dimension simple
-OUT_REPORT = DATA / "processed" / "quality_report_v4.txt"          # mini rapport
+OUT_MATCHES_V4 = DATA / "clean" / "matches_unified_v4.csv"  # 10 colonnes, prêt BDD
+OUT_TEAMS_V4 = DATA / "clean" / "teams_v4.csv"  # dimension simple
+OUT_REPORT = DATA / "clean" / "quality_report_v4.txt"  # mini rapport
 
 PLACEHOLDER_DATE_RE = re.compile(r"^\d{4}-01-01$")
 
 
 def is_placeholder_date(s: object) -> bool:
-    if s is None or (isinstance(s, float) and pd.isna(s)) or pd.isna(s):
+    if s is None or pd.isna(s):
         return False
     return bool(PLACEHOLDER_DATE_RE.match(str(s).strip()))
 
 
 def looks_like_placeholder_team(s: object) -> bool:
     """
-    Détecte les lignes foireuses type '1', 'F1', etc. vues parfois en 2014.
-    (on supprime, car inutilisables pour KPI)
+    Détecte les lignes foireuses type '1', 'F1', etc. + vides/espaces.
     """
-    if s is None or (isinstance(s, float) and pd.isna(s)) or pd.isna(s):
+    if s is None or pd.isna(s):
         return True
     t = str(s).strip()
     if t == "":
@@ -40,6 +39,37 @@ def looks_like_placeholder_team(s: object) -> bool:
     if re.fullmatch(r"[A-Za-z]\d+", t):  # ex: F1
         return True
     return False
+
+
+def clean_text(s: object) -> str:
+    """Nettoyage soft pour éviter les ' ' / NBSP / multiples espaces."""
+    if s is None or pd.isna(s):
+        return ""
+    t = str(s).replace("\xa0", " ")  # NBSP
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def clean_team_name(s: object) -> str:
+    """
+    Supprime le bruit en préfixe qu'on trouve parfois dans les équipes, ex:
+    "(0-0, 0-0) Brazil" -> "Brazil"
+    """
+    if s is None or pd.isna(s):
+        return ""
+    t = str(s).replace("\xa0", " ")
+    # supprime un groupe "(...)" au début + espaces
+    t = re.sub(r"^\([^)]*\)\s*", "", t)
+    # normalise les espaces
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def extract_edition_year(edition_label: object) -> pd.Series:
+    """Extrait YYYY depuis '2018-RUSSIA' ou '2018'."""
+    ser = pd.Series(edition_label, dtype="string")
+    year = ser.str.extract(r"(\d{4})")[0]
+    return pd.to_numeric(year, errors="coerce").astype("Int64")
 
 
 def compute_result(home_team: str, away_team: str, hg: float, ag: float) -> str:
@@ -55,7 +85,6 @@ def compute_result(home_team: str, away_team: str, hg: float, ag: float) -> str:
 def make_match_uid(row: pd.Series) -> str:
     """
     UID stable pour debug/dédoublonnage : edition + date + teams + scores + round + city
-    (date peut être vide -> on garde edition+teams+scores+round+city)
     """
     parts = [
         str(row.get("edition", "")),
@@ -77,7 +106,17 @@ def main() -> None:
     # -----------------------
     # 0) Colonnes attendues
     # -----------------------
-    required = ["home_team", "away_team", "home_result", "away_result", "date", "round", "city", "edition", "result"]
+    required = [
+        "home_team",
+        "away_team",
+        "home_result",
+        "away_result",
+        "date",
+        "round",
+        "city",
+        "edition",
+        "result",
+    ]
     missing = [c for c in required if c not in df.columns]
     if missing:
         raise KeyError(f"Colonnes manquantes dans V3: {missing} (colonnes: {df.columns.tolist()})")
@@ -85,9 +124,23 @@ def main() -> None:
     before = len(df)
 
     # -----------------------
-    # 1) Types
+    # 1) Nettoyage texte de base
     # -----------------------
-    df["edition"] = pd.to_numeric(df["edition"], errors="coerce").astype("Int64")
+    # (on nettoie d'abord)
+    for col in ["home_team", "away_team", "round", "city", "edition", "result"]:
+        df[col] = df[col].map(clean_text)
+
+    # ✅ fix équipes : on enlève le bruit du type "(0-0, 0-0) Brazil"
+    df["home_team"] = df["home_team"].map(clean_team_name)
+    df["away_team"] = df["away_team"].map(clean_team_name)
+
+    # ✅ IMPORTANT : on garde edition en STRING (ex: 2018-RUSSIA)
+    df["edition"] = df["edition"].astype(str)
+
+    # ✅ clé technique uniquement pour tri / KPI / filtres
+    df["edition_year"] = extract_edition_year(df["edition"])
+
+    # Types scores
     df["home_result"] = pd.to_numeric(df["home_result"], errors="coerce")
     df["away_result"] = pd.to_numeric(df["away_result"], errors="coerce")
 
@@ -97,20 +150,21 @@ def main() -> None:
     ghost = df["date"].isna() & df["home_result"].isna() & df["away_result"].isna()
     df = df.loc[~ghost].copy()
 
-    bad_team = df["home_team"].map(looks_like_placeholder_team) | df["away_team"].map(looks_like_placeholder_team)
+    bad_team = df["home_team"].map(looks_like_placeholder_team) | df["away_team"].map(
+        looks_like_placeholder_team
+    )
     df = df.loc[~bad_team].copy()
 
     # -----------------------
-    # 3) Dates : parse + placeholder -> NULL (pour KPI propres)
+    # 3) Dates : parse + placeholder -> NULL
     # -----------------------
     df["date_is_placeholder"] = df["date"].map(is_placeholder_date)
-    # parse; si placeholder => NaT
     dt = pd.to_datetime(df["date"], errors="coerce")
     dt = dt.mask(df["date_is_placeholder"], pd.NaT)
     df["date"] = dt.dt.strftime("%Y-%m-%d")
 
     # -----------------------
-    # 4) result : rendre cohérent avec les scores (pas seulement fillna)
+    # 4) result : cohérent avec scores
     # -----------------------
     df["result"] = df.apply(
         lambda r: compute_result(r["home_team"], r["away_team"], r["home_result"], r["away_result"]),
@@ -118,27 +172,28 @@ def main() -> None:
     )
 
     # -----------------------
-    # 5) UID + dédoublonnage plus robuste
+    # 5) UID + dédoublonnage
     # -----------------------
     df["match_uid"] = df.apply(make_match_uid, axis=1)
     df = df.drop_duplicates(subset=["match_uid"], keep="first").copy()
 
     # -----------------------
-    # 6) Construire teams dim + IDs stables (basés sur tri des noms V4)
-    # (pour la suite, tu peux figer ces IDs via fichier teams_v4.csv versionné)
+    # 6) teams dim + IDs (et on exclut explicitement les vides)
     # -----------------------
     teams = (
         pd.concat(
             [
                 df[["home_team"]].rename(columns={"home_team": "team"}),
                 df[["away_team"]].rename(columns={"away_team": "team"}),
-            ]
+            ],
+            ignore_index=True,
         )
-        .dropna()
-        .drop_duplicates()
-        .sort_values("team")
-        .reset_index(drop=True)
+        .assign(team=lambda x: x["team"].map(clean_team_name))
     )
+
+    teams = teams.loc[~teams["team"].map(looks_like_placeholder_team)].copy()
+    teams = teams.drop_duplicates(subset=["team"]).sort_values("team").reset_index(drop=True)
+
     teams["team_id"] = range(1, len(teams) + 1)
     team_map = dict(zip(teams["team"], teams["team_id"]))
 
@@ -149,15 +204,20 @@ def main() -> None:
     # 7) Recréer id_match séquentiel (tri “raisonnable”)
     # -----------------------
     df["_date_sort"] = pd.to_datetime(df["date"], errors="coerce")
-    df = df.sort_values(["edition", "_date_sort", "round", "home_team", "away_team"], kind="mergesort").drop(
-        columns=["_date_sort"]
+    df = (
+        df.sort_values(
+            ["edition_year", "_date_sort", "round", "home_team", "away_team"],
+            kind="mergesort",
+            na_position="last",
+        )
+        .drop(columns=["_date_sort"])
+        .copy()
     )
     df = df.reset_index(drop=True)
     df["id_match"] = range(1, len(df) + 1)
 
     # -----------------------
-    # 8) Sortie V4 "prête BDD" = exactement 10 colonnes (livrable)
-    #    (teams_v4.csv part à côté)
+    # 8) Sortie V4 = exactement 10 colonnes (livrable)
     # -----------------------
     out_cols = [
         "id_match",
@@ -169,19 +229,20 @@ def main() -> None:
         "date",
         "round",
         "city",
-        "edition",
+        "edition",  # ✅ string conservé (2018-RUSSIA)
     ]
     df_out = df[out_cols].copy()
 
-    # (option) caster scores en int quand possible
     df_out["home_result"] = df_out["home_result"].astype("Int64")
     df_out["away_result"] = df_out["away_result"].astype("Int64")
 
     # -----------------------
-    # 9) Rapport qualité minimal (pour “garantir la data”)
+    # 9) Rapport qualité
     # -----------------------
     after = len(df_out)
-    per_edition = df_out.groupby("edition").size().sort_index()
+
+    per_edition_label = df_out.groupby("edition").size().sort_index()
+    per_edition_year = df.groupby("edition_year").size().sort_index()
 
     report_lines = [
         f"V3 -> V4 rows: {before} -> {after}",
@@ -189,8 +250,11 @@ def main() -> None:
         f"bad team rows removed: {int(bad_team.sum())}",
         f"placeholder dates (set to NULL): {int(df['date_is_placeholder'].sum())}",
         "",
-        "matches per edition:",
-        per_edition.to_string(),
+        "matches per edition (label):",
+        per_edition_label.to_string(),
+        "",
+        "matches per edition_year:",
+        per_edition_year.to_string(),
     ]
 
     OUT_MATCHES_V4.parent.mkdir(parents=True, exist_ok=True)

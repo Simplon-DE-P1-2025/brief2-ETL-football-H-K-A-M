@@ -1,0 +1,54 @@
+V3 -> V4 rows: 6825 -> 6817
+ghost removed: 0
+bad team rows removed: 8
+placeholder dates (set to NULL): 6077
+
+matches per edition (label):
+edition
+1930-URUGUAY          15
+1934-ITALY            25
+1938-FRANCE           30
+1950-BRAZIL           42
+1954-SWITZERLAND      54
+1958-SWEDEN          107
+1962-CHILE           108
+1966-ENGLAND         123
+1970-MEXICO          181
+1974-FRG             239
+1978-ARGENTINA       264
+1982-SPAIN           326
+1986-MEXICO          319
+1990-ITALY           325
+1994-USA             515
+1998-FRANCE          667
+2002-KOREA/JAPAN     785
+2006-GERMANY         867
+2010-SOUTH AFRICA    863
+2014-BRAZIL          882
+2018-RUSSIA           16
+2022-QATAR            64
+
+matches per edition_year:
+edition_year
+1930     15
+1934     25
+1938     30
+1950     42
+1954     54
+1958    107
+1962    108
+1966    123
+1970    181
+1974    239
+1978    264
+1982    326
+1986    319
+1990    325
+1994    515
+1998    667
+2002    785
+2006    867
+2010    863
+2014    882
+2018     16
+2022     64
