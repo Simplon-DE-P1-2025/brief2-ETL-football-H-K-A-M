@@ -6,3 +6,4 @@ data/raw/kaggle/*.json
 .github/*
 scripts/*
 .env
+__pycache__/
