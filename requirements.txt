@@ -7,5 +7,6 @@ seaborn
 plotly
 sqlalchemy
 lxml
+rapidfuzz
 kagglehub
 psycopg2-binary==2.9.3
