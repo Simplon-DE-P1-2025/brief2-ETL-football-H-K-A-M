@@ -90,8 +90,11 @@ Justification BDD :
     Livrables :
 
         JupyterNotebook pour la visualisation des resultats
+        JupyterNotebook pour la visualisation des resultats
         Un tableau de mapping des colonnes (utile pour l’unification et le merge).
 
+
+##  Enrichissement des données
 
 ##  Enrichissement des données
 
