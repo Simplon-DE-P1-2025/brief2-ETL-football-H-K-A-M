@@ -89,24 +89,14 @@ Justification BDD :
 
     Livrables :
 
-        Scripts comme 03_observation_des_données.py.
-
+        JupyterNotebook pour la visualisation des resultats
         Un tableau de mapping des colonnes (utile pour l’unification et le merge).
 
-## Branche Enrichissement des données
 
-    But : transformer et enrichir les datasets.
+##  Enrichissement des données
 
-    Actions typiques :
+    Recherche de nouvelles données suite a observations de données manquantes
+    extraction de fichier texte
 
-        Créer une copie du Kaggle (matches_2022_copy.csv) pour ne pas toucher à l’original.
-
-        Fusionner avec le mapping Stadium → City (depuis Wikipedia).
-
-        Sauvegarder un dataset enrichi (matches_2022_enriched.csv).
-
-    Livrables :
-
-        Script comme merge_city&Stadium_W_Kaggle.py.
-
-        Fichier enrichi prêt pour l’unification (matches_unified_v1.csv).
+## Nettoyage et Transformation des données
+    Fonction de cleannage es csv et de transformation
