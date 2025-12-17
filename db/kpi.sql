@@ -1,101 +1,99 @@
-# Indicateurs globaux
-  ##Nombre total de matchs disputés en Coupe du Monde
+-- # Indicateurs globaux
+--   ##Nombre total de matchs disputés en Coupe du Monde
 SELECT COUNT(*) AS total_matches_world_cup
-FROM matches_final_kpi
+FROM matches_normalized
 WHERE is_final = true;
 
 
-  ##Nombre total de matchs par édition si seulement de la coupe ( true) sinon false
+  -- ##Nombre total de matchs par édition si seulement de la coupe ( true) sinon false
 SELECT edition, COUNT(*) AS total_matches
-FROM matches_final_kpi
+FROM matches_normalized
 WHERE is_final = true
 GROUP BY edition
 ORDER BY edition;
 
-
-  ##Nombre total de buts marqués toutes éditions confondues
+  -- ##Nombre total de buts marqués toutes éditions confondues
 SELECT
-  SUM(h.goal_by_team + a.goal_by_team) AS total_goals
-FROM matches_final_kpi m
-JOIN home_team h ON m.id_match = h.id_match
-JOIN away_team a ON m.id_match = a.id_match
+  SUM(h."Number_of_goals_scored" + away."Number_of_goals_scored") AS total_goals
+FROM matches_normalized m
+JOIN home_stats h ON m.id_match = h.id_match
+JOIN away_stats away ON m.id_match = away.id_match
+WHERE m.is_final = true;
+
+
+-- ##Moyenne globale des buts marqués sur toutes éditions
+SELECT
+  ROUND(AVG(h."Number_of_goals_scored" + away."Number_of_goals_scored"), 2) AS avg_goals_per_match
+FROM matches_normalized m
+JOIN home_stats h ON m.id_match = h.id_match
+JOIN away_stats away ON m.id_match = away.id_match
 WHERE m.is_final = true;
 
 
 
 
-  ##Moyenne de buts par match
-SELECT
-  AVG(h.goal_by_team + a.goal_by_team) AS avg_goals_per_match
-FROM matches_final_kpi m
-JOIN home_team h ON m.id_match = h.id_match
-JOIN away_team a ON m.id_match = a.id_match
-WHERE m.is_final = true;
-
-
-
-
-  ##Répartition des matchs par édition ( a voir si en prend les preliminary)
+-- ##Répartition des matchs par édition ( a voir si en prend les preliminary)
 SELECT edition,
-       COUNT(*) AS nb_matches
-FROM matches_final_kpi
+       COUNT(id_match) AS nb_matches
+FROM matches_normalized
+-- WHERE is_final = true
 GROUP BY edition
 ORDER BY edition;
 
-  ##Résultats des matchs
-  ##Nombre de victoires de l’équipe à domicile
+
+
+-- ##Résultats des matchs
+-- ##Nombre de victoires de l’équipe à domicile
 SELECT COUNT(*) AS home_wins
-FROM matches_final_kpi m
-JOIN home_team h ON m.id_match = h.id_match
-JOIN away_team a ON m.id_match = a.id_match
-WHERE h.goal_by_team > a.goal_by_team
+FROM matches_normalized m
+JOIN home_stats h ON m.id_match = h.id_match
+JOIN away_stats away ON m.id_match = away.id_match
+WHERE h."Number_of_goals_scored" > away."Number_of_goals_scored"
   AND m.is_final = true;
 
 
 
 
-##Nombre de victoires de l’équipe à l’extérieur
-##comme celle d’avant
+-- ##Nombre de victoires de l’équipe à l’extérieur
+-- ##comme celle d’avant
 
 
-##Nombre de matchs nuls
-SELECT COUNT(*) AS draws
-FROM matches_final_kpi
-WHERE result = 'draw'
+-- ##Nombre de matchs nuls
+SELECT COUNT(id_match) AS draws
+FROM matches_normalized
+WHERE result != 0
   AND is_final = true;
 
 
-##Proportion des victoires domicile vs extérieur
+-- ##Proportion des victoires domicile vs extérieur
 
 
-##Taux de matchs nuls par édition
-##Analyses par équipe
-##Nombre de matchs joués par équipe
-SELECT t.name_team,
-       COUNT(*) AS matches_played
+-- ##Taux de matchs nuls par édition
+-- ##Analyses par équipe
+-- ##Nombre de matchs joués par équipe
+SELECT t."Team_name",
+       COUNT(id_match) AS matches_played
 FROM (
-  SELECT id_team FROM home_team
+  SELECT id_match, id_team FROM home_stats
   UNION ALL
-  SELECT id_team FROM away_team
+  SELECT id_match, id_team FROM away_stats
 ) mt
-JOIN dim_teams t ON mt.id_team = t.id_team
-GROUP BY t.name_team
+JOIN teams_reference t ON mt.id_team = t.id_team
+GROUP BY t."Team_name"
 ORDER BY matches_played DESC;
 
 
-
-
-##Nombre total de victoires par équipe
-SELECT t.name_team,
-       COUNT(*) AS wins
-FROM matches_final_kpi m
+-- ##Nombre total de victoires par équipe
+SELECT t."Team_name",
+       COUNT(id_match) AS wins
+FROM matches_normalized m
 JOIN home_team h ON m.id_match = h.id_match
 JOIN away_team a ON m.id_match = a.id_match
 JOIN dim_teams t
   ON (h.id_team = t.id_team AND h.goal_by_team > a.goal_by_team)
   OR (a.id_team = t.id_team AND a.goal_by_team > h.goal_by_team)
 WHERE m.is_final = true
-GROUP BY t.name_team
+GROUP BY t."Team_name"
 ORDER BY wins DESC;
 
 
@@ -167,18 +165,18 @@ ORDER BY matches DESC;
 
 
 
-#Moyenne de buts par tour
+-- #Moyenne de buts par tour
 
 
-#Répartition des résultats par tour
+-- #Répartition des résultats par tour
 
 
-#Comparaison du nombre de buts entre phase de groupes et phases finales
+-- #Comparaison du nombre de buts entre phase de groupes et phases finales
 
 
-#Taux de matchs nuls par tour
-#Analyses géographiques
-#Nombre de matchs joués par ville
+-- #Taux de matchs nuls par tour
+-- #Analyses géographiques
+-- #Nombre de matchs joués par ville
 SELECT city, COUNT(*) AS matches
 FROM matches_final_kpi
 GROUP BY city
@@ -187,7 +185,7 @@ ORDER BY matches DESC;
 
 
 
-Top villes ayant accueilli le plus de matchs
+-- Top villes ayant accueilli le plus de matchs
 
 
 SELECT city, COUNT(*) AS matches
@@ -196,18 +194,18 @@ GROUP BY city
 ORDER BY matches DESC
 LIMIT 10;
 
-#Répartition des matchs par ville
+-- #Répartition des matchs par ville
 
 
-#Villes les plus utilisées lors d’une édition
+-- #Villes les plus utilisées lors d’une édition
 SELECT edition, city, COUNT(*) AS matches
 FROM matches_final_kpi
 GROUP BY edition, city
 ORDER BY edition, matches DESC;
 
 
-#Analyses temporelles
-#Évolution du nombre de buts par match au fil des éditions
+-- #Analyses temporelles
+-- #Évolution du nombre de buts par match au fil des éditions
 SELECT edition, COUNT(*) AS matches
 FROM matches_final_kpi
 GROUP BY edition
@@ -216,14 +214,14 @@ ORDER BY edition;
 
 
 
-#Évolution du taux de matchs nuls dans le temps
+-- #Évolution du taux de matchs nuls dans le temps
 
 
-#Comparaison des performances entre éditions successives
+-- #Comparaison des performances entre éditions successives
 
 
-#Confrontations & historique
-#Nombre de confrontations entre deux équipes
+-- #Confrontations & historique
+-- #Nombre de confrontations entre deux équipes
 SELECT
   t1.name_team AS team_1,
   t2.name_team AS team_2,
@@ -239,14 +237,14 @@ ORDER BY matches DESC;
 
 
 
-#Indicateurs avancés (bonus)
-#Taux de victoire par équipe
+-- #Indicateurs avancés (bonus)
+-- #Taux de victoire par équipe
 
 
-#Performance moyenne d’une équipe par édition
+-- #Performance moyenne d’une équipe par édition
 
 
-#Performance des équipes selon le tour
+-- #Performance des équipes selon le tour
 
 
-#Probabilité historique de victoire d’une équipe face à une autre
+-- #Probabilité historique de victoire d’une équipe face à une autre
