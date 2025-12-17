@@ -16,7 +16,7 @@ IN_V2 = DATA / "processed" / "matches_unified_v2.csv"
 
 OUT_V3 = DATA / "processed" / "matches_unified_v3.csv"
 OUT_DIM = DATA / "clean" / "dim_teams.csv"
-OUT_ALIASES = DATA / "clean" / "team_aliases.csv"
+OUT_ALIASES = DATA / "reference" / "team_aliases.csv"
 OUT_UNKNOWN = DATA / "reference" / "unknown_teams.csv"
 OUT_QA = DATA / "reference" / "qa_team_collisions.csv"
 

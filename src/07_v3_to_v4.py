@@ -12,9 +12,9 @@ DATA = ROOT / "data"
 IN_V3 = DATA / "processed" / "matches_unified_v3.csv"
 
 # sorties V4
-OUT_MATCHES_V4 = DATA / "clean" / "matches_unified_v4.csv"  # 10 colonnes, prêt BDD
-OUT_TEAMS_V4 = DATA / "clean" / "teams_v4.csv"  # dimension simple
-OUT_REPORT = DATA / "clean" / "quality_report_v4.txt"
+OUT_MATCHES_V4 = DATA / "processed" / "matches_unified_v4.csv"  
+OUT_TEAMS_V4 = DATA / "reference" / "teams_v4.csv" 
+OUT_REPORT = DATA / "reference" / "quality_report_v4.txt"
 
 PLACEHOLDER_DATE_RE = re.compile(r"^\d{4}-01-01$")
 
