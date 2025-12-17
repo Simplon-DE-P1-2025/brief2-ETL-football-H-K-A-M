@@ -1,0 +1,831 @@
+{
+  "tournament": [
+    {
+      "idTournament": 0,
+      "year": "1930",
+      "location": "uruguay",
+      "matchesPlayed": 18,
+      "stats": [
+        {
+          "stat": "70",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "3.9",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Guillermo STABILE",
+          "numOfGoals": 8,
+          "countryName": "ARG",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Pedro CEA",
+          "numOfGoals": 5,
+          "countryName": "URU",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Bert PATENAUDE",
+          "numOfGoals": 4,
+          "countryName": "USA",
+          "jerseyNumber": null,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 1,
+      "year": "1934",
+      "location": "italy",
+      "matchesPlayed": 17,
+      "stats": [
+        {
+          "stat": "70",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "4.1",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Oldrich NEJEDLY",
+          "numOfGoals": 5,
+          "countryName": "TCH",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Angelo SCHIAVIO",
+          "numOfGoals": 4,
+          "countryName": "ITA",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Edmund CONEN",
+          "numOfGoals": 4,
+          "countryName": "GER",
+          "jerseyNumber": null,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 2,
+      "year": "1938",
+      "location": "france",
+      "matchesPlayed": 18,
+      "stats": [
+        {
+          "stat": "84",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "4.7",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "LEONIDAS",
+          "numOfGoals": 7,
+          "countryName": "BRA",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Gyorgy SAROSI",
+          "numOfGoals": 5,
+          "countryName": "HUN",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Gyula ZSENGELLER",
+          "numOfGoals": 5,
+          "countryName": "HUN",
+          "jerseyNumber": null,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 3,
+      "year": "1950",
+      "location": "brazil",
+      "matchesPlayed": 22,
+      "stats": [
+        {
+          "stat": "88",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "4.0",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "ADEMIR",
+          "numOfGoals": 9,
+          "countryName": "BRA",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Oscar MIGUEZ",
+          "numOfGoals": 5,
+          "countryName": "URU",
+          "jerseyNumber": null,
+          "position": "Forward"
+        },
+        {
+          "name": "Alcides GHIGGIA",
+          "numOfGoals": 4,
+          "countryName": "URU",
+          "jerseyNumber": null,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 4,
+      "year": "1954",
+      "location": "switzerland",
+      "matchesPlayed": 26,
+      "stats": [
+        {
+          "stat": "140",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "5.4",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Sandor KOCSIS",
+          "numOfGoals": 11,
+          "countryName": "HUN",
+          "jerseyNumber": 8,
+          "position": "Forward"
+        },
+        {
+          "name": "Erich PROBST",
+          "numOfGoals": 6,
+          "countryName": "AUT",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        },
+        {
+          "name": "Max MORLOCK",
+          "numOfGoals": 6,
+          "countryName": "GER",
+          "jerseyNumber": 13,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 5,
+      "year": "1958",
+      "location": "sweden",
+      "matchesPlayed": 35,
+      "stats": [
+        {
+          "stat": "126",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "3.6",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Just FONTAINE",
+          "numOfGoals": 13,
+          "countryName": "FRA",
+          "jerseyNumber": 17,
+          "position": "Forward"
+        },
+        {
+          "name": "Helmut RAHN",
+          "numOfGoals": 6,
+          "countryName": "GER",
+          "jerseyNumber": 8,
+          "position": "Forward"
+        },
+        {
+          "name": "PELE",
+          "numOfGoals": 6,
+          "countryName": "BRA",
+          "jerseyNumber": null,
+          "position": ""
+        }
+      ]
+    },
+    {
+      "idTournament": 6,
+      "year": "1962",
+      "location": "chile",
+      "matchesPlayed": 32,
+      "stats": [
+        {
+          "stat": "89",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.8",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Drazen JERKOVIC",
+          "numOfGoals": 4,
+          "countryName": "YUG",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "Florian ALBERT",
+          "numOfGoals": 4,
+          "countryName": "HUN",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "GARRINCHA",
+          "numOfGoals": 4,
+          "countryName": "BRA",
+          "jerseyNumber": 7,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 7,
+      "year": "1966",
+      "location": "england",
+      "matchesPlayed": 32,
+      "stats": [
+        {
+          "stat": "89",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.8",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "EUSEBIO (Eusebio da Silva Ferreira)",
+          "numOfGoals": 9,
+          "countryName": "POR",
+          "jerseyNumber": 13,
+          "position": "Forward"
+        },
+        {
+          "name": "Helmut HALLER",
+          "numOfGoals": 6,
+          "countryName": "FRG",
+          "jerseyNumber": 8,
+          "position": "Midfield"
+        },
+        {
+          "name": "Ferenc BENE",
+          "numOfGoals": 4,
+          "countryName": "HUN",
+          "jerseyNumber": 7,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 8,
+      "year": "1970",
+      "location": "mexico",
+      "matchesPlayed": 32,
+      "stats": [
+        {
+          "stat": "95",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "3.0",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Gerd MUELLER",
+          "numOfGoals": 10,
+          "countryName": "GER",
+          "jerseyNumber": 13,
+          "position": "Forward"
+        },
+        {
+          "name": "JAIRZINHO",
+          "numOfGoals": 7,
+          "countryName": "BRA",
+          "jerseyNumber": 7,
+          "position": "Forward"
+        },
+        {
+          "name": "Teofilo CUBILLAS",
+          "numOfGoals": 5,
+          "countryName": "PER",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 9,
+      "year": "1974",
+      "location": "germany",
+      "matchesPlayed": 38,
+      "stats": [
+        {
+          "stat": "97",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.6",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Grzegorz LATO",
+          "numOfGoals": 7,
+          "countryName": "POL",
+          "jerseyNumber": 16,
+          "position": "Forward"
+        },
+        {
+          "name": "Andrzej SZARMACH",
+          "numOfGoals": 5,
+          "countryName": "POL",
+          "jerseyNumber": 17,
+          "position": "Forward"
+        },
+        {
+          "name": "Johan NEESKENS",
+          "numOfGoals": 5,
+          "countryName": "NED",
+          "jerseyNumber": 13,
+          "position": "Midfield"
+        }
+      ]
+    },
+    {
+      "idTournament": 10,
+      "year": "1978",
+      "location": "argentina",
+      "matchesPlayed": 38,
+      "stats": [
+        {
+          "stat": "102",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.7",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Mario KEMPES",
+          "numOfGoals": 6,
+          "countryName": "ARG",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        },
+        {
+          "name": "Rob RENSENBRINK",
+          "numOfGoals": 5,
+          "countryName": "NED",
+          "jerseyNumber": 12,
+          "position": "Forward"
+        },
+        {
+          "name": "Teofilo CUBILLAS",
+          "numOfGoals": 5,
+          "countryName": "PER",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 11,
+      "year": "1982",
+      "location": "spain",
+      "matchesPlayed": 52,
+      "stats": [
+        {
+          "stat": "146",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.8",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Paolo ROSSI",
+          "numOfGoals": 6,
+          "countryName": "ITA",
+          "jerseyNumber": 20,
+          "position": "Forward"
+        },
+        {
+          "name": "Karl-Heinz RUMMENIGGE",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": 11,
+          "position": "Forward"
+        },
+        {
+          "name": "Zbigniew BONIEK",
+          "numOfGoals": 4,
+          "countryName": "POL",
+          "jerseyNumber": 20,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 12,
+      "year": "1986",
+      "location": "mexico",
+      "matchesPlayed": 52,
+      "stats": [
+        {
+          "stat": "132",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.5",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Gary LINEKER",
+          "numOfGoals": 6,
+          "countryName": "ENG",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        },
+        {
+          "name": "CARECA",
+          "numOfGoals": 5,
+          "countryName": "BRA",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "Diego MARADONA",
+          "numOfGoals": 5,
+          "countryName": "ARG",
+          "jerseyNumber": 10,
+          "position": "Midfield"
+        }
+      ]
+    },
+    {
+      "idTournament": 13,
+      "year": "1990",
+      "location": "italy",
+      "matchesPlayed": 52,
+      "stats": [
+        {
+          "stat": "115",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.2",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Salvatore SCHILLACI",
+          "numOfGoals": 6,
+          "countryName": "ITA",
+          "jerseyNumber": 19,
+          "position": "Forward"
+        },
+        {
+          "name": "Tomas SKUHRAVY",
+          "numOfGoals": 5,
+          "countryName": "CZE",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        },
+        {
+          "name": "Gary LINEKER",
+          "numOfGoals": 4,
+          "countryName": "ENG",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 14,
+      "year": "1994",
+      "location": "usa",
+      "matchesPlayed": 52,
+      "stats": [
+        {
+          "stat": "141",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.7",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Hristo STOICHKOV",
+          "numOfGoals": 6,
+          "countryName": "BUL",
+          "jerseyNumber": 8,
+          "position": "Forward"
+        },
+        {
+          "name": "Oleg SALENKO",
+          "numOfGoals": 6,
+          "countryName": "RUS",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "Juergen KLINSMANN",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": 18,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 15,
+      "year": "1998",
+      "location": "france",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "171",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.7",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Davor SUKER",
+          "numOfGoals": 6,
+          "countryName": "CRO",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "Christian VIERI",
+          "numOfGoals": 5,
+          "countryName": "ITA",
+          "jerseyNumber": 21,
+          "position": "Forward"
+        },
+        {
+          "name": "Gabriel BATISTUTA",
+          "numOfGoals": 5,
+          "countryName": "ARG",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 16,
+      "year": "2002",
+      "location": "korea-japan",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "161",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.5",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "RONALDO",
+          "numOfGoals": 8,
+          "countryName": "BRA",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        },
+        {
+          "name": "Miroslav KLOSE",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": 11,
+          "position": "Forward"
+        },
+        {
+          "name": "RIVALDO",
+          "numOfGoals": 5,
+          "countryName": "BRA",
+          "jerseyNumber": 10,
+          "position": "Midfield"
+        }
+      ]
+    },
+    {
+      "idTournament": 17,
+      "year": "2006",
+      "location": "germany",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "147",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.3",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Miroslav KLOSE",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": 11,
+          "position": "Forward"
+        },
+        {
+          "name": "David VILLA",
+          "numOfGoals": 3,
+          "countryName": "ESP",
+          "jerseyNumber": 21,
+          "position": "Forward"
+        },
+        {
+          "name": "Fernando TORRES",
+          "numOfGoals": 3,
+          "countryName": "ESP",
+          "jerseyNumber": 9,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 18,
+      "year": "2010",
+      "location": "south-africa",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "145",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.3",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "David VILLA",
+          "numOfGoals": 5,
+          "countryName": "ESP",
+          "jerseyNumber": 7,
+          "position": "Forward"
+        },
+        {
+          "name": "Diego FORLAN",
+          "numOfGoals": 5,
+          "countryName": "URU",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        },
+        {
+          "name": "Thomas M\u00fcller",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": null,
+          "position": ""
+        }
+      ]
+    },
+    {
+      "idTournament": 19,
+      "year": "2014",
+      "location": "brazil",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "171",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "2.7",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "James RODRIGUEZ",
+          "numOfGoals": 6,
+          "countryName": "COL",
+          "jerseyNumber": 10,
+          "position": "Midfield"
+        },
+        {
+          "name": "Thomas M\u00fcller",
+          "numOfGoals": 5,
+          "countryName": "GER",
+          "jerseyNumber": null,
+          "position": ""
+        },
+        {
+          "name": "Lionel MESSI",
+          "numOfGoals": 4,
+          "countryName": "ARG",
+          "jerseyNumber": 10,
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "idTournament": 20,
+      "year": "2018",
+      "location": "russia",
+      "matchesPlayed": 64,
+      "stats": [
+        {
+          "stat": "169",
+          "statDescription": "Goals scored"
+        },
+        {
+          "stat": "219",
+          "statDescription": "Yellow Cards"
+        },
+        {
+          "stat": "4",
+          "statDescription": "Red Cards"
+        },
+        {
+          "stat": "2.6",
+          "statDescription": "Average goals per match"
+        }
+      ],
+      "topScorers": [
+        {
+          "name": "Harry Edward Kane",
+          "numOfGoals": 6,
+          "countryName": "ENG",
+          "jerseyNumber": null,
+          "position": ""
+        },
+        {
+          "name": "Antoine Griezmann",
+          "numOfGoals": 4,
+          "countryName": "FRA",
+          "jerseyNumber": 7,
+          "position": "Forward"
+        },
+        {
+          "name": "Romelu Lukaku Menama",
+          "numOfGoals": 4,
+          "countryName": "BEL",
+          "jerseyNumber": null,
+          "position": ""
+        }
+      ]
+    }
+  ]
+}
