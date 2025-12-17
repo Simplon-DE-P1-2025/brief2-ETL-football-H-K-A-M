@@ -23,7 +23,7 @@ from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 
 # Chemins
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "processed"
 ENV_FILE = ROOT / ".env"
 
@@ -31,64 +31,41 @@ ENV_FILE = ROOT / ".env"
 MATCHES_FILE = DATA / "matches_unified_v4.csv"
 TEAMS_FILE = DATA / "teams_v4.csv"
 
-def create_env_template():
-    """Créer template .env si inexistant"""
+def env_file_does_not_exist():
+    """Vérifier existence .env (ne crée PAS de fichier)"""
     if ENV_FILE.exists():
         print(f"✅ Fichier {ENV_FILE} trouvé")
-        return
+        return False
     
-    template = """# Configuration PostgreSQL Render
-# Remplacer par vos vraies credentials Render
-
-RENDER_DB_HOST=dpg-xxxxx-a.frankfurt-postgres.render.com
-RENDER_DB_PORT=5432
-RENDER_DB_NAME=fifa_worldcup
-RENDER_DB_USER=fifa_user
-RENDER_DB_PASSWORD=votre_mot_de_passe_render
-
-# URL complète (alternative)
-RENDER_DATABASE_URL=postgresql://fifa_user:password@dpg-xxxxx-a.frankfurt-postgres.render.com/fifa_worldcup
-"""
-    
-    ENV_FILE.write_text(template)
-    print(f"📝 Template .env créé : {ENV_FILE}")
-    print("⚠️  IMPORTANT : Éditer .env avec vos vraies credentials Render !")
-    return False
+    print(f"❌ Fichier .env introuvable : {ENV_FILE}")
+    print("⚠️  IMPORTANT : Créer un fichier .env depuis le template .env.example")
+    print("   Commande: cp .env.example .env")
+    print("   Puis éditer .env avec vos vraies credentials Render")
+    return True
 
 def get_database_connection():
     """Connexion PostgreSQL avec gestion erreurs"""
     load_dotenv(ENV_FILE)
     
-    # Method 1: URL complète
+    # Connexion via URL complète
     db_url = os.getenv("RENDER_DATABASE_URL")
-    if db_url and db_url != "postgresql://fifa_user:password@dpg-xxxxx-a.frankfurt-postgres.render.com/fifa_worldcup":
-        try:
-            engine = create_engine(db_url)
-            engine.execute(text("SELECT 1"))  # Test connexion
-            print(f"✅ Connexion réussie (URL)")
-            return engine
-        except Exception as e:
-            print(f"❌ Échec connexion URL: {e}")
-    
-    # Method 2: Paramètres séparés  
+    if not db_url or "VOTRE_MOT_DE_PASSE" in db_url:
+        print("❌ RENDER_DATABASE_URL manquante ou non configurée dans .env")
+        raise ValueError("RENDER_DATABASE_URL manquante dans .env")
+        
     try:
-        host = os.getenv("RENDER_DB_HOST")
-        port = os.getenv("RENDER_DB_PORT", "5432")
-        database = os.getenv("RENDER_DB_NAME")
-        username = os.getenv("RENDER_DB_USER")
-        password = os.getenv("RENDER_DB_PASSWORD")
+        print("🔗 Tentative connexion...")
+        engine = create_engine(db_url)
         
-        if not all([host, database, username, password]):
-            raise ValueError("Credentials PostgreSQL manquantes dans .env")
+        with engine.connect() as conn:
+            result = conn.execute(text("SELECT version()"))
+            version = result.scalar()
+            print(f"✅ CONNEXION RÉUSSIE !")
+            print(f"📊 Version PostgreSQL: {version}")
+            return engine
             
-        connection_string = f"postgresql://{username}:{password}@{host}:{port}/{database}"
-        engine = create_engine(connection_string)
-        engine.execute(text("SELECT 1"))  # Test
-        print(f"✅ Connexion réussie (params)")
-        return engine
-        
     except Exception as e:
-        print(f"❌ Échec connexion params: {e}")
+        print(f"❌ Erreur connexion: {e}")
         raise
 
 def create_tables(engine):
@@ -231,8 +208,8 @@ def main():
     print("🚀 SETUP BASE POSTGRESQL RENDER")
     print("=" * 50)
     
-    # 1. Vérifier/créer .env
-    if not create_env_template():
+    # 1. Vérifier l'existance du .env
+    if env_file_does_not_exist():
         print("🛑 Configurer .env puis relancer le script")
         return
     
