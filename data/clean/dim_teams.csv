@@ -25,37 +25,37 @@ Benin,Benin,benin,,,23
 Bermuda,Bermuda,bermuda,,,24
 Bolivia,Bolivia,bolivia,,,25
 Bosnia and Herzegovina,Bosnia and Herzegovina,bosniaandherzegovina,,,26
-Bosnia-Herzegovina,Bosnia-Herzegovina,bosniaherzegovina,,,27
-Botswana,Botswana,botswana,,,28
-Brazil,Brazil,brazil,,,29
-British Virgin Islands,British Virgin Islands,britishvirginislands,,,30
-Brunei,Brunei,brunei,,,31
-Bulgaria,Bulgaria,bulgaria,,,32
-Burkina Faso,Burkina Faso,burkinafaso,,,33
-Burundi,Burundi,burundi,,,34
-Cambodia,Cambodia,cambodia,,,35
-Cameroon,Cameroon,cameroon,,,36
-Canada,Canada,canada,,,37
-Cape Verde,Cape Verde,capeverde,,,38
-Cayman Islands,Cayman Islands,caymanislands,,,39
-Central African Republic,Central African Republic,centralafricanrepublic,,,40
-Chad,Chad,chad,,,41
-Chile,Chile,chile,,,42
-China,China,china,,,43
-Colombia,Colombia,colombia,,,44
-Comoros,Comoros,comoros,,,45
-Congo,Congo,congo,,,46
-Cook Islands,Cook Islands,cookislands,,,47
-Costa Rica,Costa Rica,costarica,,,48
+Botswana,Botswana,botswana,,,27
+Brazil,Brazil,brazil,,,28
+British Virgin Islands,British Virgin Islands,britishvirginislands,,,29
+Brunei,Brunei,brunei,,,30
+Bulgaria,Bulgaria,bulgaria,,,31
+Burkina Faso,Burkina Faso,burkinafaso,,,32
+Burundi,Burundi,burundi,,,33
+Cambodia,Cambodia,cambodia,,,34
+Cameroon,Cameroon,cameroon,,,35
+Canada,Canada,canada,,,36
+Cape Verde,Cape Verde,capeverde,,,37
+Cayman Islands,Cayman Islands,caymanislands,,,38
+Central African Republic,Central African Republic,centralafricanrepublic,,,39
+Chad,Chad,chad,,,40
+Chile,Chile,chile,,,41
+China,China,china,CN,CHN,42
+Colombia,Colombia,colombia,,,43
+Comoros,Comoros,comoros,,,44
+Congo,Congo,congo,CG,COG,45
+Cook Islands,Cook Islands,cookislands,,,46
+Costa Rica,Costa Rica,costarica,,,47
+Cote d Ivoire,Cote d Ivoire,cotedivoire,CI,CIV,48
 Croatia,Croatia,croatia,,,49
-Cte d'Ivoire,Cte d'Ivoire,ctedivoire,,,50
-Cuba,Cuba,cuba,,,51
-Curacao,Curaçao,curacao,,,52
-Cyprus,Cyprus,cyprus,,,53
-Czech Republic,Czech Republic,czechrepublic,,,54
-Czechoslovakia,Czechoslovakia,czechoslovakia,,,55
-D.R. Congo,D.R. Congo,drcongo,,,56
-Dahomey,Dahomey,dahomey,,,57
+Cuba,Cuba,cuba,,,50
+Curacao,Curaçao,curacao,,,51
+Cyprus,Cyprus,cyprus,,,52
+Czech Republic,Czech Republic,czechrepublic,,,53
+Czechoslovakia,Czechoslovakia,czechoslovakia,,,54
+C�te d'Ivoire,C�te d'Ivoire,ctedivoire,,,55
+Dahomey,Dahomey,dahomey,,,56
+Democratic Republic of the Congo,D.R. Congo,democraticrepublicofthecongo,CD,COD,57
 Denmark,Denmark,denmark,,,58
 Djibouti,Djibouti,djibouti,,,59
 Dominica,Dominica,dominica,,,60
@@ -98,139 +98,133 @@ Hungary,Hungary,hungary,,,96
 Iceland,Iceland,iceland,,,97
 India,India,india,,,98
 Indonesia,Indonesia,indonesia,,,99
-Iran,IR Iran,iran,IR,IRN,100
+Iran,Iran,iran,IR,IRN,100
 Iraq,Iraq,iraq,,,101
 Ireland,Ireland,ireland,,,102
 Irish Free State,Irish Free State,irishfreestate,,,103
 Israel,Israel,israel,,,104
 Italy,Italy,italy,,,105
-Ivory Coast,Ivory Coast,ivorycoast,CI,CIV,106
-Jamaica,Jamaica,jamaica,,,107
-Japan,Japan,japan,,,108
-Jordan,Jordan,jordan,,,109
-Kazakhstan,Kazakhstan,kazakhstan,,,110
-Kenya,Kenya,kenya,,,111
-Kuwait,Kuwait,kuwait,,,112
-Kyrgyzstan,Kyrgyzstan,kyrgyzstan,,,113
-LOSER X,LOSER X,loserx,,,114
-LOSER Y,LOSER Y,losery,,,115
-Laos,Laos,laos,,,116
-Latvia,Latvia,latvia,,,117
-Lebanon,Lebanon,lebanon,,,118
-Lesotho,Lesotho,lesotho,,,119
-Liberia,Liberia,liberia,,,120
-Libya,Libya,libya,,,121
-Liechtenstein,Liechtenstein,liechtenstein,,,122
-Lithuania,Lithuania,lithuania,,,123
-Luxembourg,Luxembourg,luxembourg,,,124
-Macao,Macao,macao,,,125
-Macedonia,Macedonia,macedonia,,,126
-Madagascar,Madagascar,madagascar,,,127
-Malawi,Malawi,malawi,,,128
-Malaysia,Malaysia,malaysia,,,129
-Maldives,Maldives,maldives,,,130
-Mali,Mali,mali,,,131
-Malta,Malta,malta,,,132
-Mauritania,Mauritania,mauritania,,,133
-Mauritius,Mauritius,mauritius,,,134
-Mexico,Mexico,mexico,,,135
-Moldova,Moldova,moldova,,,136
-Mongolia,Mongolia,mongolia,,,137
-Montenegro,Montenegro,montenegro,,,138
-Montserrat,Montserrat,montserrat,,,139
-Morocco,Morocco,morocco,,,140
-Mozambique,Mozambique,mozambique,,,141
-Myanmar,Myanmar,myanmar,,,142
-Namibia,Namibia,namibia,,,143
-Nepal,Nepal,nepal,,,144
-Netherlands,Netherlands,netherlands,,,145
-New Caledonia,New Caledonia,newcaledonia,,,146
-New Zealand,New Zealand,newzealand,,,147
-Nicaragua,Nicaragua,nicaragua,,,148
-Niger,Niger,niger,,,149
-Nigeria,Nigeria,nigeria,,,150
-North Korea,North Korea,northkorea,,,151
-North Yemen,North Yemen,northyemen,,,152
-Northern Ireland,Northern Ireland,northernireland,,,153
-Norway,Norway,norway,,,154
-Oman,Oman,oman,,,155
-Pakistan,Pakistan,pakistan,,,156
-Palestine,Palestine,palestine,,,157
-Panama,Panama,panama,,,158
-Papua New Guinea,Papua New Guinea,papuanewguinea,,,159
-Paraguay,Paraguay,paraguay,,,160
-Peru,Peru,peru,,,161
-Philippines,Philippines,philippines,,,162
-Poland,Poland,poland,,,163
-Portugal,Portugal,portugal,,,164
-Puerto Rico,Puerto Rico,puertorico,,,165
-Qatar,Qatar,qatar,,,166
-Rhodesia,Rhodesia,rhodesia,,,167
-Romania,Romania,romania,,,168
-Russia,Russia,russia,RU,RUS,169
-Rwanda,Rwanda,rwanda,,,170
-Saarland,Saarland,saarland,,,171
-Saint Kitts & Nevis,Saint Kitts & Nevis,saintkittsnevis,,,172
-Saint Lucia,Saint Lucia,saintlucia,,,173
-Saint Vincent & The Grenadines,Saint Vincent & The Grenadines,saintvincentthegrenadines,,,174
-Samoa,Samoa,samoa,,,175
-San Marino,San Marino,sanmarino,,,176
-Sao Tome e Principe,São Tomé e Príncipe,saotomeeprincipe,,,177
-Saudi Arabia,Saudi Arabia,saudiarabia,,,178
-Scotland,Scotland,scotland,,,179
-Senegal,Senegal,senegal,,,180
-Serbia,Serbia,serbia,,,181
-Serbia-Montenegro,Serbia-Montenegro,serbiamontenegro,,,182
-Seychelles,Seychelles,seychelles,,,183
-Sierra Leone,Sierra Leone,sierraleone,,,184
-Singapore,Singapore,singapore,,,185
-Slovakia,Slovakia,slovakia,,,186
-Slovenia,Slovenia,slovenia,,,187
-Solomon Islands,Solomon Islands,solomonislands,,,188
-Somalia,Somalia,somalia,,,189
-South Africa,South Africa,southafrica,,,190
-South Korea,Korea Republic,southkorea,KR,KOR,191
-South Vietnam,South Vietnam,southvietnam,,,192
-South Yemen,South Yemen,southyemen,,,193
-Spain,Spain,spain,,,194
-Sri Lanka,Sri Lanka,srilanka,,,195
-Sudan,Sudan,sudan,,,196
-Surinam,Surinam,surinam,,,197
-Swaziland,Swaziland,swaziland,,,198
-Sweden,Sweden,sweden,,,199
-Switzerland,Switzerland,switzerland,,,200
-Syria,Syria,syria,,,201
-Tahiti,Tahiti,tahiti,,,202
-Taiwan,Taiwan,taiwan,,,203
-Tajikistan,Tajikistan,tajikistan,,,204
-Tanzania,Tanzania,tanzania,,,205
-Thailand,Thailand,thailand,,,206
-Togo,Togo,togo,,,207
-Tonga,Tonga,tonga,,,208
-Trinidad and Tobago,Trinidad and Tobago,trinidadandtobago,,,209
-Tunisia,Tunisia,tunisia,,,210
-Turkey,Turkey,turkey,,,211
-Turkmenistan,Turkmenistan,turkmenistan,,,212
-Turks and Caicos,Turks and Caicos,turksandcaicos,,,213
-Tuvalu,Tuvalu,tuvalu,,,214
-US Virgin Islands,US Virgin Islands,usvirginislands,,,215
-USSR,Soviet Union,ussr,,,216
-Uganda,Uganda,uganda,,,217
-Ukraine,Ukraine,ukraine,,,218
-United Arab Emirates,United Arab Emirates,unitedarabemirates,,,219
-United States,USA,unitedstates,US,USA,220
-Upper Volta,Upper Volta,uppervolta,,,221
-Uruguay,Uruguay,uruguay,,,222
-Uzbekistan,Uzbekistan,uzbekistan,,,223
-Vanuatu,Vanuatu,vanuatu,,,224
-Venezuela,Venezuela,venezuela,,,225
-Vietnam,Vietnam,vietnam,,,226
-WINNER X,WINNER X,winnerx,,,227
-WINNER Y,WINNER Y,winnery,,,228
-Wales,Wales,wales,,,229
-Western Samoa,Western Samoa,westernsamoa,,,230
-Yemen,Yemen,yemen,,,231
-Yugoslavia,Yugoslavia,yugoslavia,,,232
-Zaire,Zaire,zaire,,,233
-Zambia,Zambia,zambia,,,234
-Zimbabwe,Zimbabwe,zimbabwe,,,235
+Jamaica,Jamaica,jamaica,,,106
+Japan,Japan,japan,,,107
+Jordan,Jordan,jordan,,,108
+Kazakhstan,Kazakhstan,kazakhstan,,,109
+Kenya,Kenya,kenya,,,110
+Kuwait,Kuwait,kuwait,,,111
+Kyrgyzstan,Kyrgyzstan,kyrgyzstan,,,112
+Laos,Laos,laos,,,113
+Latvia,Latvia,latvia,,,114
+Lebanon,Lebanon,lebanon,,,115
+Lesotho,Lesotho,lesotho,,,116
+Liberia,Liberia,liberia,,,117
+Libya,Libya,libya,,,118
+Liechtenstein,Liechtenstein,liechtenstein,,,119
+Lithuania,Lithuania,lithuania,,,120
+Luxembourg,Luxembourg,luxembourg,,,121
+Macao,Macao,macao,,,122
+Macedonia,Macedonia,macedonia,,,123
+Madagascar,Madagascar,madagascar,,,124
+Malawi,Malawi,malawi,,,125
+Malaysia,Malaysia,malaysia,,,126
+Maldives,Maldives,maldives,,,127
+Mali,Mali,mali,,,128
+Malta,Malta,malta,,,129
+Mauritania,Mauritania,mauritania,,,130
+Mauritius,Mauritius,mauritius,,,131
+Mexico,Mexico,mexico,,,132
+Moldova,Moldova,moldova,,,133
+Mongolia,Mongolia,mongolia,,,134
+Montenegro,Montenegro,montenegro,,,135
+Montserrat,Montserrat,montserrat,,,136
+Morocco,Morocco,morocco,,,137
+Mozambique,Mozambique,mozambique,,,138
+Myanmar,Myanmar,myanmar,,,139
+Namibia,Namibia,namibia,,,140
+Nepal,Nepal,nepal,,,141
+Netherlands,Netherlands,netherlands,,,142
+New Caledonia,New Caledonia,newcaledonia,,,143
+New Zealand,New Zealand,newzealand,,,144
+Nicaragua,Nicaragua,nicaragua,,,145
+Niger,Niger,niger,,,146
+Nigeria,Nigeria,nigeria,,,147
+North Korea,North Korea,northkorea,KP,PRK,148
+North Yemen,North Yemen,northyemen,,,149
+Northern Ireland,Northern Ireland,northernireland,,,150
+Norway,Norway,norway,,,151
+Oman,Oman,oman,,,152
+Pakistan,Pakistan,pakistan,,,153
+Palestine,Palestine,palestine,,,154
+Panama,Panama,panama,,,155
+Papua New Guinea,Papua New Guinea,papuanewguinea,,,156
+Paraguay,Paraguay,paraguay,,,157
+Peru,Peru,peru,,,158
+Philippines,Philippines,philippines,,,159
+Poland,Poland,poland,,,160
+Portugal,Portugal,portugal,,,161
+Puerto Rico,Puerto Rico,puertorico,,,162
+Qatar,Qatar,qatar,,,163
+Rhodesia,Rhodesia,rhodesia,,,164
+Romania,Romania,romania,,,165
+Russia,Russia,russia,RU,RUS,166
+Rwanda,Rwanda,rwanda,,,167
+Saarland,Saarland,saarland,,,168
+Saint Kitts & Nevis,Saint Kitts & Nevis,saintkittsnevis,,,169
+Saint Lucia,Saint Lucia,saintlucia,,,170
+Saint Vincent & The Grenadines,Saint Vincent & The Grenadines,saintvincentthegrenadines,,,171
+Samoa,Samoa,samoa,,,172
+San Marino,San Marino,sanmarino,,,173
+Sao Tome e Principe,São Tomé e Príncipe,saotomeeprincipe,,,174
+Saudi Arabia,Saudi Arabia,saudiarabia,,,175
+Scotland,Scotland,scotland,,,176
+Senegal,Senegal,senegal,,,177
+Serbia,Serbia,serbia,,,178
+Serbia-Montenegro,Serbia-Montenegro,serbiamontenegro,,,179
+Seychelles,Seychelles,seychelles,,,180
+Sierra Leone,Sierra Leone,sierraleone,,,181
+Singapore,Singapore,singapore,,,182
+Slovakia,Slovakia,slovakia,,,183
+Slovenia,Slovenia,slovenia,,,184
+Solomon Islands,Solomon Islands,solomonislands,,,185
+Somalia,Somalia,somalia,,,186
+South Africa,South Africa,southafrica,,,187
+South Korea,South Korea,southkorea,KR,KOR,188
+South Vietnam,South Vietnam,southvietnam,,,189
+South Yemen,South Yemen,southyemen,,,190
+Spain,Spain,spain,,,191
+Sri Lanka,Sri Lanka,srilanka,,,192
+Sudan,Sudan,sudan,,,193
+Surinam,Surinam,surinam,,,194
+Swaziland,Swaziland,swaziland,,,195
+Sweden,Sweden,sweden,,,196
+Switzerland,Switzerland,switzerland,,,197
+Syria,Syria,syria,,,198
+Tahiti,Tahiti,tahiti,,,199
+Taiwan,Taiwan,taiwan,,,200
+Tajikistan,Tajikistan,tajikistan,,,201
+Tanzania,Tanzania,tanzania,,,202
+Thailand,Thailand,thailand,,,203
+Togo,Togo,togo,,,204
+Tonga,Tonga,tonga,,,205
+Trinidad and Tobago,Trinidad and Tobago,trinidadandtobago,,,206
+Tunisia,Tunisia,tunisia,,,207
+Turkey,Turkey,turkey,,,208
+Turkmenistan,Turkmenistan,turkmenistan,,,209
+Turks and Caicos,Turks and Caicos,turksandcaicos,,,210
+Tuvalu,Tuvalu,tuvalu,,,211
+US Virgin Islands,US Virgin Islands,usvirginislands,,,212
+USSR,USSR,ussr,,,213
+Uganda,Uganda,uganda,,,214
+Ukraine,Ukraine,ukraine,,,215
+United Arab Emirates,United Arab Emirates,unitedarabemirates,,,216
+United States,USA,unitedstates,US,USA,217
+Upper Volta,Upper Volta,uppervolta,,,218
+Uruguay,Uruguay,uruguay,,,219
+Uzbekistan,Uzbekistan,uzbekistan,,,220
+Vanuatu,Vanuatu,vanuatu,,,221
+Venezuela,Venezuela,venezuela,,,222
+Vietnam,Vietnam,vietnam,,,223
+Wales,Wales,wales,,,224
+Western Samoa,Western Samoa,westernsamoa,,,225
+Yemen,Yemen,yemen,,,226
+Yugoslavia,Yugoslavia,yugoslavia,,,227
+Zambia,Zambia,zambia,,,228
+Zimbabwe,Zimbabwe,zimbabwe,,,229
