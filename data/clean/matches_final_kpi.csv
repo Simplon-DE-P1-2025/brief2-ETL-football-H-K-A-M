@@ -6083,7 +6083,7 @@ id_match,home_team,away_team,home_result,away_result,result,date,round,city,edit
 6082,Colombia,Bolivia,0,1,Bolivia,,Preliminary round,Tashkent,2014,False
 6083,Colombia,Chile,0,1,Chile,,Preliminary round,Tashkent,2014,False
 6084,Colombia,Cote d Ivoire,1,2,Cote d Ivoire,,Preliminary round,Wien,2014,False
-6085,Colombia,C�te d'Ivoire,1,0,Colombia,,Preliminary round,Quito,2014,False
+6085,Colombia,Cote d Ivoire,1,0,Colombia,,Preliminary round,Quito,2014,False
 6086,Colombia,Ecuador,4,0,Colombia,,Preliminary round,Tashkent,2014,False
 6087,Colombia,Greece,3,1,Colombia,,Preliminary round,Tirane,2014,False
 6088,Colombia,Paraguay,4,2,Colombia,,Preliminary round,Salvador,2014,False
@@ -6107,25 +6107,25 @@ id_match,home_team,away_team,home_result,away_result,result,date,round,city,edit
 6106,Costa Rica,United States,0,2,United States,,Preliminary round,Chililabombwe,2014,False
 6107,Cote d Ivoire,Gambia,0,2,Gambia,,Preliminary round,Bridgetown,2014,False
 6108,Cote d Ivoire,Japan,4,0,Cote d Ivoire,,Preliminary round,Blida,2014,False
-6109,Cote d Ivoire,Morocco,0,2,Morocco,,Preliminary round,Bridgetown,2014,False
-6110,Cote d Ivoire,Senegal,1,4,Senegal,,Preliminary round,Belmopan,2014,False
-6111,Cote d Ivoire,Tanzania,3,1,Cote d Ivoire,,Preliminary round,Libreville,2014,False
-6112,Croatia,Belgium,0,1,Belgium,,Preliminary round,Chililabombwe,2014,False
-6113,Croatia,Iceland,1,0,Croatia,,Preliminary round,Chililabombwe,2014,False
-6114,Croatia,Macedonia,1,1,draw,,Preliminary round,Sofija,2014,False
-6115,Croatia,Mexico,1,1,draw,,Preliminary round,Gaborone,2014,False
-6116,Croatia,Wales,4,1,Croatia,,Preliminary round,Sofija,2014,False
-6117,Cuba,Canada,4,2,Cuba,,Preliminary round,Ouagadougou,2014,False
-6118,Cuba,Honduras,2,3,Honduras,,Preliminary round,Ouagadougou,2014,False
-6119,Cuba,Panama,1,0,Cuba,,Preliminary round,Ouagadougou,2014,False
-6120,Curacao,Antigua and Barbuda,1,1,draw,,Preliminary round,Maputo,2014,False
-6121,Curacao,Haiti,3,0,Curacao,,Preliminary round,Maputo,2014,False
-6122,Curacao,US Virgin Islands,1,2,US Virgin Islands,,Preliminary round,Windhoek,2014,False
-6123,Cyprus,Iceland,2,1,Cyprus,,Preliminary round,Yaounde,2014,False
-6124,Cyprus,Norway,0,0,draw,,Preliminary round,Yaounde,2014,False
-6125,Czech Republic,Bulgaria,3,0,Czech Republic,,Preliminary round,Yaounde,2014,False
-6126,Czech Republic,Malta,4,0,Czech Republic,,Preliminary round,Santiago,2014,False
-6127,C�te d'Ivoire,Japan,2,0,C�te d'Ivoire,,Preliminary round,Kinshasa,2014,False
+6109,Cote d Ivoire,Japan,2,0,Cote d Ivoire,,Preliminary round,Kinshasa,2014,False
+6110,Cote d Ivoire,Morocco,0,2,Morocco,,Preliminary round,Bridgetown,2014,False
+6111,Cote d Ivoire,Senegal,1,4,Senegal,,Preliminary round,Belmopan,2014,False
+6112,Cote d Ivoire,Tanzania,3,1,Cote d Ivoire,,Preliminary round,Libreville,2014,False
+6113,Croatia,Belgium,0,1,Belgium,,Preliminary round,Chililabombwe,2014,False
+6114,Croatia,Iceland,1,0,Croatia,,Preliminary round,Chililabombwe,2014,False
+6115,Croatia,Macedonia,1,1,draw,,Preliminary round,Sofija,2014,False
+6116,Croatia,Mexico,1,1,draw,,Preliminary round,Gaborone,2014,False
+6117,Croatia,Wales,4,1,Croatia,,Preliminary round,Sofija,2014,False
+6118,Cuba,Canada,4,2,Cuba,,Preliminary round,Ouagadougou,2014,False
+6119,Cuba,Honduras,2,3,Honduras,,Preliminary round,Ouagadougou,2014,False
+6120,Cuba,Panama,1,0,Cuba,,Preliminary round,Ouagadougou,2014,False
+6121,Curacao,Antigua and Barbuda,1,1,draw,,Preliminary round,Maputo,2014,False
+6122,Curacao,Haiti,3,0,Curacao,,Preliminary round,Maputo,2014,False
+6123,Curacao,US Virgin Islands,1,2,US Virgin Islands,,Preliminary round,Windhoek,2014,False
+6124,Cyprus,Iceland,2,1,Cyprus,,Preliminary round,Yaounde,2014,False
+6125,Cyprus,Norway,0,0,draw,,Preliminary round,Yaounde,2014,False
+6126,Czech Republic,Bulgaria,3,0,Czech Republic,,Preliminary round,Yaounde,2014,False
+6127,Czech Republic,Malta,4,0,Czech Republic,,Preliminary round,Santiago,2014,False
 6128,Democratic Republic of the Congo,Swaziland,2,1,Democratic Republic of the Congo,,Preliminary round,Windhoek,2014,False
 6129,Democratic Republic of the Congo,Togo,1,0,Democratic Republic of the Congo,,Preliminary round,Santiago,2014,False
 6130,Denmark,Czech Republic,0,0,draw,,Preliminary round,Santiago,2014,False
@@ -6181,7 +6181,7 @@ id_match,home_team,away_team,home_result,away_result,result,date,round,city,edit
 6180,Ghana,United States,1,0,Ghana,,Preliminary round,Quito,2014,False
 6181,Greece,Bosnia and Herzegovina,1,1,draw,,Preliminary round,Quito,2014,False
 6182,Greece,Cote d Ivoire,0,0,draw,,Preliminary round,Ouagadougou,2014,False
-6183,Greece,C�te d'Ivoire,1,2,C�te d'Ivoire,,Preliminary round,San_Salvador,2014,False
+6183,Greece,Cote d Ivoire,1,2,Cote d Ivoire,,Preliminary round,San_Salvador,2014,False
 6184,Greece,Lithuania,1,2,Lithuania,,Preliminary round,Quito,2014,False
 6185,Grenada,Belize,1,0,Grenada,,Preliminary round,Pyongyang,2014,False
 6186,Grenada,Guatemala,0,0,draw,,Preliminary round,Belfast,2014,False

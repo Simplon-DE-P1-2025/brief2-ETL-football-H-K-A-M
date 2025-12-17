@@ -2,7 +2,7 @@ V3 -> V4 rows: 6814 -> 6814
 ghost removed: 0
 bad team_id rows removed: 0
 placeholder dates (set to NULL): 6074
-n_teams_dim: 229
+n_teams_dim: 228
 
 round value_counts:
 round
