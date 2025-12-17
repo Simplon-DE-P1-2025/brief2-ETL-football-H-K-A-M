@@ -1,0 +1,16 @@
+# Configuration PostgreSQL Render - TEMPLATE
+# ⚠️ Copier ce fichier vers .env et remplacer par vos vraies credentials
+
+# Paramètres individuels depuis Render Dashboard > Info
+RENDER_DB_HOST=dpg-xxxxx-a.frankfurt-postgres.render.com
+RENDER_DB_PORT=5432
+RENDER_DB_NAME=fifa_worldcup
+RENDER_DB_USER=fifa_user
+RENDER_DB_PASSWORD=VOTRE_MOT_DE_PASSE_RENDER_ICI
+
+# URL complète depuis Render "External Database URL"
+RENDER_DATABASE_URL=postgresql://fifa_user:VOTRE_MOT_DE_PASSE@dpg-xxxxx-a.frankfurt-postgres.render.com/fifa_worldcup
+
+# Variables optionnelles
+# RENDER_DB_SSLMODE=require
+# RENDER_DB_TIMEOUT=30
