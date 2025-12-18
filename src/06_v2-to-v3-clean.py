@@ -133,6 +133,10 @@ def clean_round(s: object) -> str:
         "third place play off": "Match for third place", "match for third place": "Match for third place",
         "final": "Final", "final round": "Final", "first": "Final",
     }
+    if "qual" in t or "elimin" in t:
+        return "Qualification"
+    if t.startswith("prelim"):
+        return "Preliminary round"
     return ROUND_MAP.get(t, t.title()).strip()
 
 def clean_team_raw(x: object) -> str:

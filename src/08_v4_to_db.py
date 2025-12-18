@@ -31,8 +31,20 @@ def generate_final_kpi_table():
     # 6. Ajouter la colonne is_final
     # On considère que tout ce qui n'est pas "Preliminary" ou "Qualification" fait partie du tournoi final
     # A adapter selon les valeurs exactes dans la colonne 'round'
-    non_final_rounds = ['Preliminary round', 'Qualification', 'Preliminaries']
-    df_matches['is_final'] = ~df_matches['round'].isin(non_final_rounds)
+    # 6) Ajouter la colonne is_final (WHITELIST, plus fiable)
+    final_rounds = {
+        "Group",
+        "Round of 16",
+        "Quarter-finals",
+        "Semi-finals",
+        "Final",
+        "Match for third place",
+    }
+
+    # On normalise un peu pour éviter les soucis de casse/espaces
+    r = df_matches["round"].astype(str).str.strip()
+
+    df_matches["is_final"] = r.isin(final_rounds)
 
     # 7. Sélectionner et ordonner EXACTEMENT les colonnes demandées
     # On renomme result_name en result pour écraser l'ancien
