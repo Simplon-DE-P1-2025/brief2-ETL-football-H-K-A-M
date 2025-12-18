@@ -64,7 +64,7 @@ def is_placeholder_date(date_str: object) -> bool:
 
 def compute_result(home_team: str, away_team: str, hg: int, ag: int) -> str:
     if pd.isna(hg) or pd.isna(ag):
-        return "draw"  # fallback (tu peux aussi laisser vide)
+        return "draw"  # fallback
     if hg > ag:
         return home_team
     if hg < ag:
@@ -94,10 +94,10 @@ def main() -> None:
     # ---------------------------
     df = pd.read_csv(V1_FILE)
 
-    # ✅ ON GARDE edition COMME LABEL STRING (métier)
+    #  ON GARDE edition COMME LABEL STRING (métier)
     df["edition"] = df["edition"].astype(str)
 
-    # ✅ clé technique pour merges
+    #  clé technique pour merges
     df["edition_year"] = extract_year_from_edition_label(df["edition"])
 
     # Score types
@@ -139,7 +139,7 @@ def main() -> None:
 
             rows.append(
                 {
-                    # ✅ clé technique (int)
+                    #  clé technique (int)
                     "edition_year": year,
                     "date_kaggle": str(m["date"])[:10],
                     "home_team_kaggle": m["homeTeam"]["teamName"],
@@ -242,7 +242,7 @@ def main() -> None:
         df1.loc[idx, "round"] = df2[round_col].fillna(df1.loc[idx, "round"]).values
         df1.loc[idx, "city"] = df2[city_col].fillna(df1.loc[idx, "city"]).values
 
-    # (optionnel) recalcul result si vide
+    # recalcul result si vide
     if "result" in df1.columns:
         miss_result = df1["result"].isna()
         if miss_result.any():
@@ -251,14 +251,14 @@ def main() -> None:
                 axis=1,
             )
 
-    # Cleanup + export (TOUJOURS, même si need2 vide)
+    # Cleanup + export
     drop_cols = [
         c
         for c in df1.columns
         if c.endswith("_kaggle")
         or c in ["home_key", "away_key", "round_key", "city_key", "home_result_kaggle", "away_result_kaggle", "date_kaggle"]
     ]
-    # IMPORTANT : on retire edition_year de la sortie si tu veux un CSV "métier" propre
+    # IMPORTANT : on retire edition_year de la sortie pour avoir un CSV "métier" propre
     drop_cols += ["edition_year"]
 
     df_out = df1.drop(columns=[c for c in drop_cols if c in df1.columns], errors="ignore")

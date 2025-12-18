@@ -92,7 +92,7 @@ def parse_file(path: Path, default_round: str = "Group") -> list[dict]:
         # Détecter headers (Group A / Round of 16 / etc.)
         g = GROUP_HEADER_RE.match(line)
         if g:
-            current_round = "Group"  # on garde simple (vous pouvez changer en f"Group {g.group(1)}" si vous voulez)
+            current_round = "Group"  
             continue
 
         f = FINALS_HEADER_RE.match(line)

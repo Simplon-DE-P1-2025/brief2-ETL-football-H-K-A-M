@@ -28,12 +28,12 @@ OUT_DIM.parent.mkdir(parents=True, exist_ok=True)
 # =============================================================================
 
 GARBAGE_KEYWORDS = [
-    "WINNER", "LOSER", "RUNNER-UP", "RUNNER UP", 
+    "WINNER", "LOSER", "RUNNER-UP", "RUNNER UP",
     "GROUP", "TEAMS", "MATCH", "SEMI-FINAL", "FINALIST",
     "PLAY-OFF", "REPECHAGE"
 ]
 
-# 🛑 DICTIONNAIRE MAÎTRE : Tout ce qui est à gauche devient ce qui est à droite
+# DICTIONNAIRE MAÎTRE : Tout ce qui est à gauche devient ce qui est à droite
 MANUAL_CORRECTIONS = {
     # --- COTE D IVOIRE (Cible unique : "Cote d Ivoire") ---
     "Cte d'Ivoire": "Cote d Ivoire",
@@ -51,14 +51,14 @@ MANUAL_CORRECTIONS = {
     "Congo DR": "Democratic Republic of the Congo",
     "Democratic Republic of the Congo": "Democratic Republic of the Congo",
     "Congo": "Congo", # Brazzaville
-    
+
     "Holland": "Netherlands",
     "The Netherlands": "Netherlands",
     "West Germany": "Germany",
     "East Germany": "Germany", # Choix: on unifie tout sous Germany pour l'historique
     "FRG": "Germany",
     "FRG (BRD / Westdeutschland)": "Germany",
-    
+
     "Soviet Union": "USSR",
     "China PR": "China",
     "United States": "USA",
@@ -125,9 +125,9 @@ def clean_round(s: object) -> str:
     if t.startswith("preliminary"): return "Preliminary round"
     ROUND_MAP = {
         "1/8 final": "Round of 16", "round of 16": "Round of 16",
-        "1/4 final": "Quarter-finals", "quarterfinal stage": "Quarter-finals", 
+        "1/4 final": "Quarter-finals", "quarterfinal stage": "Quarter-finals",
         "quarter final": "Quarter-finals", "quarter finals": "Quarter-finals",
-        "1/2 final": "Semi-finals", "semifinal stage": "Semi-finals", 
+        "1/2 final": "Semi-finals", "semifinal stage": "Semi-finals",
         "semi final": "Semi-finals", "semi finals": "Semi-finals",
         "places 3&4": "Match for third place", "play off for third place": "Match for third place",
         "third place play off": "Match for third place", "match for third place": "Match for third place",
@@ -167,12 +167,12 @@ def clean_team_raw(x: object) -> str:
         if "cte" in t_lower or "cote" in t_lower or "coast" in t_lower:
             return "Cote d Ivoire"
 
-    # Vérifs finales (poubelle)
+    # Vérifs finales (idem pas pas optionnel mais par sécurité)
     if t.upper() == "A": return ""
     if GROUP_LABEL_RE.fullmatch(t.replace(" ", "")): return ""
     if GROUP_WORD_RE.fullmatch(t): return ""
     if len(t) < 2 or not any(ch.isalpha() for ch in t): return ""
-    
+
     return t
 
 def alias_key(s: str) -> str:
@@ -193,7 +193,7 @@ def compute_result(row: pd.Series) -> str:
     # On utilise les noms canoniques s'ils existent (donc propres)
     home_name = row.get("home_team_canonical") if pd.notna(row.get("home_team_canonical")) else row["home_team_raw"]
     away_name = row.get("away_team_canonical") if pd.notna(row.get("away_team_canonical")) else row["away_team_raw"]
-    
+
     hg, ag = row["home_result"], row["away_result"]
     if pd.isna(hg) or pd.isna(ag): return "draw"
     if hg > ag: return home_name
@@ -202,7 +202,7 @@ def compute_result(row: pd.Series) -> str:
 
 def build_country_resolver():
     try:
-        import pycountry 
+        import pycountry
     except Exception:
         pycountry = None
 
@@ -216,12 +216,12 @@ def build_country_resolver():
         "koreadpr": ("North Korea", "KP", "PRK"),
         "northkorea": ("North Korea", "KP", "PRK"),
         "russia": ("Russia", "RU", "RUS"),
-        
-        # 🛑 OVERRIDE POUR FORCER LE NOM CANONIQUE
+
+        # OVERRIDE POUR FORCER LE NOM CANONIQUE
         "cotedivoire": ("Cote d Ivoire", "CI", "CIV"),
         "ivorycoast": ("Cote d Ivoire", "CI", "CIV"),
-        "ctedivoire": ("Cote d Ivoire", "CI", "CIV"), 
-        
+        "ctedivoire": ("Cote d Ivoire", "CI", "CIV"),
+
         "drcongo": ("Democratic Republic of the Congo", "CD", "COD"),
         "democraticrepublicofthecongo": ("Democratic Republic of the Congo", "CD", "COD"),
         "zaire": ("Democratic Republic of the Congo", "CD", "COD"),
@@ -292,7 +292,7 @@ def main() -> None:
 
     df["home_team_raw"] = df["home_team"].astype(str)
     df["away_team_raw"] = df["away_team"].astype(str)
-    
+
     # Appel de la fonction de nettoyage robuste
     df["home_team_clean"] = df["home_team_raw"].map(clean_team_raw)
     df["away_team_clean"] = df["away_team_raw"].map(clean_team_raw)
@@ -318,11 +318,11 @@ def main() -> None:
     tmp_dim_rows = []
     for clean in sorted(aliases_df["team_clean"].dropna().unique()):
         canonical, iso2, iso3 = resolve(clean)
-        
-        # 🛑 ULTIME SÉCURITÉ : On force le canonique une dernière fois
+
+        # ULTIME SÉCURITÉ : On force le canonique une dernière fois
         if "ivoire" in str(canonical).lower():
              canonical = "Cote d Ivoire"
-        
+
         canonical_key = alias_key(canonical) if canonical else alias_key(clean)
         tmp_dim_rows.append({
             "team_canonical": canonical, "team_clean_example": clean,
@@ -331,7 +331,7 @@ def main() -> None:
 
     tmp_dim = pd.DataFrame(tmp_dim_rows)
     tmp_dim["_iso_score"] = tmp_dim["iso3"].notna().astype(int) + tmp_dim["iso2"].notna().astype(int)
-    
+
     # Dédoublonnage sur la clé canonique (ex: cotedivoire)
     dim = (
         tmp_dim.sort_values(["canonical_key", "_iso_score", "team_canonical"], ascending=[True, False, True])
@@ -342,14 +342,14 @@ def main() -> None:
     dim["team_id"] = range(1, len(dim) + 1)
 
     clean_to_canonical_key = {row["team_clean_example"]: row["canonical_key"] for _, row in tmp_dim.iterrows()}
-    
+
     # MAPPING ID
     aliases_df["canonical_key"] = aliases_df["team_clean"].map(clean_to_canonical_key)
     canonical_key_to_id = dict(zip(dim["canonical_key"], dim["team_id"]))
     aliases_df["team_id"] = aliases_df["canonical_key"].map(canonical_key_to_id)
 
     unknown = aliases_df.loc[aliases_df["team_id"].isna(), ["team_raw", "team_clean", "alias_key"]].copy()
-    
+
     qa = (
         aliases_df.groupby(["team_id"], dropna=False)
         .agg(n_variants=("team_raw", "nunique"), variants=("team_clean", lambda s: ", ".join(sorted(set(s))[:30])))

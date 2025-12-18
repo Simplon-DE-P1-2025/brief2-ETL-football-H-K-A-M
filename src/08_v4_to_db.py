@@ -30,26 +30,25 @@ def generate_final_kpi_table():
 
     # 6. Ajouter la colonne is_final
     # On considère que tout ce qui n'est pas "Preliminary" ou "Qualification" fait partie du tournoi final
-    # A adapter selon les valeurs exactes dans la colonne 'round'
     non_final_rounds = ['Preliminary round', 'Qualification', 'Preliminaries']
     df_matches['is_final'] = ~df_matches['round'].isin(non_final_rounds)
 
     # 7. Sélectionner et ordonner EXACTEMENT les colonnes demandées
     # On renomme result_name en result pour écraser l'ancien
     final_cols = [
-        'id_match', 
-        'home_team', 
-        'away_team', 
-        'home_result', 
-        'away_result', 
+        'id_match',
+        'home_team',
+        'away_team',
+        'home_result',
+        'away_result',
         'result_name', # Sera renommé en 'result'
-        'date', 
-        'round', 
-        'city', 
+        'date',
+        'round',
+        'city',
         'edition_year', # Sera renommé en 'edition'
         'is_final'      # Colonne bonus très utile
     ]
-    
+
     df_final = df_matches[final_cols].copy()
     df_final.rename(columns={
         'result_name': 'result',
@@ -59,7 +58,7 @@ def generate_final_kpi_table():
     # 8. Vérifications
     print("\n--- Aperçu des 5 dernières lignes (2022) ---")
     print(df_final.tail())
-    
+
     print(f"\n--- Vérification doublons/manquants ---")
     print(f"Total matchs: {len(df_final)}")
     print(f"Équipes manquantes: {df_final['home_team'].isnull().sum()}")
