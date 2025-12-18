@@ -30,7 +30,7 @@ def generate_final_kpi_table():
 
     # 6. Ajouter la colonne is_final
     # On considère que tout ce qui n'est pas "Preliminary" ou "Qualification" fait partie du tournoi final
-    # A adapter selon vos valeurs exactes dans la colonne 'round'
+    # A adapter selon les valeurs exactes dans la colonne 'round'
     non_final_rounds = ['Preliminary round', 'Qualification', 'Preliminaries']
     df_matches['is_final'] = ~df_matches['round'].isin(non_final_rounds)
 

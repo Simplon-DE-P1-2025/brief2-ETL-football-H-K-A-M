@@ -33,27 +33,32 @@ GARBAGE_KEYWORDS = [
     "PLAY-OFF", "REPECHAGE"
 ]
 
+# 🛑 DICTIONNAIRE MAÎTRE : Tout ce qui est à gauche devient ce qui est à droite
 MANUAL_CORRECTIONS = {
-    # On met toutes les variantes possibles et imaginables
+    # --- COTE D IVOIRE (Cible unique : "Cote d Ivoire") ---
     "Cte d'Ivoire": "Cote d Ivoire",
-    "Cte d'Ivoire": "Cote d Ivoire", # Ton caractère cassé est ici
     "Ivory Coast": "Cote d Ivoire",
     "CÃ´te d'Ivoire": "Cote d Ivoire",
     "Côte d’Ivoire": "Cote d Ivoire",
     "Côte d'Ivoire": "Cote d Ivoire",
     "Cote d'Ivoire": "Cote d Ivoire",
     "Cote dIvoire": "Cote d Ivoire",
+    "ctedivoire": "Cote d Ivoire", # Clé cassée potentielle
 
-    # Autres pays
+    # --- AUTRES PAYS A PROBLEMES ---
     "Zaire": "Democratic Republic of the Congo",
     "DR Congo": "Democratic Republic of the Congo",
     "Congo DR": "Democratic Republic of the Congo",
     "Democratic Republic of the Congo": "Democratic Republic of the Congo",
-    "Congo": "Congo", 
+    "Congo": "Congo", # Brazzaville
+    
     "Holland": "Netherlands",
     "The Netherlands": "Netherlands",
     "West Germany": "Germany",
-    "East Germany": "Germany",
+    "East Germany": "Germany", # Choix: on unifie tout sous Germany pour l'historique
+    "FRG": "Germany",
+    "FRG (BRD / Westdeutschland)": "Germany",
+    
     "Soviet Union": "USSR",
     "China PR": "China",
     "United States": "USA",
@@ -63,19 +68,17 @@ MANUAL_CORRECTIONS = {
     "North Korea": "North Korea",
     "Iran": "Iran",
     "IR Iran": "Iran",
-    "Bosnia-Herzegovina": "Bosnia and Herzegovina"
+    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+    "Trinidad and Tobago": "Trinidad and Tobago"
 }
 
 
 # =============================================================================
-# 3. REGEX & UTILITAIRES
+# 3. UTILITAIRES DE NETTOYAGE
 # =============================================================================
 PLACEHOLDER_DATE_RE = re.compile(r"^\d{4}-01-01$")
 CONTROL_CHARS_RE = re.compile(r"[\u0000-\u001F\u007F-\u009F]+")
 PAREN_RE = re.compile(r"\s*\(([^)]*)\)\s*")
-# Regex nucléaire pour la Cote d'Ivoire : cherche "te", un "d", et "Ivoire" n'importe comment
-IVORY_NUKE_RE = re.compile(r".*te\s*d.*Ivoire.*", re.IGNORECASE)
-
 LEADING_SCORE_TEAM_RE = re.compile(r"^\s*\([^)]*\)\s*")
 LEADING_GARBAGE_RE = re.compile(r'^\s*["\']*(?:\\r\\n|\\n|\\r|rn|r?n)?["\']*\s*>\s*', re.IGNORECASE)
 TRAILING_ID_RE = re.compile(r'"\s*,\s*\d+\s*$|,\s*\d+\s*$')
@@ -133,17 +136,14 @@ def clean_round(s: object) -> str:
     return ROUND_MAP.get(t, t.title()).strip()
 
 def clean_team_raw(x: object) -> str:
-    """Nettoyage ROBUSTE d'un nom d'équipe brute."""
+    """Nettoyage ROBUSTE avec détection agressive."""
     if x is None or pd.isna(x): return ""
     t = str(x).strip()
 
-    # 1. Vérification Exacte
+    # 1. Vérification Exacte (Avant nettoyage)
     if t in MANUAL_CORRECTIONS: return MANUAL_CORRECTIONS[t]
 
-    # 2. Vérification Regex Nucléaire (Attrape Cte d'Ivoire)
-    if IVORY_NUKE_RE.match(t):
-        return "Cote d Ivoire"
-
+    # 2. Nettoyage Regex standard
     t = CONTROL_CHARS_RE.sub(" ", t)
     t = normalize_spaces(t)
     t = t.strip('"').strip("'").strip()
@@ -157,14 +157,22 @@ def clean_team_raw(x: object) -> str:
     if m: t = PAREN_RE.sub("", t).strip()
     t = normalize_spaces(t)
 
-    # 3. Vérification après nettoyage
+    # 3. Vérification Exacte (Après nettoyage)
     if t in MANUAL_CORRECTIONS: return MANUAL_CORRECTIONS[t]
-    if IVORY_NUKE_RE.match(t): return "Cote d Ivoire"
 
+    # 4. DÉTECTION PATTERN (Le filet de sécurité ultime)
+    # Si ça contient "Cte" ou "Cote" ET "Ivoire", on force.
+    t_lower = t.lower()
+    if "ivoire" in t_lower:
+        if "cte" in t_lower or "cote" in t_lower or "coast" in t_lower:
+            return "Cote d Ivoire"
+
+    # Vérifs finales (poubelle)
     if t.upper() == "A": return ""
     if GROUP_LABEL_RE.fullmatch(t.replace(" ", "")): return ""
     if GROUP_WORD_RE.fullmatch(t): return ""
     if len(t) < 2 or not any(ch.isalpha() for ch in t): return ""
+    
     return t
 
 def alias_key(s: str) -> str:
@@ -182,8 +190,10 @@ def is_placeholder_date(s: object) -> bool:
     return bool(PLACEHOLDER_DATE_RE.match(str(s).strip()))
 
 def compute_result(row: pd.Series) -> str:
+    # On utilise les noms canoniques s'ils existent (donc propres)
     home_name = row.get("home_team_canonical") if pd.notna(row.get("home_team_canonical")) else row["home_team_raw"]
     away_name = row.get("away_team_canonical") if pd.notna(row.get("away_team_canonical")) else row["away_team_raw"]
+    
     hg, ag = row["home_result"], row["away_result"]
     if pd.isna(hg) or pd.isna(ag): return "draw"
     if hg > ag: return home_name
@@ -206,10 +216,11 @@ def build_country_resolver():
         "koreadpr": ("North Korea", "KP", "PRK"),
         "northkorea": ("North Korea", "KP", "PRK"),
         "russia": ("Russia", "RU", "RUS"),
-        # Override Force
+        
+        # 🛑 OVERRIDE POUR FORCER LE NOM CANONIQUE
         "cotedivoire": ("Cote d Ivoire", "CI", "CIV"),
         "ivorycoast": ("Cote d Ivoire", "CI", "CIV"),
-        "ctedivoire": ("Cote d Ivoire", "CI", "CIV"), # On redirige le alias key cassé aussi
+        "ctedivoire": ("Cote d Ivoire", "CI", "CIV"), 
         
         "drcongo": ("Democratic Republic of the Congo", "CD", "COD"),
         "democraticrepublicofthecongo": ("Democratic Republic of the Congo", "CD", "COD"),
@@ -258,14 +269,13 @@ def main() -> None:
 
     before = len(df)
 
-    # 1. APPLICATION DES HARD FIXES
+    # 1. APPLICATION DES HARD FIXES (Globales)
     print("Application des correctifs manuels (Force 'Cote d Ivoire')...")
     for col in ["home_team", "away_team", "result"]:
         if col in df.columns:
-            # Correction par dictionnaire + Regex
             df[col] = df[col].replace(MANUAL_CORRECTIONS)
-            # Apply regex correction line by line for stubborn cases
-            df[col] = df[col].apply(lambda x: "Cote d Ivoire" if isinstance(x, str) and IVORY_NUKE_RE.match(x) else x)
+            # Fix patterns résiduels
+            df[col] = df[col].apply(lambda x: "Cote d Ivoire" if isinstance(x, str) and ("ote" in x.lower() or "cte" in x.lower()) and "ivoire" in x.lower() else x)
 
     # 2. FILTRE ANTI-GARBAGE
     print("Filtrage des lignes fantômes (Winner X, Loser Y)...")
@@ -283,6 +293,7 @@ def main() -> None:
     df["home_team_raw"] = df["home_team"].astype(str)
     df["away_team_raw"] = df["away_team"].astype(str)
     
+    # Appel de la fonction de nettoyage robuste
     df["home_team_clean"] = df["home_team_raw"].map(clean_team_raw)
     df["away_team_clean"] = df["away_team_raw"].map(clean_team_raw)
 
@@ -308,8 +319,8 @@ def main() -> None:
     for clean in sorted(aliases_df["team_clean"].dropna().unique()):
         canonical, iso2, iso3 = resolve(clean)
         
-        # 🛑 FORCE FINALE POUR LA DIMENSION
-        if IVORY_NUKE_RE.match(canonical) or "Cote d" in canonical or "Côte d" in canonical:
+        # 🛑 ULTIME SÉCURITÉ : On force le canonique une dernière fois
+        if "ivoire" in str(canonical).lower():
              canonical = "Cote d Ivoire"
         
         canonical_key = alias_key(canonical) if canonical else alias_key(clean)
@@ -321,35 +332,18 @@ def main() -> None:
     tmp_dim = pd.DataFrame(tmp_dim_rows)
     tmp_dim["_iso_score"] = tmp_dim["iso3"].notna().astype(int) + tmp_dim["iso2"].notna().astype(int)
     
+    # Dédoublonnage sur la clé canonique (ex: cotedivoire)
     dim = (
         tmp_dim.sort_values(["canonical_key", "_iso_score", "team_canonical"], ascending=[True, False, True])
         .drop_duplicates(subset=["canonical_key"], keep="first")
         .drop(columns=["_iso_score"])
         .sort_values("team_canonical").reset_index(drop=True)
     )
-
-    # =========================================================
-    # 🛑 LA PURGE FINALE : ON TUE LA LIGNE FANTÔME ICI
-    # =========================================================
-    print("Purge des doublons Côte d'Ivoire dans la dimension...")
-    
-    # On cherche l'ID qui correspond à la clé cassée 'ctedivoire'
-    # et on garde celui qui est 'cotedivoire'
-    
-    # Si 'ctedivoire' existe, on le supprime sans pitié
-    dim = dim[dim['canonical_key'] != 'ctedivoire'].copy()
-    
-    # Re-indexation propre (1, 2, 3...)
-    dim = dim.reset_index(drop=True)
     dim["team_id"] = range(1, len(dim) + 1)
 
-    # =========================================================
-
     clean_to_canonical_key = {row["team_clean_example"]: row["canonical_key"] for _, row in tmp_dim.iterrows()}
-    # Petit fix manuel pour le mapping inversé au cas où
-    for k, v in clean_to_canonical_key.items():
-        if v == 'ctedivoire': clean_to_canonical_key[k] = 'cotedivoire'
-
+    
+    # MAPPING ID
     aliases_df["canonical_key"] = aliases_df["team_clean"].map(clean_to_canonical_key)
     canonical_key_to_id = dict(zip(dim["canonical_key"], dim["team_id"]))
     aliases_df["team_id"] = aliases_df["canonical_key"].map(canonical_key_to_id)
@@ -398,6 +392,7 @@ def main() -> None:
     print(f"Lignes avant nettoyage: {before}")
     print(f"Lignes après nettoyage: {after}")
     print(f"Pays uniques: {len(dim)}")
+    print("Vérification : Cote d Ivoire (avec espace) doit être le seul nom UNIQUE !")
 
 if __name__ == "__main__":
     main()

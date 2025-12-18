@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Charger la copie Kaggle
-df = pd.read_csv("data/processed/matches_2022_copy.csv")
+df = pd.read_csv("data/processed/matches_2022.csv")
 
 # 1. Types des colonnes
 print("Types des colonnes :")
@@ -21,6 +21,6 @@ num_cols = df.select_dtypes(include="number").columns
 print("\nColonnes textuelles :", list(text_cols))
 print("Colonnes numériques :", list(num_cols))
 
-# 5. Obersations de quelques d’incohérences
-print("\nValeurs uniques dans 'stadium' :", df['stadium'].unique()[:10])
-print("Valeurs uniques dans 'score1' :", df['score1'].unique()[:10])
+# # 5. Obersations de quelques d’incohérences
+# print("\nValeurs uniques dans 'stadium' :", df['stadium'].unique()[:10])
+# print("Valeurs uniques dans 'score1' :", df['score1'].unique()[:10])

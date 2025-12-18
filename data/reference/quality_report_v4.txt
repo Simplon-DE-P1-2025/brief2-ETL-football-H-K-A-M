@@ -1,13 +1,13 @@
-V3 -> V4 rows: 6814 -> 6814
+V3 -> V4 rows: 6861 -> 6861
 ghost removed: 0
 bad team_id rows removed: 0
-placeholder dates (set to NULL): 6074
-n_teams_dim: 228
+placeholder dates (set to NULL): 6077
+n_teams_dim: 227
 
 round value_counts:
 round
-Preliminary round        5910
-Group                     617
+Preliminary round        5912
+Group                     662
 Quarter-finals             82
 Round of 16                79
 Semi-finals                62

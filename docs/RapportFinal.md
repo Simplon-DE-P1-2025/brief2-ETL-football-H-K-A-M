@@ -32,3 +32,85 @@ Appliquer la table de correspondance des pays et villes pour harmoniser les libe
 Ajouter la colonne edition pour chaque dataset.
 Générer un identifiant séquentiel id_match couvrant l’ensemble des éditions.
 
+
+
+Schéma des dossiers
+
+
+
+project/
+├── data/
+│   ├── raw/                 # données brutes (sources)
+│   │   ├── matches_19302010.csv
+│   │   ├── WorldCupMatches2014*.csv
+│   │   ├── data_2018.json
+│   │   ├── cup.txt / cup_finals.txt (2022)
+│   │   └── kaggle/ (matches.json, tournament.json, ...)
+│   │
+│   ├── processed/           # sorties intermédiaires (unifiées / enrichies)
+│   │   ├── matches_2022.csv
+│   │   ├── matches_unified_v1.csv
+│   │   ├── matches_unified_v2.csv
+│   │   ├── matches_unified_v3.csv
+│   │   └── matches_unified_v4.csv
+│   │
+│   ├── clean/               # données “prêtes analyse” / tables normalisées
+│   │   ├── dim_teams.csv
+│   │   ├── matches_final_kpi.csv
+│   │   ├── teams_reference_normalized.csv
+│   │   ├── matches_normalized.csv
+│   │   ├── home_stats_normalized.csv
+│   │   └── away_stats_normalized.csv
+│   │
+│   └── reference/           # référentiels + QA + rapports
+│       ├── teams_v4.csv
+│       ├── team_aliases.csv
+│       ├── unknown_teams.csv
+│       ├── qa_team_collisions.csv
+│       └── quality_report_v4.txt
+│
+├── src/                     # scripts du pipeline (ETL)
+│   ├── 01_extract_preview.py
+│   ├── 02_extract_2022_from_text.py
+│   ├── 03_export_processed_csvs.py
+│   ├── 03_observation_des_données.py
+│   ├── 04_unify_all_years.py
+│   ├── 05_v1-to-v2-kagglejson.py
+│   ├── 06_v2-to-v3-clean.py
+│   ├── 07_v3_to_v4.py
+│   ├── 08_v4_to_db.py
+│   ├── 09_tables_construction.py
+│   └── database/            # code SQL / init / connexions / scripts DB
+│
+├── db/                      # base locale (fichiers, dumps, etc. selon ton choix)
+├── docs/                    # rapport, documentation, schémas
+├── Notebook/                # notebooks d’exploration / tests
+├── obsolete/                # vieux scripts / versions abandonnées
+└── .env                     # variables (DB, chemins, secrets)
+
+
+Schéma de flux ETL (de bout en bout)
+
+DATA BRUTE
+data/raw
+   │
+   ├─(02) extraction 2022 texte → data/processed/matches_2022.csv
+   │
+   └─(04) unify all years (1930-2010 + 2014 + 2018 + 2022)
+           → data/processed/matches_unified_v1.csv
+                 │
+                 └─(05) enrich Kaggle (dates/round/city)
+                      → data/processed/matches_unified_v2.csv
+                            │
+                            └─(06) clean + normalisation teams
+                                 → data/processed/matches_unified_v3.csv
+                                 → data/clean/dim_teams.csv + data/reference/*QA
+                                       │
+                                       └─(07) v3 → v4 (DB-ready)
+                                            → data/processed/matches_unified_v4.csv
+                                            → data/reference/teams_v4.csv
+                                                  │
+                                                  ├─(08) load en base (PostgreSQL/MySQL/Mongo)
+                                                  └─(09) tables normalisées + KPI
+                                                      → data/clean/*_normalized.csv
+                                                      → data/clean/matches_final_kpi.csv
