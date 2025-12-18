@@ -1,3 +1,57 @@
+<<<<<<< HEAD
+=======
+# COMPREHENSION ET GENERALITE DES COUPES DU MONDRES
+
+-- Nombre total de matchs disputées par Coupe du Monde
+SELECT edition, COUNT(*) AS total_matches
+FROM matches_normalized
+WHERE is_final = true
+GROUP BY edition
+ORDER BY edition;
+
+-- Nombre total de buts marqués toutes éditions confondues
+SELECT SUM(h."Number_of_goals_scored" + a."Number_of_goals_scored") AS total_goals
+FROM matches_normalized m
+JOIN home_stats h ON m.id_match = h.id_match
+JOIN away_stats a ON m.id_match = a.id_match
+WHERE m.is_final = true;
+
+-- Nombre total de matchs disputés en Coupe du Monde (tournoi final uniquement)
+SELECT COUNT(*) AS total_matches_world_cup
+FROM matches_normalized
+WHERE is_final = true;
+
+-- Moyenne globale des buts par match
+SELECT ROUND(AVG(h."Number_of_goals_scored" + a."Number_of_goals_scored"), 2) AS avg_goals_per_match
+FROM matches_normalized m
+JOIN home_stats h ON m.id_match = h.id_match
+JOIN away_stats a ON m.id_match = a.id_match
+WHERE m.is_final = true;
+
+
+# ANALYSE PAR EQUIPE
+
+-- Nombre de matchs joués par équipe
+SELECT t."Team_name", COUNT(mt.id_match) AS matches_played
+FROM (
+  SELECT id_match, id_team FROM home_stats
+    UNION ALL
+      SELECT id_match, id_team FROM away_stats
+      ) mt
+      JOIN teams_reference t ON mt.id_team = t.id_team
+      GROUP BY t."Team_name"
+      ORDER BY matches_played DESC;
+
+      -- Nombre total de victoires par équipe
+      SELECT t."Team_name", COUNT(*) AS wins
+      FROM matches_normalized m
+      JOIN home_stats h ON m.id_match = h.id_match
+      JOIN away_stats a ON m.id_match = a.id_match
+      JOIN teams_refer
+
+
+
+>>>>>>> df750ab ( Mise à jour Requêtes SQL)
 -- # Indicateurs globaux
 --   ##Nombre total de matchs disputés en Coupe du Monde
 SELECT COUNT(*) AS total_matches_world_cup
