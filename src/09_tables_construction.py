@@ -114,10 +114,7 @@ def create_matches_table(matches_df, teams_ref):
             return 0  # Match nul
 
     matches_table['result'] = matches_table.apply(calculate_result, axis=1)
-
-    # Détecter si c'est une finale (round contient "final" ou similaire)
-    matches_table['is_final'] = matches_table['round'].str.lower().str.contains('final', na=False)
-
+    
     # Sélectionner colonnes finales
     final_matches = matches_table[['id_match', 'result', 'date', 'round', 'city', 'edition', 'is_final']].copy()
 
