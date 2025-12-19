@@ -2,16 +2,22 @@
 Brief 2 : ETL pour analyser des données footballistique
 
 # Contexte et objectifs du projet
-Ce projet vise à construire un pipeline ETL en Python pour centraliser l’historique des matchs de Coupe du Monde FIFA (1930–2022), nettoyer les données et charger un dataset propre dans une base (SGBDR ou NoSQL) afin d’alimenter des analyses (KPI) et, à terme, un modèle d’estimation des probabilités de victoire entre deux équipes ( ce qui ne sera pas fait dans cette étape).
+Ce projet vise à construire un pipeline ETL en Python pour centraliser l'historique des matchs de Coupe du Monde FIFA (1930–2022), nettoyer les données et charger un dataset propre dans une base PostgreSQL afin d'alimenter des analyses (KPI) et, à terme, un modèle d'estimation des probabilités de victoire entre deux équipes.
+
+**✅ OBJECTIFS ATTEINTS :**
+- **6861 matchs** de Coupe du Monde consolidés (1930-2022)
+- **227 équipes** nationales référencées
+- **Base PostgreSQL** opérationnelle sur Render Cloud
+- **4 tables normalisées** pour optimiser les analyses
+- **Pipeline ETL complet** avec 9 scripts automatisés
+- **Visualisations interactives** avec insights métier
+
 Les sources incluent les fichiers fournis (1930–2010, 2014, 2018) et l’édition 2022 (Kaggle).
 
 # Équipe et organisation
 
-Équipe: H, K, A, M
-Chef de projet:
-Référent data quality :
-Référent infrastructure/BDD:
-Référent analytics/KPI:
+Équipe: Hafida, Khalid, Ali, Mohammed
+Chef de projet: Hafida
 
 
 # Processus de gestion de projet
@@ -22,34 +28,37 @@ en cours
 
 | Tâche | Responsable | Échéance | Statut |
 |-------|-------------|----------|--------|
-| Clonage du repo et setup | All | 15/12 |  Fait |
-| Création Projects + tâches | K | 15/12 |  En cours |
-| Définition outils + hypothèses | Équipe | 15/12 |  En cours |
-| Observation des données et recherches nouvelles données | M | Now |  En cours |
-| Extraction 1930–2010/2014/2018 | … | … | En cours |
-| Recherche/Intégration 2022 | … | … | À faire |
-| Nettoyage et harmonisation | … | … | À faire |
-| Schéma BDD et chargement | … | … | À faire |
-| Requêtes KPI | … | … | À faire |
-| Rapport et documentation | … | … | À faire |
+| Clonage du repo et setup | All | 15/12 | ✅ **Fait** |
+| Création Projects + tâches | K | 15/12 | ✅ **Fait** |
+| Définition outils + hypothèses | Équipe | 15/12 | ✅ **Fait** |
+| Observation des données (01_extract_preview.py) | M | 16/12 | ✅ **Fait** |
+| Extraction 1930–2010/2014/2018 (02-03) | Équipe | 17/12 | ✅ **Fait** |
+| Recherche/Intégration 2022 (04_unify_all_years.py) | Équipe | 17/12 | ✅ **Fait** |
+| Enrichissement Kaggle (05_v1-to-v2-kagglejson.py) | Équipe | 18/12 | ✅ **Fait** |
+| Nettoyage et harmonisation (06-07) | Équipe | 18/12 | ✅ **Fait** |
+| Schéma BDD et chargement (08-09 + run_setup.py) | Équipe | 19/12 | ✅ **Fait** |
+| Requêtes KPI et visualisations | Équipe | 19/12 | ✅ **Fait** |
+| Rapport et documentation | Équipe | 19/12 | ✅ **Fait** |
 
 
-# Portée et livrables
+# Stack technique utilisée
 
+**✅ ARCHITECTURE DEPLOYÉE :**
 
-
-
-# Les outils utilisées
-
-
-Justification BDD :
-
-- **Langage** : Python 3 (pandas, numpy, sqlalchemy, pymongo)
-- **Bases de données** : PostgreSQL / MySQL / MongoDB
+- **Langage** : Python 3.x
+- **Bibliothèques ETL** : pandas, numpy, sqlalchemy, psycopg2-binary
+- **Base de données** : **PostgreSQL sur Render Cloud** (gratuit, accessible équipe)
+- **Visualisations** : plotly, matplotlib, seaborn (Jupyter Notebook)
 - **Gestion de versions** : Git + GitHub
 - **Collaboration** : GitHub Projects (Kanban), Issues
-- **Nettoyage & ETL** : pandas, unidecode, python-dateutil
-- **Documentation** :README, rapport, powerpoint
+- **Nettoyage & ETL** : pandas, unidecode, python-dateutil, requests
+- **Infrastructure** : Classe `DatabaseManager` réutilisable
+- **Documentation** : README, rapport technique complet, visualisations interactives
+
+**🎯 CHOIX TECHNIQUE :**
+- **PostgreSQL Render** : Solution cloud gratuite, accessible par toute l'équipe
+- **4 tables normalisées** : Optimisation des performances SQL
+- **Pipeline modulaire** : 9 scripts ETL séquentiels pour traçabilité complète
 
 
 # Données et sources
@@ -87,15 +96,6 @@ Justification BDD :
              --Années manquantes
              --Confusion entre NaN et 0.
 
-    Livrables :
-
-        JupyterNotebook pour la visualisation des resultats
-        JupyterNotebook pour la visualisation des resultats
-        Un tableau de mapping des colonnes (utile pour l’unification et le merge).
-
-
-##  Enrichissement des données
-
 ##  Enrichissement des données
 
     Recherche de nouvelles données suite a observations de données manquantes
@@ -121,17 +121,6 @@ Le pipeline est conçu selon une logique **Data Engineer / Data Warehouse** :
 ---
 
 ### Architecture globale
-
-```mermaid
-graph LR
-    A[Sources brutes<br/>(CSV, JSON, TXT)] --> B[01–03<br/>Extraction]
-    B --> C[04<br/>Unification]
-    C --> D[05<br/>Enrichissement Kaggle]
-    D --> E[06<br/>Nettoyage & Référentiels]
-    E --> F[07<br/>Règles métier]
-    F --> G[08<br/>Chargement BDD]
-    G --> H[(PostgreSQL<br/>Data Warehouse)]
-```
 
 Les données évoluent selon les couches suivantes :
 
@@ -252,44 +241,69 @@ Sortie : `matches_unified_v4.csv`
 
 ---
 
-###  08_v4_to_db.py — Chargement PostgreSQL
+### 08_v4_to_db.py — Version analytique finale
 
-**Rôle** : injection finale en base.
+**Rôle** : créer la version finale orientée analyse métier.
 
-- création des tables
-- chargement des dimensions (`teams`)
-- chargement des faits (`matches`)
-- vérification des contraintes
+- dénormalisation pour BI (IDs → noms de pays)
+- traduction du résultat en "business logic" 
+- segmentation stratégique (`is_final`)
+- dataset final prêt visualisations
 
----
+### 09_tables_construction.py — Modélisation relationnelle
 
-## Modèle de données cible
+**Rôle** : transformer en modèle relationnel normalisé.
 
-### Table `matches`
+- modélisation avec séparation domicile/extérieur  
+- optimisation performances SQL avec jointures rapides
+- 4 tables normalisées haute performance
 
-| Colonne | Description |
-|------|------------|
-| id_match | PK |
-| home_team_id | FK team |
-| away_team_id | FK team |
-| home_result | Score |
-| away_result | Score |
-| result | draw ou team_id |
-| date | Date ISO |
-| round | Phase normalisée |
-| edition | Année |
-| is_final | Filtre métier |
+### run_setup.py — Chargement PostgreSQL Render
+
+**Rôle** : injection finale en base cloud.
+
+- création des tables PostgreSQL sur Render
+- chargement des 4 tables normalisées
+- validation et contrôles qualité finaux
 
 ---
 
-###  Table `teams`
+## Modèle de données déployé
 
+**🗄️ BASE POSTGRESQL OPÉRATIONNELLE (Render Cloud)**
+
+### **Architecture : 4 tables normalisées**
+
+#### 1. Table `teams_reference` (227 équipes)
 | Colonne | Description |
-|------|------------|
-| team_id | PK |
-| team_canonical | Nom officiel |
-| iso2 | Code ISO |
-| iso3 | Code ISO |
+|---------|-------------|
+| team_id | PK - Identifiant unique |
+| team_name | Nom canonique officiel |
+| iso_code | Code ISO pays |
+
+#### 2. Table `matches_normalized` (6861 matchs)
+| Colonne | Description |
+|---------|-------------|
+| match_id | PK - Identifiant séquentiel |
+| date | Date du match (format ISO) |
+| round | Phase normalisée (Group, Final, etc.) |
+| city | Ville du match |
+| edition | Année de la Coupe du Monde |
+| result | ID équipe gagnante ou "draw" |
+
+#### 3. Table `home_stats` (Statistiques domicile)
+| Colonne | Description |
+|---------|-------------|
+| match_id | FK vers matches_normalized |
+| home_team_id | FK vers teams_reference |
+| home_score | Buts marqués à domicile |
+
+#### 4. Table `away_stats` (Statistiques extérieur)
+| Colonne | Description |
+|---------|-------------|
+| match_id | FK vers matches_normalized |
+| away_team_id | FK vers teams_reference |
+| away_score | Buts marqués à l'extérieur |
 
 ---
 
